@@ -2,8 +2,10 @@
 body {margin:0px;}
 #main {font-size:200%;}
 .hl0 {color:red;}
-.p {background:yellow;border-radius: 50%;color:black;}
+/* .p {background:lightgreen;border-radius:25px;color:black;} */
 .tag {background:pink;border-radius: 20%;color:black;}
 
-/* .standoff {border-radius: 10px;font-family: DFKai-SB}*/
+ /*.standoff {border-radius: 20px;background:lightblue;font-family: DFKai-SB;color:black;}*/
 .standoff {font-family: DFKai-SB;color:lightblue;}
+.source {font-family: DFKai-SB;color:green;background:#303030;border-radius: 25px}
+.comment {color:brown;background:lightblue;border-radius: 25%}
