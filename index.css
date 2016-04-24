@@ -9,6 +9,7 @@ body {margin:0px;}
 .standoff {font-family: DFKai-SB;color:lightblue;}
 .source {font-family: DFKai-SB;color:green;background:#303030;border-radius: 25px}
 .comment {color:brown;background:lightblue;border-radius: 25%}
-
+.br {color:lightblue;}
+.br:after {content :"⏎"}
 .h1 {font-size:150%;}
 .h2 {font-size:125%;}

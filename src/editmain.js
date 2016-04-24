@@ -16,21 +16,21 @@ var EditMain=React.createClass({
   	getter:PT.func.isRequired,
   	action:PT.func.isRequired
   }
-  ,createCommentMarker:function(author){
+  ,createMarker:function(author,type){
     var marker = document.createElement('span');
-    marker.className= "comment";
+    marker.className= type;
     marker.innerHTML=author;
     return marker;
   }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
       var tag=tags[i];
-      if (tag[1]>0 ||(tag[1]==0 &&tag[2]=="comment")) {
+      if (tag[1]>0 ||(tag[1]==0 && (tag[2]=="comment"||tag[2]=="br") )) {
         var start=this.doc.posFromIndex( tag[0]);
         var end=this.doc.posFromIndex(tag[0]+tag[1]);
         var readOnly=tag[2]==="source";
         if (tag[1]==0) {
-        	var marker=this.createCommentMarker(tag[3].author);
+        	var marker=this.createMarker(tag[3].author,tag[2]);
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
         	//https://github.com/codemirror/CodeMirror/issues/3600
         	this.doc.markText(start,end,{className:tag[2],
@@ -81,7 +81,7 @@ var EditMain=React.createClass({
   	}
   }
   ,onKeyDown:function(cm,evt) {
-  	if (evt.keyCode==13) {
+  	if (evt.keyCode==13 && this.state.author) {
   		evt.preventDefault();
   		return;
   	};

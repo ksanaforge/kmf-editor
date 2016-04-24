@@ -31,6 +31,14 @@ store.listen("reset",function(){
 	alert("click Write to permanently lost your changes");
 });
 
+var buildAnnotation=function(opts,content){
+	var {text,tags}=standoffutils.layout(content,opts.tag);
+	text=require("./annotation").insertComment(content,text,tags,opts.author);
+	text=require("./annotation").insertBr(content,text,tags,opts.author);
+
+	return {text,tags};
+}
+
 store.listen("mode",function(opts){
 	action("commitTouched",{},function(){
 		setTimeout(function(){//return before firing another action
@@ -38,9 +46,9 @@ store.listen("mode",function(opts){
 				filename=opts.filename;
 				content=files[filename];
 			}
-			if (opts.tag) {
-				var {text,tags}=standoffutils.layout(content,opts.tag);
-				text=require("./comment").insertComment(content,text,tags,opts.author);
+			if (opts.tag) { //annotation mode
+				var {text,tags}=buildAnnotation(opts,content);
+
 				action("content",{text,tags,mode:opts.tag,author:opts.author});
 			} else { //raw mode
 				action("content",{text:content.text,tags:content.tags,mode:"",author:opts.author});

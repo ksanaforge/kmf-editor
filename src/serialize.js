@@ -37,6 +37,12 @@ var createCommentTag=function(content,comments,author) {
 	content.tags=tags;
 	//content.tags=tagutils.matchOpenCloseTag(tags);
 }
+
+var getUserBr=function(text,at,rawpos,author){
+	if (text[at-1] && text[at-1]!=="\n" && text[at+1] && text[at+1]!=="\n") {
+		return [rawpos,0,"br",{author}];
+	}
+}
 var saveComment=function(content,doc,author,cb){
 	//extract user text, assuming source mark is sorted.
 	var marks=doc.getAllMarks(), markpos=[];
@@ -52,7 +58,7 @@ var saveComment=function(content,doc,author,cb){
 	}
 	markpos.sort(function(m1,m2){return m1[0]-m2[0]});
 
-	var out=[], last=0,text=doc.getValue();
+	var out=[], userbr=[],last=0,text=doc.getValue();
 	for (var i=0;i<markpos.length;i++) {
 		var hasComment=false;
 		var start=markpos[i][0],end=markpos[i][1];
@@ -61,6 +67,10 @@ var saveComment=function(content,doc,author,cb){
 				if (text[j]!=="\n") {
 					hasComment=true;
 					break;
+				} else {
+					var rawpos=markpos[i][2]+ j -last; //position in rawtext
+					var br=getUserBr(text,j,rawpos,author);
+					if (br) userbr.push(br);
 				}
 			}
 			if (hasComment) {
@@ -72,6 +82,12 @@ var saveComment=function(content,doc,author,cb){
 	}
 
 	createCommentTag(content,out,author);
+
+
+	content.tags=content.tags.concat(userbr);
+
+	content.tags.sort((c1,c2)=>c1[0]-c2[0]);
+
 	cb(content);
 }
 
