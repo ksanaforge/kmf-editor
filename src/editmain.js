@@ -4,11 +4,12 @@ var fs=require("./socketfs");
 var kcm=require("ksana-codemirror");
 var CodeMirror=kcm.Component;
 var PT=React.PropTypes;
+var serialize=require("./serialize");
 
 var EditMain=React.createClass({
   getInitialState:function() {
-  	var content=this.context.getter("content");
-    return {text:content.text,tags:content.tags,mode:"",author:""};
+  	var {text,tags}=this.context.getter("content");
+    return {text,tags,mode:"",author:""};
   }
   ,contextTypes:{
   	store:PT.object.isRequired,
@@ -42,10 +43,12 @@ var EditMain=React.createClass({
         var marker = document.createElement('span');
         marker.className= "tag";
         marker.innerHTML="<";
+
         if (tag[2][0]=="/") marker.innerHTML=">"
         if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
         var start=this.doc.posFromIndex( tag[0]);
-        this.doc.setBookmark(start,{widget:marker});
+        this.doc.markText(start,start,
+        	{elementName:tag[2],replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload:tag[3]});
       }
     }
   }
@@ -55,26 +58,27 @@ var EditMain=React.createClass({
     this.editor.focus();
     this.markText(this.state.tags);
     this.context.store.listen("content",this.onContent,this);
+    this.context.store.listen("commitTouched",this.onCommitTouched,this);
   }
   ,componentWillUnmount:function(){
   	this.context.store.unlistenAll(this);
   }
-  ,updateContent:function(content){
+  ,onContent:function(content){
   	this.doc.getAllMarks().map((m)=>m.clear());
-  	this.setState({text:content.text,tags:content.tags,mode:content.mode,author:content.author});
+  	this.setState({text:content.text,mode:content.tags,author:content.author});
   	this.doc.setValue(content.text);
     this.markText(content.tags);
     this.touched=false;
   }
-  ,onContent:function(content){
+  ,onCommitTouched:function(opts,cb){
   	if (this.touched) {
-  		this.context.action("save",{author:this.state.author,doc:this.doc},function(newcontent){
-  			content.tags=newcontent.tags; //this is bad
-  			content.text=newcontent.text;
-  			this.updateContent(content);
-  		}.bind(this));
-  	} else this.updateContent(content);
-  	
+  		serialize.save({author:this.state.author,doc:this.doc},function(){
+  			this.touched=false;
+  			cb();
+  		}.bind(this))
+  	} else {
+  		cb();
+  	}
   }
   ,onKeyDown:function(cm,evt) {
   	if (evt.keyCode==13) {

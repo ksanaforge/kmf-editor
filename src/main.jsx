@@ -8,6 +8,8 @@ var Controls=require("./controls");
 var Status=require("./status");
 var PT=React.PropTypes;
 var store=require("./store");
+
+
 var {action,store,getter,registerGetter,unregisterGetter}=require("./model");
 
 var maincomponent = React.createClass({

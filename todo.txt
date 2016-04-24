@@ -1,0 +1,14 @@
+save raw content
+
+custom user layout by free br
+
+ENTER to create new br ( one crlf )
+
+br is per-user
+
+two continuos br create an p (global, all user will see)
+
+do not allow three continuous \n
+
+save data to localStorage.
+reset data
