@@ -1,4 +1,1396 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"C:\\ksana2015\\kmf-editor\\index.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"C:\\ksana2015\\kmf-editor\\data\\1n8.js":[function(require,module,exports){
+module.exports={header:{},text:`
+2 分7 弊宿經
+
+
+佛說長阿含經卷第八
+後秦弘始年佛陀耶舍共竺佛念譯
+8 散陀那經（八）第二分散陀那經第四
+如是我聞：一時，佛在羅閱祇毗訶羅山七
+葉樹窟，與大比丘眾千二百五十人俱。時，王
+舍城有一居士，名散陀那，好行遊觀，日日
+出城，至世尊所。時，彼居士仰觀日時，默自
+念言：「今往覲佛，非是時也，今者世尊必在
+靜室三昧思惟，諸比丘眾亦當禪靜，我今寧
+可往詣烏暫婆利梵志女林中，須日時到，
+當詣世尊，禮敬問訊，并詣諸比丘所，致敬
+問訊。」時，梵志女林中有一梵志，名尼俱陀，
+與五百梵志子俱止彼林。時，諸梵志眾聚
+一處，高聲大論，俱說遮道濁亂之言，以此
+終日。或論國事，或論戰鬪兵杖之事，或論
+
+國家義和之事，或論大臣及庶民事，或論車
+馬遊園林事，或論坐席、衣服、飲食、婦女之事，
+或論山海龜鼈之事，但說如是遮道之論，
+以此終日。時，彼梵志遙見散陀那居士來，
+即勅其眾，令皆靜默：「所以然者？彼沙門瞿
+曇弟子今從外來，沙門瞿曇白衣弟子中，此
+為最上，彼必來此，汝宜靜默。」時，諸梵志各
+自默然。散陀那居士至梵志所，問訊已，一
+面坐，語梵志曰：「我師世尊常樂閑靜，不
+好憒閙，不如汝等與諸弟子處在人中，
+高聲大論，但說遮道無益之言。」梵志又語居
+士言：「沙門瞿曇頗曾與人共言論不？眾人
+何由得知沙門有大智慧。汝師常好獨處
+邊地，猶如瞎牛食草，偏逐所見，汝師瞿曇
+亦復如是，偏好獨見，樂無人處；汝師若來，
+吾等當稱以為瞎牛。彼常自言有大智慧，
+我以一言窮彼，能使默然如龜藏六，謂可
+無患，以一箭射，使無逃處。」
+爾時，世尊在閑靜室，以天耳聞梵志居士
+有如是論，即出七葉樹窟，詣烏暫婆利梵
+志女林。時，彼梵志遙見佛來，勅諸弟子：「汝
+等皆默，瞿曇沙門欲來至此，汝等慎勿起
+迎、恭敬禮拜，亦勿請坐，取一別座，與之令
+坐；彼既坐已，卿等當問：『沙門瞿曇！汝從本
+來，以何法教訓於弟子，得安隱定，淨修
+梵行？』」爾時，世尊漸至彼園，時，彼梵志不覺
+自起，漸迎世尊，而作是言：「善來，瞿曇！善來，
+沙門！久不相見，今以何緣而來至此？可前
+小坐。」爾時，世尊即就其座，嬉怡而笑，默自
+
+念言：「此諸愚人不能自專，先立要令，竟不
+能全。所以然者？是佛神力令彼惡心自然
+敗壞。」時，散陀那居士禮世尊足，於一面坐。
+尼俱陀梵志問訊佛已，亦一面坐，而白佛言：
+「沙門瞿曇！從本以來，以何法教訓誨弟子，
+得安隱定，淨修梵行？」世尊告曰：「且止！梵志！
+吾法深廣，從本以來，誨諸弟子，得安隱處，
+淨修梵行，非汝所及。」又告梵志：「正使汝師
+及汝弟子所行道法，有淨不淨，我盡能說。」時，
+五百梵志弟子各各舉聲，自相謂言：「瞿曇
+沙門有大威勢，有大神力，他問己義，乃開
+他義。」時，尼俱陀梵志白佛言：「善哉！瞿曇！願分
+別之。」佛告梵志：「諦聽！諦聽！當為汝說。」梵志
+答言：「願樂欲聞！」佛告梵志：「汝所行者皆為
+卑陋，離服裸形，以手障蔽，不受瓨食，不受
+盂食，不受兩壁中間食，不受二人中間
+食，不受兩刀中間食，不受兩盂中間食，不
+受共食家食，不受懷姙家食，見狗在門則
+不受其食，不受多蠅家食，不受請食，他
+言先識則不受其食；不食魚，不食肉，不
+飲酒，不兩器食，一餐一咽，至七餐止，受人益
+食，不過七益；或一日一食，或二日、三日、四日、
+五日、六日、七日一食；或復食果，或復食莠，或
+食飯汁，或食麻米，或食稴稻，或食牛糞，
+或食鹿糞，或食樹根、枝葉、果實，或食自落
+果。「或被衣，或披莎衣，或衣樹皮，或草襜
+身，或衣鹿皮，或留頭髮，或被毛編，或著
+塜間衣，或有常舉手者，或不坐牀席，或
+有常蹲者，或有剃髮留髦鬚者，或有臥
+
+荊棘者，或有臥果蓏上者，或有裸形臥
+牛糞上者；或一日三浴，或有一夜三浴，以無
+數眾苦，苦役此身。云何？尼俱陀！如此行者，
+可名淨法不？」梵志答曰：「此法淨，非不淨也。」
+佛告梵志：「汝謂為淨，吾當於汝淨法中說
+有垢穢。」梵志曰：「善哉！瞿曇！便可說之，願樂
+欲聞。」佛告梵志：「彼苦行者，常自計念：『我行
+如此，當得供養恭敬禮事。』是即垢穢。彼苦行
+者，得供養已，樂著堅固，愛染不捨，不曉遠
+離，不知出要，是為垢穢；彼苦行者，遙見人
+來，盡共坐禪，若無人時，隨意坐臥，是為垢
+穢。「彼苦行者，聞他正義，不肯印可，是為垢
+穢。彼苦行者，他有正問，恡而不答，是為垢
+穢；彼苦行者，設見有人供養沙門、婆羅門，
+則訶止之，是為垢穢；彼苦行者，若見沙門、
+婆羅門食更生物，就呵責之，是為垢穢；彼
+苦行者，有不淨食，不肯施人，若有淨食，貪
+著自食，不見己過，不知出要，是為垢穢；
+彼苦行者，自稱己善，毀訾他人，是為垢
+穢；彼苦行者，為殺、盜、婬、兩舌、惡口、妄言、綺語、
+貪取、嫉妬、邪見、顛倒，是為垢穢。「彼苦行者，
+懈墮憙忘，不習禪定，無有智慧，猶如禽
+獸，是為垢穢；彼苦行者，貴高，憍慢、增上慢，
+是為垢穢；彼苦行者，無有信義，亦無反復，
+不持淨戒，不能精勤受人訓誨，常與惡人
+以為伴黨，為惡不已，是為垢穢；彼苦行者，
+多懷瞋恨，好為巧偽，自怙己見，求人長短，
+恒懷邪見，與邊見俱，是為垢穢。云何？尼俱
+陀！如此行者可言淨不邪？」答曰：「是不淨，非
+
+是淨也。」佛言：「今當於汝垢穢法中，更說清
+淨無垢穢法。」梵志言：「唯願說之！」佛言：「彼苦
+行者，不自計念：『我行如是，當得供養恭敬
+禮事。』是為苦行無垢法也。彼苦行者，得供
+養已，心不貪著，曉了遠離，知出要法，是為
+苦行無垢法也。彼苦行者，禪有常法，有人、
+無人，不以為異，是為苦行無垢法也；彼苦
+行者，聞他正義，歡喜印可，是為苦行無垢
+法也；彼苦行者，他有正問，歡喜解說，是為
+苦行離垢法也。「彼苦行者，設見有人供養
+沙門、婆羅門，代其歡喜而不呵止，是為苦行
+離垢法也；彼苦行者，若見沙門、婆羅門食
+更生之物，不呵責之，是為苦行離垢法也；
+彼苦行者，有不淨食，心不恡惜，若有淨食，
+則不染著，能見己過，知出要法，是為苦行
+離垢法也；彼苦行者，不自稱譽，不毀他人，
+是為苦行離垢法也；彼苦行者，不殺、盜、婬、
+兩舌、惡口、妄言、綺語、貪取、嫉妬、邪見，是為苦
+行離垢法也。「彼苦行者，精勤不忘，好習禪
+行，多修智慧，不愚如獸，是為苦行離垢法
+也；彼苦行者，不為高貴、憍慢、自大，是為苦
+行離垢法也；彼苦行者，常懷信義，修反復
+行，能持淨戒，勤受訓誨，常與善人而為伴
+黨，積善不已，是為苦行離垢法也；彼苦行
+者，不懷瞋恨，不為巧偽，不恃己見，不
+求人短，不懷邪見，亦無邊見，是為苦行離
+垢法也。云何？梵志！如是苦行，為是清淨離
+垢法耶？」答曰：「如是！實是清淨離垢法也。」梵
+志白佛言：「齊有此苦行，名為第一堅固行
+
+耶？」佛言：「未也！始是皮耳。」梵志言：「願說樹
+節！」佛告梵志：「汝當善聽！吾今當說。」梵志言：
+「唯然！願樂欲聞。」「梵志！彼苦行者，自不殺生，
+不教人殺，自不偷盜，不教人盜，自不邪
+婬，不教人婬，自不妄語，亦不教人為；彼
+以慈心遍滿一方，餘方亦爾，慈心廣大，無二
+無量，無有結恨，遍滿世間，悲、喜、捨心，亦復
+如是，齊此苦行，名為樹節。」梵志白佛言：「願
+說苦行堅固之義！」佛告梵志：「諦聽！諦聽！吾
+當說之。」梵志曰：「唯然！世尊！願樂欲聞。」佛言：
+「彼苦行者，自不殺生，教人不殺，自不偷盜，
+教人不盜，自不邪婬，教人不婬，自不妄
+語，教人不妄語；彼以慈心遍滿一方，餘方
+亦爾，慈心廣大，無二無量，無有結恨，遍滿
+世間，悲、喜、捨心，亦復如是。彼苦行者，自識
+往昔無數劫事，一生、二生，至無數生，國土成
+敗，劫數終始，盡見盡知；又自見知，我曾生彼
+種姓，如是名字，如是飲食，如是壽命，如是
+所受苦樂，從彼生此，從此生彼，如是盡憶
+無數劫事，是為梵志彼苦行者牢固無壞。」
+梵志白佛言：「云何為第一？」佛言：「梵志！諦聽！
+諦聽！吾當說之。」梵志言：「唯然！世尊！願樂欲
+聞。」佛言：「彼苦行者，自不殺生，教人不殺，自
+不偷盜，教人不盜，自不邪婬，教人不婬，
+自不妄語，教人不欺；彼以慈心遍滿一方，
+餘方亦爾，慈心廣大，無二無量，無有結恨，
+遍滿世間，悲、喜、捨心，亦復如是。彼苦行者，
+自識往昔無數劫事，一生、二生，至無數生，國
+土成敗，劫數終始，盡見盡知；又自知見，我
+
+曾生彼種姓，如是名字、飲食、壽命，如是所
+經苦樂，從彼生此，從此生彼。如是盡憶無
+數劫事，彼天眼淨觀眾生類，死此生彼，顏
+色好醜、善惡所趣，隨行所墮，盡見盡知。又
+知眾生身行不善，口行不善，意行不善，誹謗
+賢聖，信邪倒見，身壞命終，墮三惡道。或有
+眾生身行善，口、意亦善，不謗賢聖，見正信
+行，身壞命終，生天、人中。行者天眼清淨，觀見
+眾生，乃至隨行所墮，無不見知，是為苦行
+第一勝也。」佛告梵志：「於此法中復有勝者，
+我常以此法化諸聲聞，彼以此法得修梵
+行。」時，五百梵志弟子各大舉聲，自相謂言：「今
+觀世尊為最尊上，我師不及。」時，彼散陀那
+居士語梵志曰：「汝向自言：『瞿曇若來，吾等
+當稱以為瞎牛。』世尊今來，汝何不稱？又汝
+向言：『當以一言窮彼瞿曇，能使默然，如龜
+藏六，謂可無患，以一箭射，使無逃處。』汝
+今何不以汝一言窮如來耶？」佛問梵志：「汝
+憶先時有是言不？」答曰：「實有！」佛告梵志：
+「汝豈不從先宿梵志聞諸佛、如來獨處山
+林，樂閑靜處，如我今日樂於閑居；不如汝
+法，樂於憒閙，說無益事，以終日耶？」梵志曰：
+「聞過去諸佛樂於閑靜，獨處山林，如今世
+尊；不如我法，樂於憒閙，說無益事，以終
+日耶！」佛告梵志：「汝豈不念：『瞿曇沙門能說
+菩提。自能調伏，能調伏人；自得止息，能止
+息人；自度彼岸，能使人度；自得解脫，能解
+脫人；自得滅度，能滅度人？』」時，彼梵志即從
+座起，頭面作禮，手捫佛足，自稱己名曰：「我
+
+是尼俱陀梵志！我是尼俱陀梵志！今者自歸，
+禮世尊足。」佛告梵志：「止！止！且住！使汝心解，
+便為禮敬。」時，彼梵志重禮佛足，在一面坐。
+佛告梵志：「汝將無謂佛為利養而說法
+耶？勿起是心！若有利養，盡以施汝。吾所說
+法，微妙第一，為滅不善，增益善法。」又告梵
+志：「汝將無謂佛為名稱，為尊重故，為導
+首故，為眷屬故，為大眾故，而說法耶？勿
+起此心！今汝眷屬盡屬於汝。我所說法，
+為滅不善，增長善法。」又告梵志：「汝將無
+謂佛以汝置不善聚、黑冥聚中耶？勿生是
+心！諸不善聚及黑冥聚汝但捨去，吾自為汝
+說善淨法。」又告梵志：「汝將無謂佛黜汝
+於善法聚、清白聚耶？勿起是心！汝但於善
+法聚、清白聚中精勤修行，吾自為汝說善淨
+法，滅不善行，增益善法。」爾時，五百梵志弟
+子皆端心正意，聽佛所說。時，魔波旬作此
+念言：「此五百梵志弟子端心正意，從佛聽
+法，我今寧可往壞其意。」爾時，惡魔即以己
+力壞亂其意。爾時，世尊告散陀那曰：「此五
+百梵志子端心正意，從我聽法，天魔波旬壞
+亂其意，今吾欲還，汝可俱去。」爾時，世尊以
+右手接散陀那居士置掌中，乘虛而歸。時，
+散陀那居士、尼俱陀梵志及五百梵志子聞佛
+所說，歡喜奉行。
+9 眾集經（九）佛說長阿含第二分眾集經第五
+如是我聞：一時，佛於末羅遊行，與千二百
+五十比丘俱，漸至波婆城闍頭菴婆園。
+爾時，世尊以十五日月滿時，於露地坐，諸
+
+比丘僧前後圍繞。世尊於夜多說法已，告
+舍利弗言：「今者四方諸比丘集，皆共精勤，
+捐除睡眠，吾患背痛，欲暫止息，汝今可為
+諸比丘說法。」對曰：「唯然！當如聖教。」爾時，世
+尊即四牒僧伽梨，偃右脇如師子，累足
+而臥。時，舍利弗告諸比丘：「今此波婆城有
+尼乾子命終未久，其後弟子分為二部，
+常共諍訟相求長短，迭相罵詈，各相是非：『我
+知此法，汝不知此；汝在邪見，我在正法。
+言語錯亂，無有前後。』自稱己言，以為真正。
+『我所言勝，汝所言負，我今能為談論之主，
+汝有所問，可來問我。』「諸比丘！時，國人民奉
+尼乾者，厭患此輩鬪訟之聲，皆由其法不
+真正故；法不真正無由出要，譬如朽塔
+不可復圬，此非三耶三佛所說。諸比丘！
+唯我釋迦無上尊法，最為真正可得出要，
+譬如新塔易可嚴飾，此是三耶三佛之所
+說也。諸比丘！我等今者，宜集法、律，以防諍
+訟，使梵行久立，多所饒益，天、人獲安。諸比
+丘！如來說一正法，一切眾生皆仰食存。如
+來所說復有一法，一切眾生皆由行往，是
+為一法如來所說，當共集之，以防諍訟，使
+梵行久立，多所饒益，天、人獲安。「諸比丘！如
+來說二正法：一名，二色。復有二法：一癡，二
+愛。復有二法：有見、無見。復有二法：一無慚，
+二無愧。復有二法：一有慚，二有愧。復有二
+法：一盡智，二無生智。復有二法，二因二緣生
+於欲愛：一者淨妙色，二者不思惟。復有二法，
+二因二緣生於瞋恚：一者怨憎，二者不思惟。
+
+復有二法，二因二緣生於邪見：一者從他
+聞，二者邪思惟。復有二法，二因二緣生於
+正見：一者從他聞，二者正思惟。復有二法，二
+因二緣：一者學解脫，二者無學解脫。復有
+二法，二因二緣：一者有為界，二者無為界。諸
+比丘！是為如來所說，當共撰集以防諍訟，
+使梵行久立，多所饒益，天、人獲安。「諸比丘！
+如來說三正法，謂三不善根：一者貪欲，二者
+瞋恚，三者愚癡。復有三法，謂三善根：一者不
+貪，二者不恚，三者不癡。復有三法，謂三不
+善行：一者不善身行，二者不善口行，三者
+不善意行。復有三法，謂三不善行：身不善
+行、口不善行、意不善行。復有三法，謂三惡行：
+身惡行、口惡行、意惡行。復有三法，謂三善行：
+身善行、口善行、意善行。復有三法，謂三不善
+想：欲想、瞋想、害想。復有三法，謂三善想：無
+欲想、無瞋想、無害想。復有三法，謂三不善思：
+欲思、恚思、害思。復有三法，謂三善思：無欲思、
+無恚思、無害思。「復有三法，謂三福業：施業、平
+等業、思惟業。復有三法，謂三受：樂受、苦受、不
+苦不樂受。復有三法，謂三愛：欲愛、有愛、無
+有愛。復有三法，謂三有漏：欲漏、有漏、無明
+漏。復有三法，謂三火：欲火、恚火、愚癡火。復
+有三法，謂三求：欲求、有求、梵行求。復有三
+法，謂三增盛：我增盛、世增盛、法增盛。復有三
+法，謂三界：欲界、恚界、害界。復有三法，謂三
+界：出離界、無恚界、無害界。復有三法，謂三
+界：色界、無色界、盡界。復有三法，謂三聚：戒
+聚、定聚、慧聚。復有三法，謂三戒：增盛戒、增盛
+
+意、增盛慧。「復有三法，謂三三昧：空三昧、無
+願三昧、無相三昧。復有三法，謂三相：止息相、
+精勤相、捨相。復有三法，謂三明：自識宿命智
+明、天眼智明、漏盡智明。復有三法，謂三變
+化：一者神足變化，二者知他心隨意說法，三
+者教誡。復有三法，謂三欲生本：一者由現
+欲生人天，二者由化欲生化自在天，三者
+由他化欲生他化自在天。復有三法，謂三
+樂生：一者眾生自然成辦，生歡樂心，如梵光
+音天初始生時。二者有眾生以念為樂，自
+唱善哉，如光音天。三者得止息樂，如遍淨
+天。「復有三法，謂三苦：行苦、苦苦、變易苦。復
+有三法，謂三根：未知欲知根、知根、知已根。
+復有三法，謂三堂：賢聖堂、天堂、梵堂。復有
+三法，謂三發：見發、聞發、疑發。復有三法，謂
+三論：過去有如此事，有如是論；未來有
+如此事，有如是論；現在有如此事，有如
+是論。復有三法，謂三聚：正定聚、邪定聚、不定
+聚。復有三法，謂三憂：身憂、口憂、意憂。復有
+三法，謂三長老：年耆長老、法長老、作長老。復
+有三法，謂三眼：肉眼、天眼、慧眼。諸比丘！是
+為如來所說正法，當共撰集，以防諍訟，使
+梵行久立，多所饒益，天、人獲安。「諸比丘！如
+來說四正法，謂口四惡行：一者妄語，二者兩
+舌，三者惡口，四者綺語。復有四法，謂口四
+善行：一者實語，二者軟語，三者不綺語，四者
+不兩舌。「復有四法，謂四不聖語：不見言見，
+不聞言聞，不覺言覺，不知言知。復有四法，
+謂四聖語：見則言見，聞則言聞，覺則言覺，
+
+知則言知。復有四法，謂四種食：摶食、觸食、
+念食、識食。復有四法，謂四受：有現作苦行
+後受苦報；有現作苦行後受樂報；有現作樂
+行後受苦報；有現作樂行後受樂報。復有四
+法，謂四受：欲受、我受、戒受、見受。復有四法，
+謂四縛：貪欲身縛、瞋恚身縛、戒盜身縛、我見
+身縛。「復有四法，謂四刺：欲刺、恚刺、見刺、慢
+刺。復有四法，謂四生：卵生、胎生、濕生、化生。
+復有四法，謂四念處；於是，比丘內身身觀，
+精勤不懈，憶念不忘，捨世貪憂；外身身觀，
+精勤不懈，憶念不忘，捨世貪憂；內外身身
+觀，精勤不懈，憶念不忘，捨世貪憂。受、意、法
+觀，亦復如是。復有四法，謂四意斷；於是，比
+丘未起惡法，方便使不起；已起惡法，方便
+使滅；未起善法，方便使起；已起善法，方便思
+惟，使其增廣。「復有四法，謂四神足；於是，比
+丘思惟欲定滅行成就；精進定、意定、思惟定，
+亦復如是。復有四法，謂四禪；於是，比丘除
+欲、惡不善法，有覺、有觀，離生喜、樂，入於初
+禪。滅有覺、觀，內信、一心，無覺、無觀，定生喜、樂，
+入第二禪。離喜修捨、念、進，自知身樂，諸聖
+所求，憶念、捨、樂，入第三禪。離苦、樂行，先滅
+憂、喜、不苦不樂、捨、念、清淨，入第四禪。復有
+四法，謂四梵堂：一慈、二悲、三喜、四捨。復有四
+法，謂四無色定；於是，比丘越一切色想，
+先盡瞋恚想，不念異想，思惟無量空處，
+捨空處已入識處，捨識處已入不用處，
+捨不用處已入有想無想處。「復有四法，謂
+四法足：不貪法足、不瞋法足、正念法足、正
+
+定法足。復有四法，謂四賢聖族；於是，比丘
+衣服知足，得好不喜，遇惡不憂，不染不著，
+知所禁忌，知出要路，於此法中精勤不
+懈，成辦其事，無闕無減，亦能教人成辦此
+事，是為第一知足住賢聖族。從本至今，未
+常惱亂；諸天、魔、梵、沙門、婆羅門、天及世間人，
+無能毀罵；飯食、牀臥具、病瘦醫藥，皆悉
+知足，亦復如是。復有四法，謂四攝法：惠施、愛
+語、利人、等利。復有四法，謂四須陀洹支：
+比丘於佛得無壞信，於法、於僧、於戒得無
+壞信。復有四法，謂四受證：見色受證、身受
+滅證、念宿命證、知漏盡證。復有四法，謂四
+道：苦遲得、苦速得、樂遲得、樂速得。「復有四
+法，謂四聖諦：苦聖諦、苦集聖諦、苦滅聖諦、
+苦出要聖諦。復有四法，謂四沙門果：須陀洹
+果、斯陀含果、阿那含果、阿羅漢果。復有四法，
+謂四處：實處、施處、智處、止息處。復有四法，
+謂四智：法智、未知智、等智、知他人心智。復
+有四法，謂四辯才：法辯、義辯、詞辯、應辯。復
+有四法，謂四識住處：色識住、緣色、住色，與
+愛俱增長，受、想、行識中亦如是住。復有四
+法，謂四扼：欲扼、有扼、見扼、無明扼。復
+有四法，謂四無扼：無欲扼、無有扼、無見
+扼、無無明扼。「復有四法，謂四淨：戒淨、心淨、
+見淨、度疑淨。復有四法，謂四知：可受知受、
+可行知行、可樂知樂、可捨知捨。復有四
+法，謂四威儀：可行知行、可住知住、可坐
+知坐、可臥知臥。復有四法，謂四思惟：少
+思惟、廣思惟、無量思惟、無所有思惟。復有
+
+四法，謂四記論：決定記論，分別記論、詰問記
+論、止住記論。復有四法，謂佛四不護法；如
+來身行清淨，無有闕漏，可自防護；口行清
+淨、意行清淨、命行清淨，亦復如是。是為如
+來所說正法，當共撰集，以防諍訟，使梵行
+久立，多所饒益，天、人獲安。「又，諸比丘！如來
+說五正法，謂五入：眼色、耳聲、鼻香、舌味、身觸。
+復有五法，謂五受陰：色受陰，受、想、行、識受
+陰。復有五法，謂五蓋：貪欲蓋、瞋恚蓋、睡眠蓋、
+掉戲蓋、疑蓋。復有五法，謂五下結：身見結、
+戒盜結、疑結、貪欲結、瞋恚結。復有五法，謂五
+上結：色愛、無色愛、無明、慢、掉。復有五法，謂
+五根：信根、精進根、念根、定根、慧根。復有五法，
+謂五力：信力、精進力、念力、定力、慧力。「復有五
+法，謂滅盡枝：一者比丘信佛、如來、至真、等
+正覺，十號具足。二者比丘無病，身常安隱。
+三者質直無有諛諂，能如是者，如來則示
+涅槃徑路。四者自專其心，使不錯亂，昔所
+諷誦，憶持不忘。五者善於觀察法之起滅，
+以賢聖行，盡於苦本。復有五法，謂五發：非
+時發、虛發、非義發、虛言發、無慈發。復有五法，
+謂五善發：時發、實發、義發、和言發、慈心發。復
+有五法，謂五憎嫉：住處憎嫉、檀越憎嫉、利養
+憎嫉、色憎嫉、法憎嫉。「復有五法，謂五趣解
+脫：一者身不淨想，二者食不淨想，三者一切
+行無常想，四者一切世間不可樂想，五者死
+想。復有五法，謂五出要界：一者比丘於欲
+不樂、不動，亦不親近，但念出要，樂於遠離，
+親近不怠，其心調柔，出要離欲，彼所因欲起
+
+諸漏纏，亦盡捨滅而得解脫，是為欲出要。
+瞋恚出要、嫉妬出要、色出要、身見出要，亦復
+如是。「復有五法，謂五喜解脫入。若比丘精
+勤不懈，樂閑靜處，專念一心，未解得解，未
+盡得盡，未安得安。何謂五？於是，比丘聞如
+來說法，或聞梵行者說，或聞師長說法，思
+惟觀察，分別法義，心得歡喜，得歡喜已，得
+法愛，得法愛已，身心安隱，身心安隱已，則
+得禪定，得禪定已，得實知見，是為初解脫
+入。於是，比丘聞法喜已，受持諷誦，亦復歡
+喜，為他人說，亦復歡喜，思惟分別，亦復歡
+喜，於法得定，亦復如是。復有五法，謂五人：
+中般涅槃、生般涅槃、無行般涅槃、有行般涅
+槃、上流阿迦尼吒。諸比丘！是為如來所說
+正法，當共撰集，以防諍訟，使梵行久立，多
+所饒益，天、人獲安。「又，諸比丘！如來說六正
+法，謂內六入：眼入、耳入、鼻入、舌入、身入、意入。
+復有六法，謂外六入：色入、聲入、香入、味入、觸
+入、法入。復有六法，謂六識身：眼識身，耳、鼻、
+舌、身、意識身。復有六法，謂六觸身：眼觸身，
+耳、鼻、舌、身、意觸身。復有六法，謂六受身：眼受
+身，耳、鼻、舌、身、意受身。復有六法，謂六想身：
+色想、聲想、香想、味想、觸想、法想。復有六法，
+謂六思身：色思、聲思、香思、味思、觸思、法思。
+復有六法，謂六愛身：色愛身，聲、香、味、觸、法愛
+身。復有六法，謂六諍本：若比丘好瞋不捨，
+不敬如來，亦不敬法，亦不敬眾，於戒穿
+漏，染汙不淨；好於眾中多生諍訟，人所憎
+惡，嬈亂淨眾，天、人不安。諸比丘！汝等當自
+
+內觀，設有瞋恨，如彼嬈亂者，當集和合
+眾，廣設方便，拔此諍本；汝等又當專念自
+觀，若結恨已滅，當更方便，遮止其心，勿復
+使起。諸比丘！佷戾不諦、慳恡嫉妬、巧偽虛
+妄、自因己見、謬受不捨、迷於邪見、與邊
+見俱，亦復如是。復有六法，謂六界：地界、火
+界、水界、風界、空界、識界。復有六法，謂六察行：
+眼察色，耳聲、鼻香、舌味、身觸、意察法。「復有
+六法，謂六出要界。若比丘作是言：『我修慈
+心，更生瞋恚。』餘比丘語言：『汝勿作此言，勿
+謗如來，如來不作是說：欲使修慈解脫，
+更生瞋恚想，無有是處。佛言：除瞋恚已，然
+後得慈。』若比丘言：『我行悲解脫，生憎嫉心；
+行喜解脫，生憂惱心；行捨解脫，生憎愛心；
+行無我行，生狐疑心；行無想行，生眾亂想。』
+亦復如是。復有六法，謂六無上：見無上、聞無
+上、利養無上、戒無上、恭敬無上、憶念無上。復
+有六法，謂六思念：佛念、法念、僧念、戒念、施念、
+天念。是為如來所說正法，當共撰集，以防諍
+訟，使梵行久立，多所饒益，天、人獲安。「諸比
+丘！如來說七正法，謂七非法：無信、無慙、無愧、
+少聞、懈怠、多忘、無智。復有七法，謂七正法：有
+信、有慚、有愧、多聞、精進、總持、多智。復有七法，
+謂七識住：或有眾生，若干種身，若干種想，天
+及人是，是初識住；或有眾生，若干種身而一
+想者，梵光音天最初生時是，是二識住；或有
+眾生，一身若干種想，光音天是，是三識住；或
+有眾生，一身一想，遍淨天是，是四識住；或
+有眾生，空處住、識處住、不用處住。「復有七
+
+法，謂七勤法：一者比丘勤於戒行，二者勤
+滅貪欲，三者勤破邪見，四者勤於多聞，五
+者勤於精進，六者勤於正念，七者勤於禪
+定。復有七法，謂七想：不淨想、食不淨想、一
+切世間不可樂想，無想、無常想、無常苦想、
+苦無我想。復有七法，謂七三昧具：正見、正思、
+正語、正業、正命、正方便、正念。復有七法，謂七
+覺意：念覺意、法覺意、精進覺意、喜覺意、猗覺
+意、定覺意、護覺意。是為如來所說正法，當共
+撰集，以防諍訟，使梵行久立，多所饒益，天、
+人獲安。「諸比丘！如來說八正法，謂世八法：
+利、衰、毀、譽、稱、譏、苦、樂。復有八法，謂八解脫：色
+觀色，一解脫；內無色想觀外色，二解脫；淨解脫，
+三解脫；度色想滅瞋恚想住空處解脫，四解
+脫；度空處住識處，五解脫；度識處住不用處，
+六解脫；度不用處住有想無想處，七解脫；度
+有想無想處住想知滅，八解脫。復有八法，謂
+八聖道：正見、正志、正語、正業、正命、正方便、正
+念、正定。復有八法，謂八人：須陀洹向、須陀洹、
+斯陀含向、斯陀含、阿那含向、阿那含、阿羅漢
+向、阿羅漢。是為如來所說正法，當共撰集，
+以防諍訟，使梵行久立，多所饒益，天、人獲
+安。「諸比丘！如來說九正法，所謂九眾生居：
+或有眾生，若干種身，若干種想，天及人是，是
+初眾生居；復有眾生，若干種身而一想者，梵
+光音天最初生時是，是二眾生居；復有眾生，
+一身若干種想，光音天是，是三眾生居；復有
+眾生，一身一想，遍淨天是，是四眾生居；復
+有眾生，無想無所覺知，無想天是，是五眾生
+
+居；復有眾生，空處住，是六眾生居；復有眾
+生，識處住，是七眾生居；復有眾生，不用處
+住，是八眾生居；復有眾生，住有想無想處，
+是九眾生居。是為如來所說正法，當共撰集，
+以防諍訟，使梵行久立，多所饒益，天、人獲
+安。「諸比丘！如來說十正法，所謂十無學法，
+無學正見、正思、正語、正業、正命、正念、正方便、正
+定、正智、正解脫。是為如來所說正法，當共撰
+集，以防諍訟，使梵行久立，多所饒益，天、人
+獲安。」爾時，世尊印可舍利弗所說。時，諸比丘
+聞舍利弗所說，歡喜奉行。
+佛說長阿含經卷第八
+`
+,tags:[
+//[18,0,"comment",{author:"u1",text:"dīrghāgama"}],
+//[52,0,"comment",{author:"u1",text:"Udumbarika"}],
+//[55,0,"comment",{author:"u2",text:"four"}],
+//[14,0,"br",{author:"u1"}],
+//[18,0,"br",{author:"u2"}],
+[56,5,"p"],
+[61,31,"p"],
+[92,129,"p"],
+[221,145,"p"],
+[298,0,"pb/",{"n":"0047b","ed":"T","xml:id":"T01.0001.0047b"}],
+[366,82,"p"],
+[448,69,"p"],
+[517,137,"p"],
+[655,146,"p"],
+[801,129,"p"],
+[885,0,"pb/",{"n":"0047c","ed":"T","xml:id":"T01.0001.0047c"}],
+[930,71,"p"],
+[1001,45,"p"],
+[1046,31,"p"],
+[1077,47,"p"],
+[1097,0,"space/",{"quantity":"0"}],
+[1124,25,"p"],
+[1149,18,"p"],
+[1167,13,"p"],
+[1180,241,"p"],
+[1421,145,"p"],
+[1497,0,"pb/",{"n":"0048a","ed":"T","xml:id":"T01.0001.0048a"}],
+[1566,16,"p"],
+[1583,25,"p"],
+[1608,23,"p"],
+[1631,107,"p"],
+[1738,207,"p"],
+[1945,165,"p"],
+[2110,16,"p"],
+[2120,0,"pb/",{"n":"0048b","ed":"T","xml:id":"T01.0001.0048b"}],
+[2126,24,"p"],
+[2150,11,"p"],
+[2161,159,"p"],
+[2320,189,"p"],
+[2509,182,"p"],
+[2691,17,"p"],
+[2708,26,"p"],
+[2730,0,"pb/",{"n":"0048c","ed":"T","xml:id":"T01.0001.0048c"}],
+[2734,13,"p"],
+[2747,12,"p"],
+[2759,17,"p"],
+[2776,15,"p"],
+[2791,112,"p"],
+[2903,18,"p"],
+[2921,19,"p"],
+[2940,17,"p"],
+[2957,213,"p"],
+[3171,14,"p"],
+[3185,20,"p"],
+[3205,18,"p"],
+[3223,343,"p"],
+[3371,0,"pb/",{"n":"0049a","ed":"T","xml:id":"T01.0001.0049a"}],
+[3566,37,"p"],
+[3603,35,"p"],
+[3638,105,"p"],
+[3743,17,"p"],
+[3760,8,"p"],
+[3768,63,"p"],
+[3831,49,"p"],
+[3880,76,"p"],
+[3956,58,"p"],
+[3986,0,"pb/",{"n":"0049b","ed":"T","xml:id":"T01.0001.0049b"}],
+[4014,25,"p"],
+[4039,15,"p"],
+[4055,57,"p"],
+[4112,74,"p"],
+[4186,55,"p"],
+[4241,67,"p"],
+[4308,150,"p"],
+[4458,31,"p"],
+[4512,5,"p"],
+[4517,32,"p"],
+[4550,88,"p"],
+[4570,0,"pb/",{"n":"0049c","ed":"T","xml:id":"T01.0001.0049c"}],
+[4638,13,"p"],
+[4651,26,"p"],
+[4677,132,"p"],
+[4809,224,"p"],
+[5033,279,"p"],
+[5171,0,"pb/",{"n":"0050a","ed":"T","xml:id":"T01.0001.0050a"}],
+[5312,256,"p"],
+[5568,251,"p"],
+[5812,0,"pb/",{"n":"0050b","ed":"T","xml:id":"T01.0001.0050b"}],
+[5819,224,"p"],
+[6043,255,"p"],
+[6298,75,"p"],
+[6373,193,"p"],
+[6433,0,"pb/",{"n":"0050c","ed":"T","xml:id":"T01.0001.0050c"}],
+[6566,201,"p"],
+[6767,272,"p"],
+[7039,299,"p"],
+[7068,0,"pb/",{"n":"0051a","ed":"T","xml:id":"T01.0001.0051a"}],
+[7338,230,"p"],
+[7568,238,"p"],
+[7687,0,"pb/",{"n":"0051b","ed":"T","xml:id":"T01.0001.0051b"}],
+[7806,196,"p"],
+[8002,209,"p"],
+[8211,161,"p"],
+[8326,0,"pb/",{"n":"0051c","ed":"T","xml:id":"T01.0001.0051c"}],
+[8372,278,"p"],
+[8650,484,"p"],
+[8965,0,"pb/",{"n":"0052a","ed":"T","xml:id":"T01.0001.0052a"}],
+[9134,264,"p"],
+[9398,202,"p"],
+[9600,226,"p"],
+[9605,0,"pb/",{"n":"0052b","ed":"T","xml:id":"T01.0001.0052b"}],
+[9826,269,"p"],
+[10095,255,"p"],
+[10242,0,"pb/",{"n":"0052c","ed":"T","xml:id":"T01.0001.0052c"}],
+[10350,94,"p"],
+[10444,31,"p"],
+]};
+},{}],"C:\\ksana2015\\kmf-editor\\data\\dn33.js":[function(require,module,exports){
+module.exports={header:{},text:`
+
+
+
+
+Dīgha Nikāya 33
+Saṅgītisutta
+
+Evaṃ me sutaṃ—​   ekaṃ samayaṃ bhagavā mallesu cārikaṃ caramāno mahatā ­bhik­khu­saṅ­ghena saddhiṃ pañcamattehi bhikkhusatehi yena pāvā nāma mallānaṃ nagaraṃ tadavasari. Tatra sudaṃ bhagavā pāvāyaṃ viharati cundassa kammā­ra­puttassa ambavane.
+Tena kho pana samayena pāveyyakānaṃ mallānaṃ ubbhatakaṃ nāma navaṃ sandhāgāraṃ acirakāritaṃ hoti anajjhāvuṭṭhaṃ samaṇena vā brāhmaṇena vā kenaci vā manussabhūtena. Assosuṃ kho pāveyyakā mallā: “bhagavā kira mallesu cārikaṃ caramāno mahatā ­bhik­khu­saṃ­ghena saddhiṃ pañcamattehi bhikkhusatehi pāvaṃ anuppatto pāvāyaṃ viharati cundassa kammā­ra­puttassa ambavane”ti. Atha kho pāveyyakā mallā yena bhagavā tenu­pasaṅka­miṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinnā kho pāveyyakā mallā bhagavantaṃ etadavocuṃ: “idha, bhante, pāveyyakānaṃ mallānaṃ ubbhatakaṃ nāma navaṃ sandhāgāraṃ acirakāritaṃ hoti anajjhāvuṭṭhaṃ samaṇena vā brāhmaṇena vā kenaci vā manussabhūtena. Tañca kho, bhante, bhagavā paṭhamaṃ paribhuñjatu, bhagavatā paṭhamaṃ paribhuttaṃ pacchā pāveyyakā mallā pari­bhuñjis­santi. Tadassa pāveyyakānaṃ mallānaṃ dīgharattaṃ hitāya sukhāyā”ti. Adhivāsesi kho bhagavā tuṇhībhāvena.
+Atha kho pāveyyakā mallā bhagavato adhivāsanaṃ viditvā uṭṭhāyāsanā bhagavantaṃ abhivādetvā padakkhiṇaṃ katvā yena sandhāgāraṃ tenu­pasaṅka­miṃsu; upasaṅkamitvā sabbasanthariṃ sandhāgāraṃ santharitvā bhagavato āsanāni paññāpetvā udakamaṇikaṃ patiṭṭhapetvā telapadīpaṃ āropetvā yena bhagavā tenu­pasaṅka­miṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ aṭṭhaṃsu. Ekamantaṃ ṭhitā kho te pāveyyakā mallā bhagavantaṃ etadavocuṃ: “sabba­san­tha­ri­san­tha­taṃ, bhante, sandhāgāraṃ, bhagavato āsanāni paññattāni, udakamaṇiko patiṭṭhāpito, telapadīpo āropito. Yassadāni, bhante, bhagavā kālaṃ maññatī”ti.
+Atha kho bhagavā nivāsetvā patta­cīvara­mādāya saddhiṃ ­bhik­khu­saṅ­ghena yena sandhāgāraṃ tenupasaṅkami; upasaṅkamitvā pāde pakkhāletvā sandhāgāraṃ pavisitvā majjhimaṃ thambhaṃ nissāya purat­thā­bhi­mukho nisīdi. Bhik­khu­saṅ­ghopi kho pāde pakkhāletvā sandhāgāraṃ pavisitvā pacchimaṃ bhittiṃ nissāya purat­thā­bhi­mukho nisīdi bhaga­van­taṃyeva purakkhatvā. Pāveyyakāpi kho mallā pāde pakkhāletvā sandhāgāraṃ pavisitvā puratthimaṃ bhittiṃ nissāya pacchi­mā­bhi­mukhā nisīdiṃsu bhaga­van­taṃyeva purakkhatvā. Atha kho bhagavā pāveyyake malle bahudeva rattiṃ dhammiyā kathāya sandassetvā samādapetvā samuttejetvā sampahaṃsetvā uyyojesi: “abhikkantā kho, vāseṭṭhā, ratti. Yassadāni tumhe kālaṃ maññathā”ti. “Evaṃ, bhante”ti kho pāveyyakā mallā bhagavato paṭissutvā uṭṭhāyāsanā bhagavantaṃ abhivādetvā padakkhiṇaṃ katvā pakkamiṃsu.
+Atha kho bhagavā acira­pakkan­tesu pāveyyakesu mallesu tuṇhībhūtaṃ tuṇhībhūtaṃ bhikkhusaṃghaṃ anuviloketvā āyasmantaṃ sāriputtaṃ āmantesi: “vigata­thina­middho kho, sāriputta, bhikkhusaṃgho. Paṭibhātu taṃ, sāriputta, bhikkhūnaṃ dhammīkathā. Piṭṭhi me āgilāyati. Tamahaṃ āyamissāmī”ti. “Evaṃ, bhante”ti kho āyasmā sāriputto bhagavato paccassosi.
+Atha kho bhagavā catugguṇaṃ saṅghāṭiṃ paññāpetvā dakkhiṇena passena sīhaseyyaṃ kappesi pāde pādaṃ accādhāya, sato sampajāno uṭṭhānasaññaṃ manasi karitvā.
+Tena kho pana samayena nigaṇṭho nāṭaputto pāvāyaṃ adhunā­kālaṅ­kato hoti. Tassa kālaṃkiriyāya bhinnā nigaṇṭhā dvedhikajātā bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharanti: “na tvaṃ imaṃ dhammavinayaṃ ājānāsi, ahaṃ imaṃ dhammavinayaṃ ājānāmi, kiṃ tvaṃ imaṃ dhammavinayaṃ ājānissasi. Micchā­paṭi­panno tvamasi, ahamasmi sammāpaṭipanno. Sahitaṃ me, asahitaṃ te. Purevacanīyaṃ pacchā avaca, pac­chāvaca­nīyaṃ pure avaca. Adhiciṇṇaṃ te viparāvattaṃ, āropito te vādo, niggahito tvamasi, cara vādap­pamok­khāya, nibbeṭhehi vā sace pahosī”ti. Vadhoyeva kho maññe nigaṇṭhesu nāṭaputtiyesu vattati. Yepi nigaṇṭhassa nāṭaputtassa sāvakā gihī odātavasanā, tepi nigaṇṭhesu nāṭaputtiyesu nibbinnarūpā virattarūpā paṭivānarūpā, yathā taṃ durakkhāte dhammavinaye duppavedite aniyyānike anu­pasa­ma­saṃ­vatta­nike asammā­sambud­dhap­pa­vedite bhinnathūpe appaṭisaraṇe.
+Atha kho āyasmā sāriputto bhikkhū āmantesi: “nigaṇṭho, āvuso, nāṭaputto pāvāyaṃ adhunā­kālaṅ­kato, tassa kālaṃkiriyāya bhinnā nigaṇṭhā dvedhikajātā … pe … bhinnathūpe appaṭisaraṇe. Evañhetaṃ, āvuso, hoti durakkhāte dhammavinaye duppavedite aniyyānike anu­pasa­ma­saṃ­vatta­nike asammā­sambud­dhap­pa­vedite. Ayaṃ kho panāvuso, amhākaṃ bhagavatā dhammo svākkhāto suppavedito niyyāniko upasa­ma­saṃ­vatta­niko sammā­sambud­dhap­pa­vedito. Tattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ.
+Katamo cāvuso, amhākaṃ bhagavatā dhammo svākkhāto suppavedito niyyāniko upasa­ma­saṃ­vatta­niko sammā­sambud­dhap­pa­vedito; yattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ?
+1. Ekaka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena eko dhammo sammadakkhāto. Tattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ. Katamo eko dhammo? Sabbe sattā āhāraṭṭhitikā. Sabbe sattā saṅ­khā­raṭ­ṭhitikā. Ayaṃ kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena eko dhammo sammadakkhāto. Tattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ.
+2. Duka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena dve dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ. Katame dve?
+Nāmañca rūpañca. (1)
+Avijjā ca bhavataṇhā ca. (2)
+Bhavadiṭṭhi ca vibhavadiṭṭhi ca. (3)
+Ahirikañca anottappañca. (4)
+Hirī ca ottappañca. (5)
+Dovacassatā ca pāpamittatā ca. (6)
+Sovacassatā ca kalyāṇamittatā ca. (7)
+Āpattikusalatā ca āpatti­vuṭṭhā­na­kusalatā ca. (8)
+Samā­patti­kusalatā ca samā­patti­vuṭṭhā­na­kusalatā ca. (9)
+Dhātukusalatā ca manasikā­ra­kusalatā ca. (10)
+Āyata­na­kusalatā ca paṭic­ca­samup­pāda­kusalatā ca. (11)
+Ṭhānakusalatā ca aṭṭhā­na­kusalatā ca. (12)
+Ajjavañca lajjavañca. (13)
+Khanti ca soraccañca. (14)
+Sākhalyañca paṭisanthāro ca. (15)
+Avihiṃsā ca soceyyañca. (16)
+Muṭṭhas­saccañca asampajaññañca. (17)
+Sati ca sampajaññañca. (18)
+Indriyesu aguttadvāratā ca bhojane amattaññutā ca. (19)
+Indriyesu guttadvāratā ca bhojane mattaññutā ca. (20)
+Paṭi­saṅ­khā­na­balañca bhāvanābalañca. (21)
+Satibalañca samādhibalañca. (22)
+Samatho ca vipassanā ca. (23)
+Sama­tha­nimittañca ­pagga­ha­nimittañca. (24)
+Paggaho ca avikkhepo ca. (25)
+Sīlavipatti ca diṭṭhivipatti ca. (26)
+Sīlasampadā ca diṭṭhisampadā ca. (27)
+Sīlavisuddhi ca diṭṭhivisuddhi ca. (28)
+Diṭṭhivisuddhi kho pana yathā diṭṭhissa ca padhānaṃ. (29)
+Saṃvego ca saṃvejanīyesu ṭhānesu saṃviggassa ca yoniso padhānaṃ. (30)
+Asantuṭṭhitā ca kusalesu dhammesu appaṭivānitā ca padhānasmiṃ. (31)
+Vijjā ca vimutti ca. (32)
+Khayeñāṇaṃ anuppādeñāṇaṃ. (33)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena dve dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ.
+3. Tika
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena tayo dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame tayo?
+Tīṇi akusalamūlāni—lobho akusalamūlaṃ, doso akusalamūlaṃ, moho akusalamūlaṃ. (1)
+Tīṇi kusalamūlāni—alobho kusalamūlaṃ, adoso kusalamūlaṃ, amoho kusalamūlaṃ. (2)
+Tīṇi duccaritāni—kāyaduccaritaṃ, vacīduccaritaṃ, manoduccaritaṃ. (3)
+Tīṇi sucaritāni—kāyasucaritaṃ, vacīsucaritaṃ, manosucaritaṃ. (4)
+Tayo akusalavitakkā—kāmavitakko, byāpādavitakko, vihiṃsāvitakko. (5)
+Tayo kusalavitakkā—nekkham­ma­vitakko, abyāpā­da­vitakko, avihiṃ­sā­vitakko. (6)
+Tayo akusa­la­saṅkappā—kāmasaṅkappo, ­byāpā­da­saṅkappo, vihiṃ­sāsaṅ­kappo. (7)
+Tayo kusalasaṅkappā—nekkham­ma­saṅkappo, abyāpā­da­saṅkappo, avihiṃ­sā­saṅkappo. (8)
+Tisso akusalasaññā—kāmasaññā, byāpādasaññā, vihiṃsāsaññā. (9)
+Tisso kusalasaññā—nekkhammasaññā, abyāpādasaññā, avihiṃsāsaññā. (10)
+Tisso akusaladhātuyo—kāmadhātu, byāpādadhātu, vihiṃsādhātu. (11)
+Tisso kusaladhātuyo—nekkhammadhātu, abyāpādadhātu, avihiṃsādhātu. (12)
+Aparāpi tisso dhātuyo—kāmadhātu, rūpadhātu, arūpadhātu. (13)
+Aparāpi tisso dhātuyo—rūpadhātu, arūpadhātu, nirodhadhātu. (14)
+Aparāpi tisso dhātuyo—hīnadhātu, majjhimadhātu, paṇītadhātu. (15)
+Tisso taṇhā—kāmataṇhā, bhavataṇhā, vibhavataṇhā. (16)
+Aparāpi tisso taṇhā—kāmataṇhā, rūpataṇhā, arūpataṇhā. (17)
+Aparāpi tisso taṇhā—rūpataṇhā, arūpataṇhā, nirodhataṇhā. (18)
+Tīṇi saṃyojanāni—sakkāyadiṭṭhi, vicikicchā, sīlab­bata­parāmāso. (19)
+Tayo āsavā—kāmāsavo, bhavāsavo, avijjāsavo. (20)
+Tayo bhavā—kāmabhavo, rūpabhavo, arūpabhavo. (21)
+Tisso esanā—kāmesanā, bhavesanā, brahma­cari­yesanā. (22)
+Tisso vidhā—seyyohamasmīti vidhā, ­sadi­soha­masmīti vidhā, hīnohamasmīti vidhā. (23)
+Tayo addhā—atīto addhā, anāgato addhā, paccuppanno addhā. (24)
+Tayo antā—sakkāyo anto, sakkā­ya­sa­mudayo anto, sakkāyanirodho anto. (25)
+Tisso vedanā—sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā. (26)
+Tisso dukkhatā—dukkhadukkhatā, saṅ­khā­ra­duk­khatā, vipari­ṇāma­duk­khatā. (27)
+* Tayo rāsī—micchat­ta­niyato rāsi, sammattaniyato rāsi, aniyato rāsi. (28)
+Tayo tamā —atītaṃ vā addhānaṃ ārabbha kaṅkhati vicikicchati nādhimuccati na sampasīdati, anāgataṃ vā addhānaṃ ārabbha kaṅkhati vicikicchati nādhimuccati na sampasīdati, etarahi vā paccuppannaṃ addhānaṃ ārabbha kaṅkhati vicikicchati nādhimuccati na sampasīdati. (29)
+Tīṇi tathāgatassa arakkheyyāni—pari­suddha­kā­yasamā­cāro āvuso tathāgato, natthi tathāgatassa kāyaduccaritaṃ, yaṃ tathāgato rakkheyya: ‘mā me idaṃ paro aññāsī’ti*. Pari­suddha­vacī­samā­cāro āvuso, tathāgato, natthi tathāgatassa vacīduccaritaṃ, yaṃ tathāgato rakkheyya: ‘mā me idaṃ paro aññāsī’ti. Pari­suddha­mano­samā­cāro, āvuso, tathāgato, natthi tathāgatassa manoduccaritaṃ yaṃ tathāgato rakkheyya: ‘mā me idaṃ paro aññāsī’ti. (30)
+Tayo kiñcanā—rāgo kiñcanaṃ, doso kiñcanaṃ, moho kiñcanaṃ. (31)
+Tayo aggī—rāgaggi, dosaggi, mohaggi. (32)
+Aparepi tayo aggī—āhuneyyaggi, gahapataggi, dakkhiṇeyyaggi. (33)
+Tividhena rūpasaṅgaho—sani­dassa­na­sappa­ṭi­ghaṃ rūpaṃ, ani­dassa­na­sappa­ṭi­ghaṃ rūpaṃ, ani­dassa­na­ap­paṭi­ghaṃ rūpaṃ. (34)
+Tayo saṅkhārā—puññā­bhi­saṅ­khāro, apuññā­bhi­saṅ­khāro, āneñjā­bhi­saṅ­khāro. (35)
+Tayo puggalā—sekkho puggalo, asekkho puggalo, nevasekkho nāsekkho puggalo. (36)
+Tayo therā—jātithero, dhammathero, sammutithero. (37)
+Tīṇi puñ­ñakiri­ya­vatthūni—dānamayaṃ puñ­ñakiri­ya­vatthu, sīlamayaṃ puñ­ñakiri­ya­vatthu, bhāvanāmayaṃ puñ­ñakiri­ya­vatthu. (38)
+Tīṇi codanāvatthūni—diṭṭhena, sutena, parisaṅkāya. (39)
+Tisso kāmūpapattiyo —santāvuso sattā paccu­paṭṭhi­ta­kāmā, te paccu­paṭṭhi­tesu kāmesu vasaṃ vattenti, seyyathāpi manussā ekacce ca devā ekacce ca vinipātikā. Ayaṃ paṭhamā kāmūpapatti. Santāvuso, sattā nimmitakāmā, te nimminitvā nimminitvā kāmesu vasaṃ vattenti, seyyathāpi devā nimmānaratī. Ayaṃ dutiyā kāmūpapatti. Santāvuso sattā para­nimmita­kāmā, te paranimmitesu kāmesu vasaṃ vattenti, seyyathāpi devā para­nimmita­vasavattī. Ayaṃ tatiyā kāmūpapatti. (40)
+Tisso sukhūpapattiyo —santāvuso sattā uppādetvā uppādetvā sukhaṃ viharanti, seyyathāpi devā brahmakāyikā. Ayaṃ paṭhamā sukhūpapatti. Santāvuso, sattā sukhena abhisannā parisannā paripūrā paripphuṭā. Te kadāci karahaci udānaṃ udānenti: ‘aho sukhaṃ, aho sukhan’ti, seyyathāpi devā ābhassarā. Ayaṃ dutiyā sukhūpapatti. Santāvuso, sattā sukhena abhisannā parisannā paripūrā paripphuṭā. Te santaṃyeva tusitā sukhaṃ paṭisaṃvedenti, seyyathāpi devā subhakiṇhā. Ayaṃ tatiyā sukhūpapatti. (41)
+Tisso paññā—sekkhā paññā, asekkhā paññā, neva­sekkhā­nā­sekkhā paññā. (42)
+Aparāpi tisso paññā—cintāmayā paññā, sutamayā paññā, bhāvanāmayā paññā. (43)
+Tīṇāvudhāni—sutāvudhaṃ, pavivekāvudhaṃ, paññāvudhaṃ. (44)
+Tīṇindriyāni—anaññātañ­ñassā­mī­tindriyaṃ, aññindriyaṃ, aññātā­vin­dri­yaṃ. (45)
+Tīṇi cakkhūni—maṃsacakkhu, dibbacakkhu, paññācakkhu. (46)
+* Tisso sikkhā—adhisīlasikkhā, adhi­citta­sikkhā, adhipañ­ñā­sikkhā. (47)
+Tisso bhāvanā—kāyabhāvanā, cittabhāvanā, paññābhāvanā. (48)
+Tīṇi anuttariyāni—dassa­nā­nuttari­yaṃ, paṭi­pa­dā­nuttari­yaṃ, vimut­tā­nuttari­yaṃ. (49)
+Tayo samādhī—savitak­ka­savi­cāro samādhi, avitak­ka­vicāra­matto samādhi, avitak­ka­avi­cāro samādhi. (50)
+Aparepi tayo samādhī—suññato samādhi, animitto samādhi, appaṇihito samādhi. (51)
+Tīṇi soceyyāni—kāyasoceyyaṃ, vacīsoceyyaṃ, manosoceyyaṃ. (52)
+Tīṇi moneyyāni—kāyamoneyyaṃ, vacīmoneyyaṃ, manomoneyyaṃ. (53)
+Tīṇi kosallāni—āyakosallaṃ, apāyakosallaṃ, upāyakosallaṃ. (54)
+Tayo madā—ārogyamado, yobbanamado, jīvitamado. (55)
+Tīṇi ādhipateyyāni—attādhipa­teyyaṃ, lokādhipa­teyyaṃ, dham­mādhipa­teyyaṃ. (56)
+Tīṇi kathāvatthūni—atītaṃ vā addhānaṃ ārabbha kathaṃ katheyya: ‘evaṃ ahosi atītamaddhānan’ti; anāgataṃ vā addhānaṃ ārabbha kathaṃ katheyya: ‘evaṃ bhavissati anāga­ta­maddhā­nan’ti; etarahi vā paccuppannaṃ addhānaṃ ārabbha kathaṃ katheyya: ‘evaṃ hoti etarahi paccuppannaṃ addhānan’ti. (57)
+Tisso vijjā—pubbe­nivāsā­nus­sati­ñāṇaṃ vijjā, sattānaṃ cutū­papā­teñā­ṇaṃ vijjā, āsavānaṃ khayeñāṇaṃ vijjā. (58)
+Tayo vihārā—dibbo vihāro, brahmā vihāro, ariyo vihāro. (59)
+Tīṇi pāṭihāriyāni—iddhi­pā­ṭihā­ri­yaṃ, ādesa­nā­pā­ṭihā­ri­yaṃ, anu­sāsa­nī­pā­ṭihā­ri­yaṃ. (60)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena tayo dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+4. Catukka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena cattāro dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ, na vivaditabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame cattāro?
+Cattāro satipaṭṭhānā. Idhāvuso, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhij­jhā­do­manas­saṃ. Vedanāsu vedanānupassī … pe … citte cittānupassī … pe … dhammesu dhammānupassī viharati ātāpī sampajāno satimā vineyya loke abhij­jhā­do­manas­saṃ. (1)
+Cattāro sammappadhānā. Idhāvuso, bhikkhu anuppannānaṃ pāpakānaṃ akusalānaṃ dhammānaṃ anuppādāya chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. Uppannānaṃ pāpakānaṃ akusalānaṃ dhammānaṃ pahānāya chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. Anuppannānaṃ kusalānaṃ dhammānaṃ uppādāya chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. Uppannānaṃ kusalānaṃ dhammānaṃ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. (2)
+Cattāro iddhipādā. Idhāvuso, bhikkhu chanda­samā­dhi­pa­dhā­na­saṅ­khā­ra­saman­nā­gataṃ iddhipādaṃ bhāveti. Citta­samā­dhi­pa­dhā­na­saṅ­khā­ra­saman­nā­gataṃ iddhipādaṃ bhāveti. Vīriya­samā­dhi­pa­dhā­na­saṅ­khā­ra­saman­nā­gataṃ iddhipādaṃ bhāveti. Vīmaṃ­sā­samā­dhi­pa­dhā­na­saṅ­khā­ra­saman­nā­gataṃ iddhipādaṃ bhāveti. (3)
+Cattāri jhānāni. Idhāvuso, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṃ savicāraṃ vivekajaṃ pītisukhaṃ paṭhamaṃ jhānaṃ upasampajja viharati. Vitak­ka­vicārā­naṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja viharati. Pītiyā ca virāgā upekkhako ca viharati sato ca sampajāno, sukhañca kāyena paṭisaṃvedeti, yaṃ taṃ ariyā ācikkhanti: ‘upekkhako satimā sukhavihārī’ti tatiyaṃ jhānaṃ upasampajja viharati. Sukhassa ca pahānā dukkhassa ca pahānā, pubbeva somanas­sa­do­manas­sā­naṃ atthaṅgamā, aduk­kha­ma­su­khaṃ upekkhā­sati­pāri­suddhiṃ catutthaṃ jhānaṃ upasampajja viharati. (4)
+Catasso samādhibhāvanā. Atthāvuso, samādhibhāvanā bhāvitā bahulīkatā diṭṭha­dhamma­su­kha­vihārāya saṃvattati. Atthāvuso, samādhibhāvanā bhāvitā bahulīkatā ­ñāṇadas­sana­paṭi­lābhāya saṃvattati. Atthāvuso samādhibhāvanā bhāvitā bahulīkatā sati­sam­pajañ­ñāya saṃvattati. Atthāvuso samādhibhāvanā bhāvitā bahulīkatā āsavānaṃ khayāya saṃvattati.
+Katamā cāvuso, samādhibhāvanā bhāvitā bahulīkatā diṭṭha­dhamma­su­kha­vihārāya saṃvattati? Idhāvuso, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṃ … pe … catutthaṃ jhānaṃ upasampajja viharati. Ayaṃ, āvuso, samādhibhāvanā bhāvitā bahulīkatā diṭṭha­dhamma­su­kha­vihārāya saṃvattati. (5.1)
+Katamā cāvuso, samādhibhāvanā bhāvitā bahulīkatā ­ñāṇadas­sana­paṭi­lābhāya saṃvattati? Idhāvuso, bhikkhu ālokasaññaṃ manasi karoti, divāsaññaṃ adhiṭṭhāti yathā divā tathā rattiṃ, yathā rattiṃ tathā divā. Iti vivaṭena cetasā apari­yonad­dhena sappabhāsaṃ cittaṃ bhāveti. Ayaṃ, āvuso, samādhibhāvanā bhāvitā bahulīkatā ­ñāṇadas­sana­paṭi­lābhāya saṃvattati. (5.2)
+Katamā cāvuso, samādhibhāvanā bhāvitā bahulīkatā sati­sam­pajañ­ñāya saṃvattati? Idhāvuso, bhikkhuno viditā vedanā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṃ gacchanti. Viditā saññā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṃ gacchanti. Viditā vitakkā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṃ gacchanti. Ayaṃ, āvuso, samādhibhāvanā bhāvitā bahulīkatā sati­sam­pajañ­ñāya saṃvattati. (5.3)
+Katamā cāvuso, samādhibhāvanā bhāvitā bahulīkatā āsavānaṃ khayāya saṃvattati? Idhāvuso, bhikkhu pañcasu upādā­nak­khan­dhesu udayab­bayā­nu­passī viharati. Iti rūpaṃ, iti rūpassa samudayo, iti rūpassa atthaṅgamo. Iti vedanā … pe … iti saññā … iti saṅkhārā … iti viññāṇaṃ, iti viññāṇassa samudayo, iti viññāṇassa atthaṅgamo. Ayaṃ, āvuso, samādhibhāvanā bhāvitā bahulīkatā āsavānaṃ khayāya saṃvattati. (5.4)
+* Catasso appamaññā. Idhāvuso, bhikkhu mettā­saha­gatena cetasā ekaṃ disaṃ pharitvā viharati. Tathā dutiyaṃ. Tathā tatiyaṃ. Tathā catutthaṃ. Iti uddhamadho tiriyaṃ sabbadhi sabbattatāya sabbāvantaṃ lokaṃ mettā­saha­gatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. Karuṇā­saha­gatena cetasā … pe … muditā­saha­gatena cetasā … pe … upekkhā­saha­gatena cetasā ekaṃ disaṃ pharitvā viharati. Tathā dutiyaṃ. Tathā tatiyaṃ. Tathā catutthaṃ. Iti uddhamadho tiriyaṃ sabbadhi sabbattatāya sabbāvantaṃ lokaṃ upekkhā­saha­gatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. (6)
+Cattāro āruppā. Idhāvuso, bhikkhu sabbaso rūpasaññānaṃ samatikkamā paṭi­gha­saññā­naṃ atthaṅgamā nānat­ta­saññā­naṃ amanasikārā ‘ananto ākāso’ti ākāsānañ­cāyata­naṃ upasampajja viharati. Sabbaso ākāsānañ­cāyata­naṃ samatikkamma ‘anantaṃ viññāṇan’ti viñ­ñā­ṇañ­cāyata­naṃ upasampajja viharati. Sabbaso viñ­ñā­ṇañ­cāyata­naṃ samatikkamma ‘natthi kiñcī’ti ākiñ­cañ­ñā­yatanaṃ upasampajja viharati. Sabbaso ākiñ­cañ­ñā­yatanaṃ samatikkamma neva­saññā­nā­sañ­ñāyata­naṃ upasampajja viharati. (7)
+Cattāri apassenāni. Idhāvuso, bhikkhu saṅkhāyekaṃ paṭisevati, saṅkhāyekaṃ adhivāseti, saṅkhāyekaṃ parivajjeti, saṅkhāyekaṃ vinodeti. (8)
+Cattāro ariyavaṃsā*. Idhāvuso, bhikkhu santuṭṭho hoti itarītarena cīvarena, itarīta­ra­cīva­rasan­tuṭ­ṭhiyā ca vaṇṇavādī, na ca cīvarahetu anesanaṃ appatirūpaṃ āpajjati; aladdhā ca cīvaraṃ na paritassati, laddhā ca cīvaraṃ agadhito amucchito anajjhāpanno ādīnavadassāvī nissaraṇapañño paribhuñjati; tāya ca pana itarīta­ra­cīva­rasan­tuṭ­ṭhiyā nevattā­nukkaṃ­seti na paraṃ vambheti. Yo hi tattha dakkho analaso sampajāno paṭissato, ayaṃ vuccatāvuso: ‘bhikkhu porāṇe aggaññe ariyavaṃse ṭhito’. (9.1)
+Puna caparaṃ, āvuso, bhikkhu santuṭṭho hoti itarītarena piṇḍapātena, itarīta­ra­piṇḍa­pā­tasan­tuṭ­ṭhiyā ca vaṇṇavādī, na ca piṇḍapātahetu anesanaṃ appatirūpaṃ āpajjati; aladdhā ca piṇḍapātaṃ na paritassati, laddhā ca piṇḍapātaṃ agadhito amucchito anajjhāpanno ādīnavadassāvī nissaraṇapañño paribhuñjati; tāya ca pana itarīta­ra­piṇḍa­pā­tasan­tuṭ­ṭhiyā nevattā­nukkaṃ­seti na paraṃ vambheti. Yo hi tattha dakkho analaso sampajāno paṭissato, ayaṃ vuccatāvuso: ‘bhikkhu porāṇe aggaññe ariyavaṃse ṭhito’. (9.2)
+Puna caparaṃ, āvuso, bhikkhu santuṭṭho hoti itarītarena senāsanena, itarīta­ra­se­nāsa­nasan­tuṭ­ṭhiyā ca vaṇṇavādī, na ca senāsanahetu anesanaṃ appatirūpaṃ āpajjati; aladdhā ca senāsanaṃ na paritassati, laddhā ca senāsanaṃ agadhito amucchito anajjhāpanno ādīnavadassāvī nissaraṇapañño paribhuñjati; tāya ca pana itarīta­ra­se­nāsa­nasan­tuṭ­ṭhiyā nevattā­nukkaṃ­seti na paraṃ vambheti. Yo hi tattha dakkho analaso sampajāno paṭissato, ayaṃ vuccatāvuso: ‘bhikkhu porāṇe aggaññe ariyavaṃse ṭhito’. (9.3)
+Puna caparaṃ, āvuso, bhikkhu pahānārāmo hoti pahānarato, bhāvanārāmo hoti bhāvanārato; tāya ca pana pahānārāmatāya pahānaratiyā bhāva­nārāma­tāya bhāvanāratiyā nevattā­nukkaṃ­seti na paraṃ vambheti. Yo hi tattha dakkho analaso sampajāno paṭissato ayaṃ vuccatāvuso: ‘bhikkhu porāṇe aggaññe ariyavaṃse ṭhito’. (9.4)
+Cattāri padhānāni. Saṃ­vara­pa­dhā­naṃ pahānapadhānaṃ bhāva­nā­pa­dhā­naṃ anurak­kha­ṇā­pa­dhā­naṃ. Katamañcāvuso, saṃ­vara­pa­dhā­naṃ? Idhāvuso, bhikkhu cakkhunā rūpaṃ disvā na nimittaggāhī hoti ­nānub­yañ­janag­gāhī. Yat­vādhika­ra­ṇa­menaṃ cakkhundriyaṃ asaṃvutaṃ viharantaṃ abhij­jhā­do­manassā pāpakā akusalā dhammā anvāssaveyyuṃ, tassa saṃvarāya paṭipajjati, rakkhati cakkhundriyaṃ, cakkhundriye saṃvaraṃ āpajjati. Sotena saddaṃ sutvā … ghānena gandhaṃ ghāyitvā … jivhāya rasaṃ sāyitvā … kāyena phoṭṭhabbaṃ phusitvā … manasā dhammaṃ viññāya na nimittaggāhī hoti ­nānub­yañ­janag­gāhī. Yat­vādhika­ra­ṇa­menaṃ manindriyaṃ asaṃvutaṃ viharantaṃ abhij­jhā­do­manassā pāpakā akusalā dhammā anvāssaveyyuṃ, tassa saṃvarāya paṭipajjati, rakkhati manindriyaṃ, manindriye saṃvaraṃ āpajjati. Idaṃ vuccatāvuso, saṃ­vara­pa­dhā­naṃ. (10.1)
+Katamañcāvuso, pahānapadhānaṃ? Idhāvuso, bhikkhu uppannaṃ kāmavitakkaṃ nādhivāseti pajahati vinodeti byantiṃ karoti anabhāvaṃ gameti. Uppannaṃ ­byāpā­da­vitak­kaṃ … pe … uppannaṃ vihiṃ­sā­vitak­kaṃ … uppannuppanne pāpake akusale dhamme nādhivāseti pajahati vinodeti byantiṃ karoti anabhāvaṃ gameti. Idaṃ vuccatāvuso, pahānapadhānaṃ. (10.2)
+Katamañcāvuso, bhāva­nā­pa­dhā­naṃ? Idhāvuso, bhikkhu sati­sam­boj­jhaṅ­gaṃ bhāveti vivekanissitaṃ virāganissitaṃ nirodha­nissitaṃ vos­sagga­pari­ṇāmiṃ. Dhamma­vicaya­sam­boj­jhaṅ­gaṃ bhāveti … vīriya­sam­boj­jhaṅ­gaṃ bhāveti … pīti­sam­boj­jhaṅ­gaṃ bhāveti … passad­dhi­sam­boj­jhaṅ­gaṃ bhāveti … samā­dhi­sam­boj­jhaṅ­gaṃ bhāveti … upekkhā­sam­boj­jhaṅ­gaṃ bhāveti vivekanissitaṃ virāganissitaṃ nirodha­nissitaṃ vos­sagga­pari­ṇāmiṃ. Idaṃ vuccatāvuso, bhāva­nā­pa­dhā­naṃ. (10.3)
+Katamañcāvuso, anurak­kha­ṇā­pa­dhā­naṃ? Idhāvuso, bhikkhu uppannaṃ bhadrakaṃ samā­dhi­nimittaṃ anurakkhati—aṭṭhikasaññaṃ, puḷuvakasaññaṃ, vinīlakasaññaṃ, vic­chidda­ka­saññaṃ, uddhumā­ta­ka­saññaṃ. Idaṃ vuccatāvuso, anurak­kha­ṇā­pa­dhā­naṃ. (10.4)
+Cattāri ñāṇāni—dhamme ñāṇaṃ, anvaye ñāṇaṃ, pariye ñāṇaṃ, sammutiyā ñāṇaṃ. (11)
+Aparānipi cattāri ñāṇāni—dukkhe ñāṇaṃ, dukkhasamudaye ñāṇaṃ, dukkhanirodhe ñāṇaṃ, duk­kha­nirodha­gāminiyā paṭipadāya ñāṇaṃ. (12)
+Cattāri sotā­patti­yaṅgāni—sap­purisa­saṃ­sevo, saddham­mas­savanaṃ, yoniso­ma­nasikāro, dhammā­nu­dhammap­paṭi­patti. (13)
+Cattāri sotāpannassa aṅgāni. Idhāvuso, ariyasāvako buddhe aveccap­pasā­dena samannāgato hoti: ‘itipi so bhagavā arahaṃ sammāsambuddho vij­jācara­ṇa­sam­panno sugato lokavidū anuttaro purisa­damma­sāra­thi satthā devamanussānaṃ buddho, bhagavā’ti. Dhamme aveccap­pasā­dena samannāgato hoti: ‘svākkhāto bhagavatā dhammo sandiṭṭhiko akāliko ehipassiko opaneyyiko paccattaṃ veditabbo viññūhī’ti. Saṃghe aveccap­pasā­dena samannāgato hoti: ‘suppaṭipanno bhagavato sāvakasaṃgho ujuppaṭipanno bhagavato sāvakasaṃgho ñāyappaṭipanno bhagavato sāvakasaṃgho sāmīcip­paṭi­panno bhagavato sāvakasaṃgho yadidaṃ cattāri purisayugāni aṭṭha purisapuggalā, esa bhagavato sāvakasaṃgho āhuneyyo pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṃ puññakkhettaṃ lokassā’ti. Ariyakantehi sīlehi samannāgato hoti akhaṇḍehi acchiddehi asabalehi akammāsehi bhujissehi viññup­pasat­thehi aparāmaṭṭhehi samā­dhi­saṃ­vatta­ni­kehi. (14)
+Cattāri sāmaññaphalāni—sotā­patti­phalaṃ, sakadā­gāmi­phalaṃ, anāgāmiphalaṃ, arahattaphalaṃ. (15)
+Catasso dhātuyo—pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu. (16)
+Cattāro āhārā—kabaḷīkāro āhāro oḷāriko vā sukhumo vā, phasso dutiyo, manosañcetanā tatiyā, viññāṇaṃ catutthaṃ. (17)
+Catasso viñ­ñā­ṇaṭ­ṭhitiyo. Rūpūpāyaṃ vā, āvuso, viññāṇaṃ tiṭṭhamānaṃ tiṭṭhati rūpārammaṇaṃ rūpappatiṭṭhaṃ nandūpasecanaṃ vuddhiṃ virūḷhiṃ vepullaṃ āpajjati; vedanūpāyaṃ vā āvuso … saññūpāyaṃ vā, āvuso … pe … saṅkhārūpāyaṃ vā, āvuso, viññāṇaṃ tiṭṭhamānaṃ tiṭṭhati saṅ­khā­rā­rammaṇaṃ saṅ­khā­rap­patiṭ­ṭhaṃ nandūpasecanaṃ vuddhiṃ virūḷhiṃ vepullaṃ āpajjati. (18)
+* Cattāri agatigamanāni—chandāgatiṃ gacchati, dosāgatiṃ gacchati, mohāgatiṃ gacchati, bhayāgatiṃ gacchati. (19)
+Cattāro taṇhuppādā—cīvarahetu vā, āvuso, bhikkhuno taṇhā uppajjamānā uppajjati; piṇḍapātahetu vā, āvuso, bhikkhuno taṇhā uppajjamānā uppajjati; senāsanahetu vā, āvuso, bhikkhuno taṇhā uppajjamānā uppajjati; iti­bhavā­bhava­hetu vā, āvuso, bhikkhuno taṇhā uppajjamānā uppajjati. (20)
+Catasso paṭipadā—dukkhā paṭipadā dandhābhiññā, dukkhā paṭipadā khippābhiññā, sukhā paṭipadā dandhābhiññā, sukhā paṭipadā khippābhiññā. (21)
+Aparāpi catasso paṭipadā—akkhamā paṭipadā, khamā paṭipadā, damā paṭipadā, samā paṭipadā. (22)
+Cattāri dhammapadāni—anabhijjhā dhammapadaṃ, abyāpādo dhammapadaṃ, sammāsati dhammapadaṃ, sammāsamādhi dhammapadaṃ. (23)
+Cattāri dhamma­sa­mādā­nāni—atthāvuso, dhamma­sa­mādā­naṃ ­pac­cup­pan­na­duk­khañ­ceva āyatiñca dukkhavipākaṃ. Atthāvuso, dhamma­sa­mādā­naṃ ­pac­cup­pan­na­duk­khaṃ āyatiṃ sukhavipākaṃ. Atthāvuso, dhamma­sa­mādā­naṃ ­pac­cup­pan­na­su­khaṃ āyatiṃ dukkhavipākaṃ. Atthāvuso, dhamma­sa­mādā­naṃ ­pac­cup­pan­na­su­khañ­ceva āyatiñca sukhavipākaṃ. (24)
+Cattāro dhammakkhandhā—sīlakkhandho, samā­dhik­khan­dho, paññākkhandho, vimut­tik­khan­dho. (25)
+Cattāri balāni—vīriyabalaṃ, satibalaṃ, samādhibalaṃ, paññābalaṃ. (26)
+Cattāri adhiṭṭhānāni—pañ­ñā­dhiṭṭhā­naṃ, sac­cā­dhiṭṭhā­naṃ, cāgādhiṭṭhānaṃ, upasa­mā­dhiṭṭhā­naṃ. (27)
+Cattāri pañ­habyā­karaṇāni —ekaṃsab­yākara­ṇīyo pañho, paṭi­pucchāb­yākara­ṇīyo pañho, ­vibhaj­jab­yākara­ṇīyo pañho, ṭhapanīyo pañho. (28)
+* Cattāri kammāni—atthāvuso, kammaṃ kaṇhaṃ kaṇhavipākaṃ. Atthāvuso, kammaṃ sukkaṃ sukkavipākaṃ. Atthāvuso, kammaṃ kaṇhasukkaṃ kaṇha­sukka­vipākaṃ. Atthāvuso, kammaṃ akaṇhaasukkaṃ akaṇha­asukka­vipākaṃ kammakkhayāya saṃvattati. (29)
+Cattāro sacchikaraṇīyā dhammā—pubbenivāso satiyā sacchikaraṇīyo; sattānaṃ cutūpapāto cakkhunā sacchikaraṇīyo; aṭṭha vimokkhā kāyena sacchikaraṇīyā; āsavānaṃ khayo paññāya sacchikaraṇīyo. (30)
+Cattāro oghā—kāmogho, bhavogho, diṭṭhogho, avijjogho. (31)
+Cattāro yogā—kāmayogo, bhavayogo, diṭṭhiyogo, avijjāyogo. (32)
+Cattāro visaññogā —kāmayoga­visañ­ñogo, bhava­yoga­visañ­ñogo, diṭṭhi­yoga­visañ­ñogo, avijjā­yoga­visañ­ñogo. (33)
+Cattāro ganthā—abhijjhā kāyagantho, byāpādo kāyagantho, sīlab­bata­parāmāso kāyagantho, idaṃsac­cā­bhi­ni­veso kāyagantho. (34)
+Cattāri upādānāni—kāmupādānaṃ, diṭṭhupādānaṃ, sīlab­ba­tu­pādā­naṃ, attavā­du­pādā­naṃ. (35)
+Catasso yoniyo—aṇḍajayoni, jalābujayoni, saṃsedajayoni, opapātikayoni. (36)
+Catasso gabbhā­vakkan­tiyo. Idhāvuso, ekacco asampajāno mātukucchiṃ okkamati, asampajāno mātukucchismiṃ ṭhāti, asampajāno mātukucchimhā nikkhamati, ayaṃ paṭhamā gabbhāvakkanti. Puna caparaṃ, āvuso, idhekacco sampajāno mātukucchiṃ okkamati, asampajāno mātukucchismiṃ ṭhāti, asampajāno mātukucchimhā nikkhamati, ayaṃ dutiyā gabbhāvakkanti. Puna caparaṃ, āvuso, idhekacco sampajāno mātukucchiṃ okkamati, sampajāno mātukucchismiṃ ṭhāti, asampajāno mātukucchimhā nikkhamati, ayaṃ tatiyā gabbhāvakkanti. Puna caparaṃ, āvuso, idhekacco sampajāno mātukucchiṃ okkamati, sampajāno mātukucchismiṃ ṭhāti, sampajāno mātukucchimhā nikkhamati, ayaṃ catutthā gabbhāvakkanti. (37)
+Cattāro atta­bhāva­paṭi­lābhā. Atthāvuso, atta­bhāva­paṭi­lābho, yasmiṃ atta­bhāva­paṭi­lābhe atta­sañ­ceta­nā­yeva kamati, no parasañcetanā. Atthāvuso, atta­bhāva­paṭi­lābho, yasmiṃ atta­bhāva­paṭi­lābhe para­sañ­ceta­nā­yeva kamati, no attasañcetanā. Atthāvuso, atta­bhāva­paṭi­lābho, yasmiṃ atta­bhāva­paṭi­lābhe attasañcetanā ceva kamati parasañcetanā ca. Atthāvuso, atta­bhāva­paṭi­lābho, yasmiṃ atta­bhāva­paṭi­lābhe neva attasañcetanā kamati, no parasañcetanā. (38)
+Catasso ­dak­khi­ṇā­vi­sud­dhiyo. Atthāvuso, dakkhiṇā dāyakato visujjhati no paṭiggāhakato. Atthāvuso, dakkhiṇā paṭiggāhakato visujjhati no dāyakato. Atthāvuso, dakkhiṇā neva dāyakato visujjhati no paṭiggāhakato. Atthāvuso, dakkhiṇā dāyakato ceva visujjhati paṭiggāhakato ca. (39)
+* Cattāri saṅga­ha­vatthūni—dānaṃ, peyyavajjaṃ, atthacariyā, samānattatā. (40)
+Cattāro anariyavohārā—musāvādo, pisuṇāvācā, pharusāvācā, samphappalāpo. (41)
+Cattāro ariyavohārā—musāvādā veramaṇī, pisuṇāya vācāya veramaṇī, pharusāya vācāya veramaṇī, samphappalāpā veramaṇī. (42)
+* Aparepi cattāro anariyavohārā—adiṭṭhe diṭṭhavāditā, assute sutavāditā, amute mutavāditā, aviññāte viññātavāditā. (43)
+Aparepi cattāro ariyavohārā—adiṭṭhe adiṭṭhavāditā, assute assutavāditā, amute amutavāditā, aviññāte aviññātavāditā. (44)
+Aparepi cattāro anariyavohārā—diṭṭhe adiṭṭhavāditā, sute assutavāditā, mute amutavāditā, viññāte aviññātavāditā. (45)
+Aparepi cattāro ariyavohārā—diṭṭhe diṭṭhavāditā, sute sutavāditā, mute mutavāditā, viññāte viññātavāditā. (46)
+* Cattāro puggalā. Idhāvuso, ekacco puggalo attantapo hoti atta­pari­tāpa­nā­nu­yoga­manu­yutto. Idhāvuso, ekacco puggalo parantapo hoti para­pari­tāpa­nā­nu­yoga­manu­yutto. Idhāvuso, ekacco puggalo attantapo ca hoti atta­pari­tāpa­nā­nu­yoga­manu­yutto, parantapo ca para­pari­tāpa­nā­nu­yoga­manu­yutto. Idhāvuso, ekacco puggalo neva attantapo hoti na atta­pari­tāpa­nā­nu­yoga­manu­yutto na parantapo na para­pari­tāpa­nā­nu­yoga­manu­yutto. So anattantapo aparantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhap­paṭi­saṃ­vedī brahmabhūtena attanā viharati. (47)
+Aparepi cattāro puggalā. Idhāvuso, ekacco puggalo attahitāya paṭipanno hoti no parahitāya. Idhāvuso, ekacco puggalo parahitāya paṭipanno hoti no attahitāya. Idhāvuso, ekacco puggalo neva attahitāya paṭipanno hoti no parahitāya. Idhāvuso, ekacco puggalo attahitāya ceva paṭipanno hoti parahitāya ca. (48)
+Aparepi cattāro puggalā—tamo tamaparāyano, tamo jotiparāyano, joti tamaparāyano, joti jotiparāyano. (49)
+Aparepi cattāro puggalā—samaṇamacalo, samaṇapadumo, samaṇa­puṇ­ḍarīko, samaṇesu samaṇa­su­khumālo. (50)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena cattāro dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+Paṭha­ma­bhā­ṇavāro niṭṭhito.
+5. Pañcaka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena pañca dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame pañca?
+Pañcakkhandhā. Rūpakkhandho vedanākkhandho saññākkhandho saṅ­khā­rak­khan­dho viññā­ṇak­khan­dho. (1)
+Pañcu­pādā­nak­khan­dhā. Rūpupā­dā­nak­khan­dho vedanupā­dā­nak­khan­dho saññu­pādā­nak­khan­dho saṅ­khā­ru­pādā­nak­khan­dho viñ­ñāṇupā­dā­nak­khan­dho. (2)
+Pañca kāmaguṇā. Cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasañhitā rajanīyā, sotaviññeyyā saddā … ghānaviññeyyā gandhā … jivhāviññeyyā rasā … kāyaviññeyyā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasañhitā rajanīyā. (3)
+Pañca gatiyo—nirayo, tiracchānayoni, pettivisayo, manussā, devā. (4)
+Pañca macchariyāni—āvāsa­maccha­ri­yaṃ, kula­maccha­ri­yaṃ, lābha­maccha­ri­yaṃ, vaṇṇa­maccha­ri­yaṃ, dhamma­maccha­ri­yaṃ. (5)
+Pañca nīvaraṇāni—kāmacchan­da­nīvara­ṇaṃ, ­byāpā­da­nīvara­ṇaṃ, thina­middha­nīvara­ṇaṃ, uddhac­ca­kukkuc­ca­nīvara­ṇaṃ, vici­kicchā­nīvara­ṇaṃ. (6)
+Pañca orambhāgiyāni saṃyojanāni—sakkāyadiṭṭhi, vicikicchā, sīlab­bata­parāmāso, kāmacchando, byāpādo. (7)
+Pañca uddham­bhāgi­yāni saṃyojanāni—rūparāgo, arūparāgo, māno, uddhaccaṃ, avijjā. (8)
+Pañca sikkhāpadāni—pāṇātipātā veramaṇī, adinnādānā veramaṇī, kāmesu­micchā­cārā veramaṇī, musāvādā veramaṇī, surā­meraya­maj­jappa­mādaṭ­ṭhānā veramaṇī. (9)
+Pañca abhab­baṭ­ṭhānāni. Abhabbo, āvuso, khīṇāsavo bhikkhu sañcicca pāṇaṃ jīvitā voropetuṃ. Abhabbo khīṇāsavo bhikkhu adinnaṃ they­ya­saṅ­khā­taṃ ādiyituṃ. Abhabbo khīṇāsavo bhikkhu methunaṃ dhammaṃ paṭisevituṃ. Abhabbo khīṇāsavo bhikkhu sampajānamusā bhāsituṃ. Abhabbo khīṇāsavo bhikkhu sanni­dhi­kārakaṃ kāme paribhuñjituṃ, seyyathāpi pubbe āgārikabhūto. (10)
+* Pañca byasanāni—ñātibyasanaṃ, bhogabyasanaṃ, rogabyasanaṃ, sīlabyasanaṃ, diṭṭhibyasanaṃ. Nāvuso, sattā ñātib­yasa­na­hetu vā bhogab­yasa­na­hetu vā rogab­yasa­na­hetu vā kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapajjanti. Sīlab­yasa­na­hetu vā, āvuso, sattā diṭṭhib­yasa­na­hetu vā kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapajjanti. (11)
+* Pañca sampadā—ñātisampadā, bhogasampadā, ārogyasampadā, sīlasampadā, diṭṭhisampadā. Nāvuso, sattā ñāti­sam­padā­hetu vā bhoga­sam­padā­hetu vā ārogya­sam­padā­hetu vā kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapajjanti. Sīla­sam­padā­hetu vā, āvuso, sattā diṭṭhi­sam­padā­hetu vā kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapajjanti. (12)
+* Pañca ādīnavā dussīlassa sīlavipattiyā. Idhāvuso, dussīlo sīlavipanno pamā­dādhika­ra­ṇaṃ mahatiṃ bhogajāniṃ nigacchati, ayaṃ paṭhamo ādīnavo dussīlassa sīlavipattiyā. Puna caparaṃ, āvuso, dussīlassa sīlavipannassa pāpako kittisaddo abbhuggacchati, ayaṃ dutiyo ādīnavo dussīlassa sīlavipattiyā. Puna caparaṃ, āvuso, dussīlo sīlavipanno yaññadeva parisaṃ upasaṅkamati yadi khat­tiya­parisaṃ yadi brāhma­ṇa­parisaṃ yadi gaha­pati­parisaṃ yadi samaṇaparisaṃ, avisārado upasaṅkamati maṅkubhūto, ayaṃ tatiyo ādīnavo dussīlassa sīlavipattiyā. Puna caparaṃ, āvuso, dussīlo sīlavipanno sammūḷho kālaṃ karoti, ayaṃ catuttho ādīnavo dussīlassa sīlavipattiyā. Puna caparaṃ, āvuso, dussīlo sīlavipanno kāyassa bhedā paraṃ maraṇā apāyaṃ duggatiṃ vinipātaṃ nirayaṃ upapajjati, ayaṃ pañcamo ādīnavo dussīlassa sīlavipattiyā. (13)
+* Pañca ānisaṃsā sīlavato sīlasampadāya. Idhāvuso, sīlavā sīlasampanno appa­mā­dādhika­ra­ṇaṃ mahantaṃ bhogakkhandhaṃ adhigacchati, ayaṃ paṭhamo ānisaṃso sīlavato sīlasampadāya. Puna caparaṃ, āvuso, sīlavato sīla­sam­pannassa kalyāṇo kittisaddo abbhuggacchati, ayaṃ dutiyo ānisaṃso sīlavato sīlasampadāya. Puna caparaṃ, āvuso, sīlavā sīlasampanno yaññadeva parisaṃ upasaṅkamati yadi khat­tiya­parisaṃ yadi brāhma­ṇa­parisaṃ yadi gaha­pati­parisaṃ yadi samaṇaparisaṃ, visārado upasaṅkamati amaṅkubhūto, ayaṃ tatiyo ānisaṃso sīlavato sīlasampadāya. Puna caparaṃ, āvuso, sīlavā sīlasampanno asammūḷho kālaṃ karoti, ayaṃ catuttho ānisaṃso sīlavato sīlasampadāya. Puna caparaṃ, āvuso, sīlavā sīlasampanno kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapajjati, ayaṃ pañcamo ānisaṃso sīlavato sīlasampadāya. (14)
+Codakena, āvuso, bhikkhunā paraṃ codetukāmena pañca dhamme ajjhattaṃ upaṭṭhapetvā paro codetabbo. Kālena vakkhāmi no akālena, bhūtena vakkhāmi no abhūtena, saṇhena vakkhāmi no pharusena, atthasaṃhitena vakkhāmi no anat­tha­saṃhi­tena, mettacittena vakkhāmi no dosantarenāti. Codakena, āvuso, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ upaṭṭhapetvā paro codetabbo. (15)
+Pañca padhāniyaṅgāni. Idhāvuso, bhikkhu saddho hoti, saddahati tathāgatassa bodhiṃ: ‘itipi so bhagavā arahaṃ sammāsambuddho vij­jācara­ṇa­sam­panno sugato, lokavidū anuttaro purisa­damma­sāra­thi satthā devamanussānaṃ buddho bhagavā’ti. Appābādho hoti appātaṅko, samavepākiniyā gahaṇiyā samannāgato nātisītāya nāccuṇhāya majjhimāya padhā­nak­kha­māya. Asaṭho hoti amāyāvī, yathābhūtaṃ attānaṃ āvikattā satthari vā viññūsu vā sabrahmacārīsu. Āraddhavīriyo viharati akusalānaṃ dhammānaṃ pahānāya kusalānaṃ dhammānaṃ upasampadāya thāmavā daḷhaparakkamo anikkhit­ta­dhuro kusalesu dhammesu. Paññavā hoti uda­yattha­gā­miniyā paññāya samannāgato ariyāya nibbedhikāya sammā­duk­khak­kha­ya­gā­miniyā. (16)
+Pañca suddhāvāsā—avihā, atappā, sudassā, sudassī, akaniṭṭhā. (17)
+Pañca anāgāmino—antarā­pari­nib­bāyī, upahac­ca­pari­nib­bāyī, asaṅ­khā­ra­pari­nib­bāyī, sasaṅ­khā­ra­pari­nib­bāyī, uddhaṃ­sotoa­kaniṭ­ṭha­gāmī. (18)
+* Pañca cetokhilā. Idhāvuso, bhikkhu satthari kaṅkhati vicikicchati nādhimuccati na sampasīdati. Yo so, āvuso, bhikkhu satthari kaṅkhati vicikicchati nādhimuccati na sampasīdati, tassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya, yassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṃ paṭhamo cetokhilo. Puna caparaṃ, āvuso, bhikkhu dhamme kaṅkhati vicikicchati … pe … saṃghe kaṅkhati vicikicchati … sikkhāya kaṅkhati vicikicchati … sabrahmacārīsu kupito hoti anattamano āhatacitto khilajāto. Yo so, āvuso, bhikkhu sabrahmacārīsu kupito hoti anattamano āhatacitto khilajāto, tassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya, yassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṃ pañcamo cetokhilo. (19)
+* Pañca cetaso­vini­bandhā. Idhāvuso, bhikkhu kāmesu avītarāgo hoti avigatacchando avigatapemo avigatapipāso avigata­pari­ḷāho avigatataṇho. Yo so, āvuso, bhikkhu kāmesu avītarāgo hoti avigatacchando avigatapemo avigatapipāso avigata­pari­ḷāho avigatataṇho, tassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya. Yassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya. Ayaṃ paṭhamo cetaso vinibandho. Puna caparaṃ, āvuso, bhikkhu kāye avītarāgo hoti … pe … rūpe avītarāgo hoti … pe … puna caparaṃ, āvuso, bhikkhu yāvadatthaṃ udarāvadehakaṃ bhuñjitvā seyyasukhaṃ passasukhaṃ middhasukhaṃ anuyutto viharati … pe … puna caparaṃ, āvuso, bhikkhu aññataraṃ devanikāyaṃ paṇidhāya brahmacariyaṃ carati: ‘imināhaṃ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti. Yo so, āvuso, bhikkhu aññataraṃ devanikāyaṃ paṇidhāya brahmacariyaṃ carati: ‘imināhaṃ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti, tassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya. Yassa cittaṃ na namati ātappāya anuyogāya sātaccāya padhānāya. Ayaṃ pañcamo cetaso vinibandho. (20)
+Pañcindriyāni—cakkhundriyaṃ, sotindriyaṃ, ghānindriyaṃ, jivhindriyaṃ, kāyindriyaṃ. (21)
+Aparānipi pañcindriyāni—sukhindriyaṃ, dukkhindriyaṃ, somanas­sindriyaṃ, domanas­sindriyaṃ, upekkhindriyaṃ. (22)
+Aparānipi pañcindriyāni—saddhindriyaṃ, vīriyindriyaṃ, satindriyaṃ, samādhindriyaṃ, paññindriyaṃ. (23)
+Pañca nissaraṇiyā dhātuyo. Idhāvuso, bhikkhuno kāme manasikaroto kāmesu cittaṃ na pakkhandati na pasīdati na santiṭṭhati na vimuccati. Nekkhammaṃ kho panassa manasikaroto nekkhamme cittaṃ pakkhandati pasīdati santiṭṭhati vimuccati. Tassa taṃ cittaṃ sugataṃ subhāvitaṃ suvuṭṭhitaṃ suvimuttaṃ visaṃyuttaṃ kāmehi. Ye ca kāmapaccayā uppajjanti āsavā vighātā pariḷāhā, mutto so tehi, na so taṃ vedanaṃ vedeti. Idamakkhātaṃ kāmānaṃ nissaraṇaṃ. (24.1)
+Puna caparaṃ, āvuso, bhikkhuno byāpādaṃ manasikaroto byāpāde cittaṃ na pakkhandati na pasīdati na santiṭṭhati na vimuccati. Abyāpādaṃ kho panassa manasikaroto abyāpāde cittaṃ pakkhandati pasīdati santiṭṭhati vimuccati. Tassa taṃ cittaṃ sugataṃ subhāvitaṃ suvuṭṭhitaṃ suvimuttaṃ visaṃyuttaṃ byāpādena. Ye ca byāpādapaccayā uppajjanti āsavā vighātā pariḷāhā, mutto so tehi, na so taṃ vedanaṃ vedeti. Idamakkhātaṃ byāpādassa nissaraṇaṃ. (24.2)
+Puna caparaṃ, āvuso, bhikkhuno vihesaṃ manasikaroto vihesāya cittaṃ na pakkhandati na pasīdati na santiṭṭhati na vimuccati. Avihesaṃ kho panassa manasikaroto avihesāya cittaṃ pakkhandati pasīdati santiṭṭhati vimuccati. Tassa taṃ cittaṃ sugataṃ subhāvitaṃ suvuṭṭhitaṃ suvimuttaṃ visaṃyuttaṃ vihesāya. Ye ca vihesāpaccayā uppajjanti āsavā vighātā pariḷāhā, mutto so tehi, na so taṃ vedanaṃ vedeti. Idamakkhātaṃ vihesāya nissaraṇaṃ. (24.3)
+Puna caparaṃ, āvuso, bhikkhuno rūpe manasikaroto rūpesu cittaṃ na pakkhandati na pasīdati na santiṭṭhati na vimuccati. Arūpaṃ kho panassa manasikaroto arūpe cittaṃ pakkhandati pasīdati santiṭṭhati vimuccati. Tassa taṃ cittaṃ sugataṃ subhāvitaṃ suvuṭṭhitaṃ suvimuttaṃ visaṃyuttaṃ rūpehi. Ye ca rūpapaccayā uppajjanti āsavā vighātā pariḷāhā, mutto so tehi, na so taṃ vedanaṃ vedeti. Idamakkhātaṃ rūpānaṃ nissaraṇaṃ. (24.4)
+Puna caparaṃ, āvuso, bhikkhuno sakkāyaṃ manasikaroto sakkāye cittaṃ na pakkhandati na pasīdati na santiṭṭhati na vimuccati. Sakkā­ya­nirodhaṃ kho panassa manasikaroto sakkāyanirodhe cittaṃ pakkhandati pasīdati santiṭṭhati vimuccati. Tassa taṃ cittaṃ sugataṃ subhāvitaṃ suvuṭṭhitaṃ suvimuttaṃ visaṃyuttaṃ sakkāyena. Ye ca sakkāyapaccayā uppajjanti āsavā vighātā pariḷāhā, mutto so tehi, na so taṃ vedanaṃ vedeti. Idamakkhātaṃ sakkāyassa nissaraṇaṃ. (24.5)
+Pañca vimut­tāyata­nāni. Idhāvuso, bhikkhuno satthā dhammaṃ deseti aññataro vā garuṭṭhāniyo sabrahmacārī. Yathā yathā, āvuso, bhikkhuno satthā dhammaṃ deseti aññataro vā garuṭṭhāniyo sabrahmacārī tathā tathā so tasmiṃ dhamme atthapa­ṭi­saṃ­vedī ca hoti dhamma­paṭi­saṃ­vedī ca. Tassa attha­paṭi­saṃ­ve­dino dhamma­paṭi­saṃ­ve­dino pāmojjaṃ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṃ vedeti, sukhino cittaṃ samādhiyati. Idaṃ paṭhamaṃ vimuttāyatanaṃ. (25.1)
+Puna caparaṃ, āvuso, bhikkhuno na heva kho satthā dhammaṃ deseti aññataro vā garuṭṭhāniyo sabrahmacārī, api ca kho yathāsutaṃ yathā­pariyat­taṃ dhammaṃ vitthārena paresaṃ deseti … pe … api ca kho yathāsutaṃ yathā­pariyat­taṃ dhammaṃ vitthārena sajjhāyaṃ karoti … pe … api ca kho yathāsutaṃ yathā­pariyat­taṃ dhammaṃ cetasā anuvitakketi anuvicāreti manasā­nupekkhati … pe … api ca khvassa aññataraṃ samā­dhi­nimittaṃ suggahitaṃ hoti sumanasikataṃ sūpadhāritaṃ suppaṭividdhaṃ paññāya. Yathā yathā, āvuso, bhikkhuno aññataraṃ samā­dhi­nimittaṃ suggahitaṃ hoti sumanasikataṃ sūpadhāritaṃ suppaṭividdhaṃ paññāya tathā tathā so tasmiṃ dhamme atthapa­ṭi­saṃ­vedī ca hoti dhamma­paṭi­saṃ­vedī ca. Tassa attha­paṭi­saṃ­ve­dino dhamma­paṭi­saṃ­ve­dino pāmojjaṃ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṃ vedeti, sukhino cittaṃ samādhiyati. Idaṃ pañcamaṃ vimuttāyatanaṃ. (25.2–5.)
+Pañca vimutti­pari­pā­canīyā saññā—aniccasaññā, anicce dukkhasaññā, dukkhe anattasaññā, pahānasaññā, virāgasaññā. (26)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena pañca dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+6. Chakka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena cha dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame cha?
+Cha ajjhattikāni āyatanāni—cakkhāyatanaṃ, sotāyatanaṃ, ghānāyatanaṃ, jivhāyatanaṃ, kāyāyatanaṃ, manāyatanaṃ. (1)
+Cha bāhirāni āyatanāni—rūpāyatanaṃ, saddāyatanaṃ, gandhāyatanaṃ, rasāyatanaṃ, ­phoṭṭhab­bā­yatanaṃ, dhammāyatanaṃ. (2)
+Cha viññāṇakāyā—cakkhuviññāṇaṃ, sotaviññāṇaṃ, ghānaviññāṇaṃ, jivhāviññāṇaṃ, kāyaviññāṇaṃ, manoviññāṇaṃ. (3)
+Cha phassakāyā—cak­khu­samphasso, sotasamphasso, ghānasamphasso, jivhāsamphasso, kāyasamphasso, manosamphasso. (4)
+Cha vedanākāyā—cak­khu­samphas­sajā vedanā, sota­samphas­sajā vedanā, ghāna­samphas­sajā vedanā, jivhā­samphas­sajā vedanā, kāya­samphas­sajā vedanā, mano­samphas­sajā vedanā. (5)
+Cha saññākāyā—rūpasaññā, saddasaññā, gandhasaññā, rasasaññā, ­phoṭṭhab­ba­saññā, dhammasaññā. (6)
+Cha sañcetanākāyā—rūpasañcetanā, saddasañcetanā, gandha­sañ­cetanā, rasasañcetanā, ­phoṭṭhab­ba­sañ­cetanā, dhamma­sañ­cetanā. (7)
+Cha taṇhākāyā—rūpataṇhā, saddataṇhā, gandhataṇhā, rasataṇhā, ­phoṭṭhab­ba­taṇhā, dhammataṇhā. (8)
+* Cha agāravā. Idhāvuso, bhikkhu satthari agāravo viharati appatisso; dhamme agāravo viharati appatisso; saṃghe agāravo viharati appatisso; sikkhāya agāravo viharati appatisso; appamāde agāravo viharati appatisso; paṭisanthāre agāravo viharati appatisso. (9)
+Cha gāravā. Idhāvuso, bhikkhu satthari sagāravo viharati sappatisso; dhamme sagāravo viharati sappatisso; saṅghe sagāravo viharati sappatisso; sikkhāya sagāravo viharati sappatisso; appamāde sagāravo viharati sappatisso; paṭisanthāre sagāravo viharati sappatisso. (10)
+Cha soma­nassū­pavi­cārā. Cakkhunā rūpaṃ disvā somanas­saṭ­ṭhāni­yaṃ rūpaṃ upavicarati; sotena saddaṃ sutvā … ghānena gandhaṃ ghāyitvā … jivhāya rasaṃ sāyitvā … kāyena phoṭṭhabbaṃ phusitvā. Manasā dhammaṃ viññāya somanas­saṭ­ṭhāni­yaṃ dhammaṃ upavicarati. (11)
+Cha domanas­sūpa­vicārā. Cakkhunā rūpaṃ disvā domanas­saṭ­ṭhāni­yaṃ rūpaṃ upavicarati … pe … manasā dhammaṃ viññāya domanas­saṭ­ṭhāni­yaṃ dhammaṃ upavicarati. (12)
+Cha upekkhū­pavi­cārā. Cakkhunā rūpaṃ disvā upekkhāṭ­ṭhāni­yaṃ rūpaṃ upavicarati … pe … manasā dhammaṃ viññāya upekkhāṭ­ṭhāni­yaṃ dhammaṃ upavicarati. (13)
+* Cha sāraṇīyā dhammā. Idhāvuso, bhikkhuno mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. (14.1)
+Puna caparaṃ, āvuso, bhikkhuno mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvi ceva raho ca. Ayampi dhammo sāraṇīyo … pe … ekībhāvāya saṃvattati. (14.2)
+Puna caparaṃ, āvuso, bhikkhuno mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvi ceva raho ca. Ayampi dhammo sāraṇīyo … pe … ekībhāvāya saṃvattati. (14.3)
+Puna caparaṃ, āvuso, bhikkhu ye te lābhā dhammikā dhammaladdhā antamaso patta­pariyā­panna­mattampi, tathārūpehi lābhehi appaṭi­vibhat­ta­bhogī hoti sīlavantehi sabrahmacārīhi sādhāraṇabhogī. Ayampi dhammo sāraṇīyo … pe … ekībhāvāya saṃvattati. (14.4)
+Puna caparaṃ, āvuso, bhikkhu yāni tāni sīlāni akhaṇḍāni acchiddāni asabalāni akammāsāni bhujissāni viññup­pasat­thāni aparāmaṭṭhāni samā­dhi­saṃ­vatta­ni­kāni, tathārūpesu sīlesu sīla­sāmañ­ña­gato viharati sabrahmacārīhi āvi ceva raho ca. Ayampi dhammo sāraṇīyo … pe … ekībhāvāya saṃvattati. (14.5)
+Puna caparaṃ, āvuso, bhikkhu yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhi­sāmañ­ña­gato viharati sabrahmacārīhi āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. (14.6)
+* Cha vivādamūlāni. Idhāvuso, bhikkhu kodhano hoti upanāhī. Yo so, āvuso, bhikkhu kodhano hoti upanāhī, so sattharipi agāravo viharati appatisso, dhammepi agāravo viharati appatisso, saṃghepi agāravo viharati appatisso, sikkhāyapi na paripūrakārī hoti. Yo so, āvuso, bhikkhu satthari agāravo viharati appatisso, dhamme agāravo viharati appatisso, saṃghe agāravo viharati appatisso, sikkhāya na paripūrakārī, so saṃghe vivādaṃ janeti. Yo hoti vivādo bahujanāhitāya bahu­janā­su­khāya anatthāya ahitāya dukkhāya devamanussānaṃ. Evarūpañce tumhe, āvuso, vivādamūlaṃ ajjhattaṃ vā bahiddhā vā samanupas­seyyā­tha. Tatra tumhe, āvuso, tasseva pāpakassa vivādamūlassa pahānāya vāyameyyātha. Evarūpañce tumhe, āvuso, vivādamūlaṃ ajjhattaṃ vā bahiddhā vā na samanupas­seyyā­tha. Tatra tumhe, āvuso, tasseva pāpakassa vivādamūlassa āyatiṃ anavassavāya paṭi­paj­jeyyā­tha. Evametassa pāpakassa vivādamūlassa pahānaṃ hoti. Evametassa pāpakassa vivādamūlassa āyatiṃ anavassavo hoti.
+Puna caparaṃ, āvuso, bhikkhu makkhī hoti paḷāsī … pe … issukī hoti maccharī … pe … saṭho hoti māyāvī … pāpiccho hoti micchādiṭṭhī … sandiṭ­ṭhi­parāmāsī hoti ādhānaggāhī ­duppaṭi­nissaggī … pe … yo so, āvuso, bhikkhu sandiṭ­ṭhi­parāmāsī hoti ādhānaggāhī ­duppaṭi­nissaggī, so sattharipi agāravo viharati appatisso, dhammepi agāravo viharati appatisso, saṅghepi agāravo viharati appatisso, sikkhāyapi na paripūrakārī hoti. Yo so, āvuso, bhikkhu satthari agāravo viharati appatisso, dhamme agāravo viharati appatisso, saṅghe agāravo viharati appatisso, sikkhāya na paripūrakārī, so saṅghe vivādaṃ janeti. Yo hoti vivādo bahujanāhitāya bahu­janā­su­khāya anatthāya ahitāya dukkhāya devamanussānaṃ. Evarūpañce tumhe, āvuso, vivādamūlaṃ ajjhattaṃ vā bahiddhā vā samanupas­seyyā­tha. Tatra tumhe, āvuso, tasseva pāpakassa vivādamūlassa pahānāya vāyameyyātha. Evarūpañce tumhe, āvuso, vivādamūlaṃ ajjhattaṃ vā bahiddhā vā na samanupas­seyyā­tha. Tatra tumhe, āvuso, tasseva pāpakassa vivādamūlassa āyatiṃ anavassavāya paṭi­paj­jeyyā­tha. Evametassa pāpakassa vivādamūlassa pahānaṃ hoti. Evametassa pāpakassa vivādamūlassa āyatiṃ anavassavo hoti. (15)
+Cha dhātuyo—pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu, ākāsadhātu, viññāṇadhātu. (16)
+Cha nissaraṇiyā dhātuyo. Idhāvuso, bhikkhu evaṃ vadeyya: ‘mettā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā, atha ca pana me byāpādo cittaṃ pariyādāya tiṭṭhatī’ti. So ‘mā hevan’tissa vacanīyo, ‘māyasmā evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Aṭṭhānametaṃ, āvuso, anavakāso, yaṃ mettāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya. Atha ca panassa byāpādo cittaṃ pariyādāya ṭhassati, netaṃ ṭhānaṃ vijjati. Nissaraṇaṃ hetaṃ, āvuso, byāpādassa, yadidaṃ mettā cetovimuttī’ti. (17.1)
+Idha panāvuso, bhikkhu evaṃ vadeyya: ‘karuṇā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā. Atha ca pana me vihesā cittaṃ pariyādāya tiṭṭhatī’ti, so ‘mā hevan’tissa vacanīyo ‘māyasmā evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Aṭṭhānametaṃ, āvuso, anavakāso, yaṃ karuṇāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya, atha ca panassa vihesā cittaṃ pariyādāya ṭhassati, netaṃ ṭhānaṃ vijjati. Nissaraṇaṃ hetaṃ, āvuso, vihesāya, yadidaṃ karuṇā cetovimuttī’ti. (17.2)
+Idha panāvuso, bhikkhu evaṃ vadeyya: ‘muditā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā. Atha ca pana me arati cittaṃ pariyādāya tiṭṭhatī’ti, so ‘mā hevan’tissa vacanīyo ‘māyasmā evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Aṭṭhānametaṃ, āvuso, anavakāso, yaṃ muditāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya, atha ca panassa arati cittaṃ pariyādāya ṭhassati, netaṃ ṭhānaṃ vijjati. Nissaraṇaṃ hetaṃ, āvuso, aratiyā, yadidaṃ muditā cetovimuttī’ti. (17.3)
+Idha panāvuso, bhikkhu evaṃ vadeyya: ‘upekkhā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā. Atha ca pana me rāgo cittaṃ pariyādāya tiṭṭhatī’ti. So ‘mā hevan’tissa vacanīyo ‘māyasmā evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Aṭṭhānametaṃ, āvuso, anavakāso, yaṃ upekkhāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya, atha ca panassa rāgo cittaṃ pariyādāya ṭhassati netaṃ ṭhānaṃ vijjati. Nissaraṇaṃ hetaṃ, āvuso, rāgassa, yadidaṃ upekkhā cetovimuttī’ti. (17.4)
+Idha panāvuso, bhikkhu evaṃ vadeyya: ‘animittā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā. Atha ca pana me nimittānusāri viññāṇaṃ hotī’ti. So ‘mā hevan’tissa vacanīyo ‘māyasmā evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Aṭṭhānametaṃ, āvuso, anavakāso, yaṃ animittāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya, atha ca panassa nimittānusāri viññāṇaṃ bhavissati, netaṃ ṭhānaṃ vijjati. Nissaraṇaṃ hetaṃ, āvuso, sabba­nimittā­naṃ, yadidaṃ animittā cetovimuttī’ti. (17.5)
+Idha panāvuso, bhikkhu evaṃ vadeyya: ‘asmīti kho me vigataṃ, ayamahamasmīti na samanupassāmi, atha ca pana me vici­kicchā­kathaṃ­kathā­sallaṃ cittaṃ pariyādāya tiṭṭhatī’ti. So ‘mā hevan’tissa vacanīyo ‘māyasmā evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Aṭṭhānametaṃ, āvuso, anavakāso, yaṃ asmīti vigate ayamahamasmīti asamanupassato, atha ca panassa vici­kicchā­kathaṃ­kathā­sallaṃ cittaṃ pariyādāya ṭhassati, netaṃ ṭhānaṃ vijjati. Nissaraṇaṃ hetaṃ, āvuso, vici­kicchā­kathaṃ­kathā­sallassa, yadidaṃ asmi­māna­samug­ghāto’ti. (17.6)
+* Cha anuttariyāni—dassa­nā­nuttari­yaṃ, sava­nā­nuttari­yaṃ, lābhā­nuttari­yaṃ, sikkhā­nuttari­yaṃ, pāri­cari­yā­nuttari­yaṃ, anus­sa­tā­nuttari­yaṃ. (18)
+* Cha anus­satiṭ­ṭhānāni—buddhānussati, dhammānussati, saṃghānussati, sīlānussati, cāgānussati, devatānussati. (19)
+Cha satatavihārā. Idhāvuso, bhikkhu cakkhunā rūpaṃ disvā neva sumano hoti na dummano, upekkhako viharati sato sampajāno. Sotena saddaṃ sutvā … pe … manasā dhammaṃ viññāya neva sumano hoti na dummano, upekkhako viharati sato sampajāno. (20)
+Chaḷābhijātiyo. Idhāvuso, ekacco kaṇhābhijātiko samāno kaṇhaṃ dhammaṃ abhijāyati. Idha panāvuso, ekacco kaṇhābhijātiko samāno sukkaṃ dhammaṃ abhijāyati. Idha panāvuso, ekacco kaṇhābhijātiko samāno akaṇhaṃ asukkaṃ nibbānaṃ abhijāyati. Idha panāvuso, ekacco sukkābhijātiko samāno sukkaṃ dhammaṃ abhijāyati. Idha panāvuso, ekacco sukkābhijātiko samāno kaṇhaṃ dhammaṃ abhijāyati. Idha panāvuso, ekacco sukkābhijātiko samāno akaṇhaṃ asukkaṃ nibbānaṃ abhijāyati. (21)
+Cha nibbedha­bhāgiyā saññā —aniccasaññā anicce, dukkhasaññā dukkhe, anattasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. (22)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena cha dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+7. Sattaka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena satta dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame satta?
+Satta ariyadhanāni—saddhādhanaṃ, sīladhanaṃ, hiridhanaṃ, ottappadhanaṃ, sutadhanaṃ, cāgadhanaṃ, paññādhanaṃ. (1)
+Satta bojjhaṅgā—sati­sam­boj­jhaṅgo, dhamma­vicaya­sam­boj­jhaṅgo, vīriya­sam­boj­jhaṅgo, pīti­sam­boj­jhaṅgo, passad­dhi­sam­boj­jhaṅgo, samā­dhi­sam­boj­jhaṅgo, upekkhā­sam­boj­jhaṅgo. (2)
+Satta samā­dhi­parik­khārā—sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati. (3)
+* Satta asaddhammā—idhāvuso, bhikkhu assaddho hoti, ahiriko hoti, anottappī hoti, appassuto hoti, kusīto hoti, muṭṭhassati hoti, duppañño hoti. (4)
+* Satta saddhammā—idhāvuso, bhikkhu saddho hoti, hirimā hoti, ottappī hoti, bahussuto hoti, āraddhavīriyo hoti, upaṭṭhitassati hoti, paññavā hoti. (5)
+Satta sap­purisa­dhammā—idhāvuso, bhikkhu dhammaññū ca hoti atthaññū ca attaññū ca mattaññū ca kālaññū ca parisaññū ca puggalaññū ca. (6)
+Satta nidda­sa­vatthūni. Idhāvuso, bhikkhu sikkhāsamādāne tibbacchando hoti, āyatiñca sikkhāsamādāne avigatapemo. Dhamma­ni­santiyā tibbacchando hoti, āyatiñca dhamma­ni­santiyā avigatapemo. Icchāvinaye tibbacchando hoti, āyatiñca icchāvinaye avigatapemo. Paṭisallāne tibbacchando hoti, āyatiñca paṭisallāne avigatapemo. Vīriyārambhe tibbacchando hoti, āyatiñca vīriyārambhe avigatapemo. Satinepakke tibbacchando hoti, āyatiñca satinepakke avigatapemo. Diṭṭhi­paṭi­vedhe tibbacchando hoti, āyatiñca diṭṭhi­paṭi­vedhe avigatapemo. (7)
+Satta saññā—aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. (8)
+Satta balāni—saddhābalaṃ, vīriyabalaṃ, hiribalaṃ, ottappabalaṃ, satibalaṃ, samādhibalaṃ, paññābalaṃ. (9)
+Satta viñ­ñā­ṇaṭ­ṭhitiyo. Santāvuso,* sattā nānattakāyā nānattasaññino, seyyathāpi manussā ekacce ca devā ekacce ca vinipātikā. Ayaṃ paṭhamā viññāṇaṭṭhiti.
+Santāvuso, sattā nānattakāyā ekattasaññino seyyathāpi devā brahmakāyikā paṭha­mā­bhi­nib­battā. Ayaṃ dutiyā viññāṇaṭṭhiti.
+Santāvuso, sattā ekattakāyā nānattasaññino seyyathāpi devā ābhassarā. Ayaṃ tatiyā viññāṇaṭṭhiti.
+Santāvuso, sattā ekattakāyā ekattasaññino seyyathāpi devā subhakiṇhā. Ayaṃ catutthī viññāṇaṭṭhiti.
+Santāvuso, sattā sabbaso rūpasaññānaṃ samatikkamā paṭi­gha­saññā­naṃ atthaṅgamā nānat­ta­saññā­naṃ amanasikārā ‘ananto ākāso’ti ākāsānañ­cāya­tanūpagā. Ayaṃ pañcamī viññāṇaṭṭhiti.
+Santāvuso, sattā sabbaso ākāsānañ­cāyata­naṃ samatikkamma ‘anantaṃ viññāṇan’ti viñ­ñā­ṇañ­cāya­tanūpagā. Ayaṃ chaṭṭhī viññāṇaṭṭhiti.
+Santāvuso, sattā sabbaso viñ­ñā­ṇañ­cāyata­naṃ samatikkamma ‘natthi kiñcī’ti ākiñ­cañ­ñā­ya­tanūpagā. Ayaṃ sattamī viññāṇaṭṭhiti. (10)
+Satta puggalā dakkhiṇeyyā—ubhato­bhāga­vimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. (11)
+Satta anusayā—kāmarāgānusayo, paṭighānusayo, diṭṭhānusayo, vici­kicchā­nusayo, mānānusayo, bhava­rāgā­nusayo, avijjānusayo. (12)
+Satta saṃyojanāni—anuna­ya­saṃ­yoja­naṃ, paṭi­gha­saṃ­yoja­naṃ, diṭṭhi­saṃ­yoja­naṃ, vici­kicchā­saṃ­yoja­naṃ, mānasaṃyojanaṃ, bhava­rāga­saṃ­yoja­naṃ, avijjā­saṃ­yoja­naṃ. (13)
+Satta adhika­ra­ṇa­sama­thā—uppan­nup­pan­nā­naṃ adhikaraṇānaṃ samathāya vūpasamāya sammukhāvinayo dātabbo, sativinayo dātabbo, amūḷhavinayo dātabbo, paṭiññāya kāretabbaṃ, yebhuyyasikā, tassa­pāpiya­sikā, tiṇavatthārako. (14)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena satta dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+Dutiya­bhā­ṇavāro niṭṭhito.
+8. Aṭṭhaka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena aṭṭha dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame aṭṭha?
+Aṭṭha micchattā—micchādiṭṭhi, micchāsaṅkappo, micchāvācā, micchākammanto, micchāājīvo, micchāvāyāmo micchāsati, micchāsamādhi. (1)
+Aṭṭha sammattā—sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati, sammāsamādhi. (2)
+Aṭṭha puggalā dakkhiṇeyyā—sotāpanno, sotā­patti­phala­sacchi­kiriyāya paṭipanno; sakadāgāmī, sakadā­gāmi­phala­sacchi­kiriyāya paṭipanno; anāgāmī, anāgā­mi­phala­sacchi­kiriyāya paṭipanno; arahā, arahat­ta­phala­sacchi­kiriyāya paṭipanno. (3)
+* Aṭṭha kusītavatthūni. Idhāvuso, bhikkhunā kammaṃ kātabbaṃ hoti. Tassa evaṃ hoti: ‘kammaṃ kho me kātabbaṃ bhavissati, kammaṃ kho pana me karontassa kāyo kilamissati, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. Idaṃ paṭhamaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhunā kammaṃ kataṃ hoti. Tassa evaṃ hoti: ‘ahaṃ kho kammaṃ akāsiṃ, kammaṃ kho pana me karontassa kāyo kilanto, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati … pe … idaṃ dutiyaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhunā maggo gantabbo hoti. Tassa evaṃ hoti: ‘maggo kho me gantabbo bhavissati, maggaṃ kho pana me gacchantassa kāyo kilamissati, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati … idaṃ tatiyaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhunā maggo gato hoti. Tassa evaṃ hoti: ‘ahaṃ kho maggaṃ agamāsiṃ, maggaṃ kho pana me gacchantassa kāyo kilanto, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati … idaṃ catutthaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhu gāmaṃ vā nigamaṃ vā piṇḍāya caranto na labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ. Tassa evaṃ hoti: ‘ahaṃ kho gāmaṃ vā nigamaṃ vā piṇḍāya caranto nālatthaṃ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ, tassa me kāyo kilanto akammañño, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati … idaṃ pañcamaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhu gāmaṃ vā nigamaṃ vā piṇḍāya caranto labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ. Tassa evaṃ hoti: ‘ahaṃ kho gāmaṃ vā nigamaṃ vā piṇḍāya caranto alatthaṃ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ, tassa me kāyo garuko akammañño, māsācitaṃ maññe, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati … idaṃ chaṭṭhaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhuno uppanno hoti appamattako ābādho. Tassa evaṃ hoti: ‘uppanno kho me ayaṃ appamattako ābādho; atthi kappo nipajjituṃ, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati … idaṃ sattamaṃ kusītavatthu.
+Puna caparaṃ, āvuso, bhikkhu gilānā vuṭṭhito hoti aciravuṭṭhito gelaññā. Tassa evaṃ hoti: ‘ahaṃ kho gilānā vuṭṭhito aciravuṭṭhito gelaññā, tassa me kāyo dubbalo akammañño, handāhaṃ nipajjāmī’ti. So nipajjati na vīriyaṃ ārabhati appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. Idaṃ aṭṭhamaṃ kusītavatthu. (4)
+Aṭṭha āram­bha­vatthūni. Idhāvuso, bhikkhunā kammaṃ kātabbaṃ hoti. Tassa evaṃ hoti: ‘kammaṃ kho me kātabbaṃ bhavissati, kammaṃ kho pana me karontena na sukaraṃ buddhānaṃ sāsanaṃ manasi kātuṃ, handāhaṃ vīriyaṃ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya, asacchikatassa sacchikiriyāyā’ti. So vīriyaṃ ārabhati appattassa pattiyā, anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. Idaṃ paṭhamaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhunā kammaṃ kataṃ hoti. Tassa evaṃ hoti: ‘ahaṃ kho kammaṃ akāsiṃ, kammaṃ kho panāhaṃ karonto nāsakkhiṃ buddhānaṃ sāsanaṃ manasi kātuṃ, handāhaṃ vīriyaṃ ārabhāmi … pe … so vīriyaṃ ārabhati … idaṃ dutiyaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhunā maggo gantabbo hoti. Tassa evaṃ hoti: ‘maggo kho me gantabbo bhavissati, maggaṃ kho pana me gacchantena na sukaraṃ buddhānaṃ sāsanaṃ manasi kātuṃ. Handāhaṃ vīriyaṃ ārabhāmi … pe … so vīriyaṃ ārabhati … idaṃ tatiyaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhunā maggo gato hoti. Tassa evaṃ hoti: ‘ahaṃ kho maggaṃ agamāsiṃ, maggaṃ kho panāhaṃ gacchanto nāsakkhiṃ buddhānaṃ sāsanaṃ manasi kātuṃ, handāhaṃ vīriyaṃ ārabhāmi … pe … so vīriyaṃ ārabhati … idaṃ catutthaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhu gāmaṃ vā nigamaṃ vā piṇḍāya caranto na labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ. Tassa evaṃ hoti: ‘ahaṃ kho gāmaṃ vā nigamaṃ vā piṇḍāya caranto nālatthaṃ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ, tassa me kāyo lahuko kammañño, handāhaṃ vīriyaṃ ārabhāmi … pe … so vīriyaṃ ārabhati … idaṃ pañcamaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhu gāmaṃ vā nigamaṃ vā piṇḍāya caranto labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ. Tassa evaṃ hoti: ‘ahaṃ kho gāmaṃ vā nigamaṃ vā piṇḍāya caranto alatthaṃ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṃ pāripūriṃ, tassa me kāyo balavā kammañño, handāhaṃ vīriyaṃ ārabhāmi … pe … so vīriyaṃ ārabhati … idaṃ chaṭṭhaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhuno uppanno hoti appamattako ābādho. Tassa evaṃ hoti: ‘uppanno kho me ayaṃ appamattako ābādho, ṭhānaṃ kho panetaṃ vijjati yaṃ me ābādho pavaḍḍheyya, handāhaṃ vīriyaṃ ārabhāmi … pe … so vīriyaṃ ārabhati … idaṃ sattamaṃ ārambhavatthu.
+Puna caparaṃ, āvuso, bhikkhu gilānā vuṭṭhito hoti aciravuṭṭhito gelaññā. Tassa evaṃ hoti: ‘ahaṃ kho gilānā vuṭṭhito aciravuṭṭhito gelaññā, ṭhānaṃ kho panetaṃ vijjati yaṃ me ābādho paccu­dāvat­teyya, handāhaṃ vīriyaṃ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. So vīriyaṃ ārabhati appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. Idaṃ aṭṭhamaṃ ārambhavatthu. (5)
+* Aṭṭha dānavatthūni. Āsajja dānaṃ deti, bhayā dānaṃ deti, ‘adāsi me’ti dānaṃ deti, ‘dassati me’ti dānaṃ deti, ‘sāhu dānan’ti dānaṃ deti, ‘ahaṃ pacāmi, ime na pacanti, nārahāmi pacanto apacantānaṃ dānaṃ na dātun’ti dānaṃ deti, ‘idaṃ me dānaṃ dadato kalyāṇo kittisaddo abbhuggacchatī’ti dānaṃ deti. Cit­tā­laṅkā­ra­citta­parik­khā­rat­thaṃ dānaṃ deti. (6)
+* Aṭṭha dānūpapattiyo. Idhāvuso, ekacco dānaṃ deti samaṇassa vā brāhmaṇassa vā annaṃ pānaṃ vatthaṃ yānaṃ mālā­gandha­vi­lepa­naṃ sey­yāvasa­tha­padī­peyyaṃ. So yaṃ deti taṃ paccāsīsati. So passati khat­tiya­ma­hāsā­laṃ vā brāhma­ṇa­ma­hāsā­laṃ vā gaha­pati­ma­hāsā­laṃ vā pañcahi kāmaguṇehi samappitaṃ samaṅgībhūtaṃ pari­cā­rayamā­naṃ. Tassa evaṃ hoti: ‘aho vatāhaṃ kāyassa bhedā paraṃ maraṇā khat­tiya­ma­hāsā­lā­naṃ vā brāhma­ṇa­ma­hāsā­lā­naṃ vā gaha­pati­ma­hāsā­lā­naṃ vā sahabyataṃ upapajjeyyan’ti. So taṃ cittaṃ dahati, taṃ cittaṃ adhiṭṭhāti, taṃ cittaṃ bhāveti, tassa taṃ cittaṃ hīne vimuttaṃ uttari abhāvitaṃ tatrūpapattiyā saṃvattati. Tañca kho sīlavato vadāmi no dussīlassa. Ijjhatāvuso, sīlavato cetopaṇidhi visuddhattā. (7.1)
+Puna caparaṃ, āvuso, idhekacco dānaṃ deti samaṇassa vā brāhmaṇassa vā annaṃ pānaṃ … pe … sey­yāvasa­tha­padī­peyyaṃ. So yaṃ deti taṃ paccāsīsati. Tassa sutaṃ hoti: ‘cātumahārājikā devā dīghāyukā vaṇṇavanto sukhabahulā’ti. Tassa evaṃ hoti: ‘aho vatāhaṃ kāyassa bhedā paraṃ maraṇā ­cātuma­hārāji­kānaṃ devānaṃ sahabyataṃ upapajjeyyan’ti. So taṃ cittaṃ dahati, taṃ cittaṃ adhiṭṭhāti, taṃ cittaṃ bhāveti, tassa taṃ cittaṃ hīne vimuttaṃ uttari abhāvitaṃ tatrūpapattiyā saṃvattati. Tañca kho sīlavato vadāmi no dussīlassa. Ijjhatāvuso, sīlavato cetopaṇidhi visuddhattā. (7.2)
+Puna caparaṃ, āvuso, idhekacco dānaṃ deti samaṇassa vā brāhmaṇassa vā annaṃ pānaṃ … pe … sey­yāvasa­tha­padī­peyyaṃ. So yaṃ deti taṃ paccāsīsati. Tassa sutaṃ hoti: ‘tāvatiṃsā devā … pe … yāmā devā … pe … tusitā devā … pe … nimmānaratī devā … pe … para­nimmita­vasavattī devā dīghāyukā vaṇṇavanto sukhabahulā’ti. Tassa evaṃ hoti: ‘aho vatāhaṃ kāyassa bhedā paraṃ maraṇā ­paranim­mita­vasavat­tī­naṃ devānaṃ sahabyataṃ upapajjeyyan’ti. So taṃ cittaṃ dahati, taṃ cittaṃ adhiṭṭhāti, taṃ cittaṃ bhāveti, tassa taṃ cittaṃ hīne vimuttaṃ uttari abhāvitaṃ tatrūpapattiyā saṃvattati. Tañca kho sīlavato vadāmi no dussīlassa. Ijjhatāvuso, sīlavato cetopaṇidhi visuddhattā. (7.3–7.)
+Puna caparaṃ, āvuso, idhekacco dānaṃ deti samaṇassa vā brāhmaṇassa vā annaṃ pānaṃ vatthaṃ yānaṃ mālā­gandha­vi­lepa­naṃ sey­yāvasa­tha­padī­peyyaṃ. So yaṃ deti taṃ paccāsīsati. Tassa sutaṃ hoti: ‘brahmakāyikā devā dīghāyukā vaṇṇavanto sukhabahulā’ti. Tassa evaṃ hoti: ‘aho vatāhaṃ kāyassa bhedā paraṃ maraṇā brahma­kāyikā­naṃ devānaṃ sahabyataṃ upapajjeyyan’ti. So taṃ cittaṃ dahati, taṃ cittaṃ adhiṭṭhāti, taṃ cittaṃ bhāveti, tassa taṃ cittaṃ hīne vimuttaṃ uttari abhāvitaṃ tatrūpapattiyā saṃvattati. Tañca kho sīlavato vadāmi no dussīlassa; vītarāgassa no sarāgassa. Ijjhatāvuso, sīlavato cetopaṇidhi vītarāgattā. (7.8)
+Aṭṭha parisā—khattiyaparisā, brāhmaṇaparisā, gahapatiparisā, samaṇaparisā, ­cātuma­hārā­jika­parisā, tāvatiṃ­sa­parisā, māraparisā, brahmaparisā. (8)
+Aṭṭha lokadhammā—lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṃsā ca, sukhañca, dukkhañca. (9)
+* Aṭṭha abhi­bhāyata­nāni. Ajjhattaṃ rūpasaññī eko bahiddhā rūpāni passati parittāni suvaṇ­ṇa­dubbaṇ­ṇāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ paṭhamaṃ abhibhāyatanaṃ.
+Ajjhattaṃ rūpasaññī eko bahiddhā rūpāni passati appamāṇāni suvaṇ­ṇa­dubbaṇ­ṇāni, ‘tāni abhibhuyya jānāmi passāmī’ti—evaṃsaññī hoti. Idaṃ dutiyaṃ abhibhāyatanaṃ.
+Ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati parittāni suvaṇ­ṇa­dubbaṇ­ṇāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ tatiyaṃ abhibhāyatanaṃ.
+Ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati appamāṇāni suvaṇ­ṇa­dubbaṇ­ṇāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ catutthaṃ abhibhāyatanaṃ.
+Ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati nīlāni nīlavaṇṇāni nīla­ni­dassa­nāni nīlanibhāsāni. Seyyathāpi nāma umāpupphaṃ nīlaṃ nīlavaṇṇaṃ nīlanidassanaṃ nīlanibhāsaṃ, seyyathā vā pana taṃ vatthaṃ bārāṇaseyyakaṃ ubhato­bhāga­vi­maṭṭhaṃ nīlaṃ nīlavaṇṇaṃ nīlanidassanaṃ nīlanibhāsaṃ; evameva ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati nīlāni nīlavaṇṇāni nīla­ni­dassa­nāni nīlanibhāsāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ pañcamaṃ abhibhāyatanaṃ.
+Ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati pītāni pītavaṇṇāni pīta­ni­dassa­nāni pītanibhāsāni. Seyyathāpi nāma ­kaṇikā­ra­pupphaṃ pītaṃ pītavaṇṇaṃ pītanidassanaṃ pītanibhāsaṃ, seyyathā vā pana taṃ vatthaṃ bārāṇaseyyakaṃ ubhato­bhāga­vi­maṭṭhaṃ pītaṃ pītavaṇṇaṃ pītanidassanaṃ pītanibhāsaṃ; evameva ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati pītāni pītavaṇṇāni pīta­ni­dassa­nāni pītanibhāsāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ chaṭṭhaṃ abhibhāyatanaṃ.
+Ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati lohitakāni lohita­ka­vaṇṇāni lohita­ka­ni­dassa­nāni lohita­ka­nibhā­sāni. Seyyathāpi nāma bandhu­jīvaka­pupphaṃ lohitakaṃ lohitakavaṇṇaṃ lohita­ka­ni­dassa­naṃ lohita­ka­nibhā­saṃ, seyyathā vā pana taṃ vatthaṃ bārāṇaseyyakaṃ ubhato­bhāga­vi­maṭṭhaṃ lohitakaṃ lohitakavaṇṇaṃ lohita­ka­ni­dassa­naṃ lohita­ka­nibhā­saṃ; evameva ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati lohitakāni lohita­ka­vaṇṇāni lohita­ka­ni­dassa­nāni lohita­ka­nibhā­sāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ sattamaṃ abhibhāyatanaṃ.
+Ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati odātāni odātavaṇṇāni odāta­ni­dassa­nāni odātanibhāsāni. Seyyathāpi nāma osadhitārakā odātā odātavaṇṇā odātanidassanā odātanibhāsā, seyyathā vā pana taṃ vatthaṃ bārāṇaseyyakaṃ ubhato­bhāga­vi­maṭṭhaṃ odātaṃ odātavaṇṇaṃ odāta­ni­dassa­naṃ odātanibhāsaṃ; evameva ajjhattaṃ arūpasaññī eko bahiddhā rūpāni passati odātāni odātavaṇṇāni odāta­ni­dassa­nāni odātanibhāsāni, ‘tāni abhibhuyya jānāmi passāmī’ti evaṃsaññī hoti. Idaṃ aṭṭhamaṃ abhibhāyatanaṃ. (10)
+Aṭṭha vimokkhā. Rūpī rūpāni passati. Ayaṃ paṭhamo vimokkho.
+Ajjhattaṃ arūpasaññī bahiddhā rūpāni passati. Ayaṃ dutiyo vimokkho.
+Subhanteva adhimutto hoti. Ayaṃ tatiyo vimokkho.
+Sabbaso rūpasaññānaṃ samatikkamā paṭi­gha­saññā­naṃ atthaṅgamā nānat­ta­saññā­naṃ amanasikārā ‘ananto ākāso’ti ākāsānañ­cāyata­naṃ upasampajja viharati. Ayaṃ catuttho vimokkho.
+Sabbaso ākāsānañ­cāyata­naṃ samatikkamma ‘anantaṃ viññāṇan’ti viñ­ñā­ṇañ­cāyata­naṃ upasampajja viharati. Ayaṃ pañcamo vimokkho.
+Sabbaso viñ­ñā­ṇañ­cāyata­naṃ samatikkamma ‘natthi kiñcī’ti ākiñ­cañ­ñā­yatanaṃ upasampajja viharati. Ayaṃ chaṭṭho vimokkho.
+Sabbaso ākiñ­cañ­ñā­yatanaṃ samatikkamma neva­saññā­nā­sañ­ñāyata­naṃ upasampajja viharati. Ayaṃ sattamo vimokkho.
+Sabbaso neva­saññā­nā­sañ­ñāyata­naṃ samatikkamma saññā­ve­dayi­ta­nirodhaṃ upasampajja viharati. Ayaṃ aṭṭhamo vimokkho. (11)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena aṭṭha dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+9. Navaka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena nava dhammā sammadakkhātā; tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame nava?
+* Nava āghātavatthūni. ‘Anatthaṃ me acarī’ti āghātaṃ bandhati; ‘anatthaṃ me caratī’ti āghātaṃ bandhati; ‘anatthaṃ me carissatī’ti āghātaṃ bandhati; ‘piyassa me manāpassa anatthaṃ acarī’ti āghātaṃ bandhati … pe … anatthaṃ caratīti āghātaṃ bandhati … pe … anatthaṃ carissatīti āghātaṃ bandhati; ‘appiyassa me amanāpassa atthaṃ acarī’ti āghātaṃ bandhati … pe … atthaṃ caratīti āghātaṃ bandhati … pe … atthaṃ carissatīti āghātaṃ bandhati. (1)
+Nava āghātapa­ṭi­vinayā. ‘Anatthaṃ me acari, taṃ kutettha labbhā’ti āghātaṃ paṭivineti; ‘anatthaṃ me carati, taṃ kutettha labbhā’ti āghātaṃ paṭivineti; ‘anatthaṃ me carissati, taṃ kutettha labbhā’ti āghātaṃ paṭivineti; ‘piyassa me manāpassa anatthaṃ acari … pe … anatthaṃ carati … pe … anatthaṃ carissati, taṃ kutettha labbhā’ti āghātaṃ paṭivineti; ‘appiyassa me amanāpassa atthaṃ acari … pe … atthaṃ carati … pe … atthaṃ carissati, taṃ kutettha labbhā’ti āghātaṃ paṭivineti. (2)
+* Nava sattāvāsā. Santāvuso, sattā nānattakāyā nānattasaññino, seyyathāpi manussā ekacce ca devā ekacce ca vinipātikā. Ayaṃ paṭhamo sattāvāso.
+Santāvuso, sattā nānattakāyā ekattasaññino, seyyathāpi devā brahmakāyikā paṭha­mā­bhi­nib­battā. Ayaṃ dutiyo sattāvāso.
+Santāvuso, sattā ekattakāyā nānattasaññino, seyyathāpi devā ābhassarā. Ayaṃ tatiyo sattāvāso.
+Santāvuso, sattā ekattakāyā ekattasaññino, seyyathāpi devā subhakiṇhā. Ayaṃ catuttho sattāvāso.
+Santāvuso, sattā asaññino appaṭi­saṃ­ve­dino, seyyathāpi devā asaññasattā. Ayaṃ pañcamo sattāvāso.
+Santāvuso, sattā sabbaso rūpasaññānaṃ samatikkamā paṭi­gha­saññā­naṃ atthaṅgamā nānat­ta­saññā­naṃ amanasikārā ‘ananto ākāso’ti ākāsānañ­cāya­tanūpagā. Ayaṃ chaṭṭho sattāvāso.
+Santāvuso, sattā sabbaso ākāsānañ­cāyata­naṃ samatikkamma ‘anantaṃ viññāṇan’ti viñ­ñā­ṇañ­cāya­tanūpagā. Ayaṃ sattamo sattāvāso.
+Santāvuso, sattā sabbaso viñ­ñā­ṇañ­cāyata­naṃ samatikkamma ‘natthi kiñcī’ti ākiñ­cañ­ñā­ya­tanūpagā. Ayaṃ aṭṭhamo sattāvāso.
+Santāvuso, sattā sabbaso ākiñ­cañ­ñā­yatanaṃ samatikkamma neva­saññā­nā­saññāya­tanūpagā. Ayaṃ navamo sattāvāso. (3)
+Nava akkhaṇā asamayā brahma­cari­ya­vāsāya. Idhāvuso, tathāgato ca loke uppanno hoti arahaṃ sammāsambuddho, dhammo ca desiyati opasamiko parinibbāniko sambodhagāmī sugatappa­vedito. Ayañca puggalo nirayaṃ upapanno hoti. Ayaṃ paṭhamo akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ, āvuso, tathāgato ca loke uppanno hoti arahaṃ sammāsambuddho, dhammo ca desiyati opasamiko parinibbāniko sambodhagāmī sugatappa­vedito. Ayañca puggalo tiracchā­na­yoniṃ upapanno hoti. Ayaṃ dutiyo akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ … pe … pettivisayaṃ upapanno hoti. Ayaṃ tatiyo akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ … pe … asurakāyaṃ upapanno hoti. Ayaṃ catuttho akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ … pe … aññataraṃ dīghāyukaṃ devanikāyaṃ upapanno hoti. Ayaṃ pañcamo akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ … pe … paccantimesu janapadesu paccājāto hoti milakkhesu aviññātāresu, yattha natthi gati bhikkhūnaṃ bhikkhunīnaṃ upāsakānaṃ upāsikānaṃ. Ayaṃ chaṭṭho akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ … pe … majjhimesu janapadesu paccājāto hoti. So ca hoti micchādiṭṭhiko viparī­ta­dassano: ‘natthi dinnaṃ, natthi yiṭṭhaṃ, natthi hutaṃ, natthi sukata­dukka­ṭā­naṃ kammānaṃ phalaṃ vipāko, natthi ayaṃ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṃ parañca lokaṃ sayaṃ abhiññā sacchikatvā pavedentī’ti. Ayaṃ sattamo akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ … pe … majjhimesu janapadesu paccājāto hoti. So ca hoti duppañño jaḷo eḷamūgo, nappaṭibalo subhā­sita­dub­bhāsi­tā­na­mattha­mañ­ñātuṃ. Ayaṃ aṭṭhamo akkhaṇo asamayo brahma­cari­ya­vāsāya.
+Puna caparaṃ, āvuso, tathāgato ca loke na uppanno hoti arahaṃ sammāsambuddho, dhammo ca na desiyati opasamiko parinibbāniko sambodhagāmī sugatappa­vedito. Ayañca puggalo majjhimesu janapadesu paccājāto hoti, so ca hoti paññavā ajaḷo aneḷamūgo, paṭibalo subhā­sita­dub­bhāsi­tā­na­mattha­mañ­ñātuṃ. Ayaṃ navamo akkhaṇo asamayo brahma­cari­ya­vāsāya. (4)
+* Nava anupubbavihārā. Idhāvuso, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṃ savicāraṃ vivekajaṃ pītisukhaṃ paṭhamaṃ jhānaṃ upasampajja viharati. Vitak­ka­vicārā­naṃ vūpasamā … pe … dutiyaṃ jhānaṃ upasampajja viharati. Pītiyā ca virāgā … pe … tatiyaṃ jhānaṃ upasampajja viharati. Sukhassa ca pahānā … pe … catutthaṃ jhānaṃ upasampajja viharati. Sabbaso rūpasaññānaṃ samatikkamā … pe … ākāsānañ­cāyata­naṃ upasampajja viharati. Sabbaso ākāsānañ­cāyata­naṃ samatikkamma ‘anantaṃ viññāṇan’ti viñ­ñā­ṇañ­cāyata­naṃ upasampajja viharati. Sabbaso viñ­ñā­ṇañ­cāyata­naṃ samatikkamma ‘natthi kiñcī’ti ākiñ­cañ­ñā­yatanaṃ upasampajja viharati. Sabbaso ākiñ­cañ­ñā­yatanaṃ samatikkamma neva­saññā­nā­sañ­ñāyata­naṃ upasampajja viharati. Sabbaso neva­saññā­nā­sañ­ñāyata­naṃ samatikkamma saññā­ve­dayi­ta­nirodhaṃ upasampajja viharati. (5)
+* Nava anu­pubba­nirodhā. Paṭhamaṃ jhānaṃ samāpannassa kāmasaññā niruddhā hoti. Dutiyaṃ jhānaṃ samāpannassa vitakkavicārā niruddhā honti. Tatiyaṃ jhānaṃ samāpannassa pīti niruddhā hoti. Catutthaṃ jhānaṃ samāpannassa assāsapassāssā niruddhā honti. Ākāsānañ­cāyata­naṃ samāpannassa rūpasaññā niruddhā hoti. Viñ­ñā­ṇañ­cāyata­naṃ samāpannassa ākāsānañ­cāyata­na­saññā niruddhā hoti. Ākiñ­cañ­ñā­yatanaṃ samāpannassa viñ­ñā­ṇañ­cāyata­na­saññā niruddhā hoti. Neva­saññā­nā­sañ­ñāyata­naṃ samāpannassa ākiñ­cañ­ñā­yatana­saññā niruddhā hoti. Saññā­ve­dayi­ta­nirodhaṃ samāpannassa saññā ca vedanā ca niruddhā honti. (6)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena nava dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ.
+10. Dasaka
+Atthi kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena dasa dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ … pe … atthāya hitāya sukhāya devamanussānaṃ. Katame dasa?
+* Dasa nāthakaraṇā dhammā. Idhāvuso, bhikkhu sīlavā hoti. Pāti­mokkha­saṃ­vara­saṃ­vuto viharati ācāra­gocara­sam­panno, aṇumattesu vajjesu bhayadassāvī samādāya sikkhati sikkhāpadesu. Yaṃpāvuso, bhikkhu sīlavā hoti, pāti­mokkha­saṃ­vara­saṃ­vuto viharati, ācāra­gocara­sam­panno, aṇumattesu vajjesu bhayadassāvī samādāya sikkhati sikkhāpadesu. Ayampi dhammo nāthakaraṇo. (1.1)
+Puna caparaṃ, āvuso, bhikkhu bahussuto hoti sutadharo sutasannicayo. Ye te dhammā ādikalyāṇā majjhekalyāṇā pari­yosāna­kal­yāṇā sātthā sabyañjanā kevala­pari­puṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā mana­sānu­pekkhitā diṭṭhiyā suppaṭividdhā. Yaṃpāvuso, bhikkhu bahussuto hoti … pe … diṭṭhiyā suppaṭividdhā. Ayampi dhammo nāthakaraṇo. (1.2)
+Puna caparaṃ, āvuso, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kal­yāṇa­sam­pa­vaṅko. Yaṃpāvuso, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kal­yāṇa­sam­pa­vaṅko. Ayampi dhammo nāthakaraṇo. (1.3)
+Puna caparaṃ, āvuso, bhikkhu suvaco hoti sova­cassaka­raṇehi dhammehi samannāgato khamo padak­khi­ṇag­gāhī anusāsaniṃ. Yaṃpāvuso, bhikkhu suvaco hoti … pe … padak­khi­ṇag­gāhī anusāsaniṃ. Ayampi dhammo nāthakaraṇo. (1.4)
+Puna caparaṃ, āvuso, bhikkhu yāni tāni sab­rahma­cārī­naṃ uccāvacāni kiṅkaraṇīyāni, tattha dakkho hoti analaso tatrupāyāya vīmaṃsāya samannāgato, alaṃ kātuṃ alaṃ saṃvidhātuṃ. Yaṃpāvuso, bhikkhu yāni tāni sab­rahma­cārī­naṃ … pe … alaṃ saṃvidhātuṃ. Ayampi dhammo nāthakaraṇo. (1.5)
+Puna caparaṃ, āvuso, bhikkhu dhammakāmo hoti piyasamudāhāro, abhidhamme abhivinaye uḷārapāmojjo. Yaṃpāvuso, bhikkhu dhammakāmo hoti … pe … uḷārapāmojjo. Ayampi dhammo nāthakaraṇo. (1.6)
+Puna caparaṃ, āvuso, bhikkhu santuṭṭho hoti itarītarehi cīvara­piṇḍa­pāta­se­nāsa­na­gilā­nappac­caya­bhesaj­ja­parik­khā­rehi. Yaṃpāvuso, bhikkhu santuṭṭho hoti … pe … parikkhārehi. Ayampi dhammo nāthakaraṇo. (1.7)
+Puna caparaṃ, āvuso, bhikkhu āraddhavīriyo viharati akusalānaṃ dhammānaṃ pahānāya kusalānaṃ dhammānaṃ upasampadāya, thāmavā daḷhaparakkamo anikkhit­ta­dhuro kusalesu dhammesu. Yaṃpāvuso, bhikkhu āraddhavīriyo viharati … pe … anikkhit­ta­dhuro kusalesu dhammesu. Ayampi dhammo nāthakaraṇo. (1.8)
+Puna caparaṃ, āvuso, bhikkhu satimā hoti paramena satinepakkena samannāgato cirakatampi cirabhāsitampi saritā anussaritā. Yaṃpāvuso, bhikkhu satimā hoti … pe … saritā anussaritā. Ayampi dhammo nāthakaraṇo. (1.9)
+Puna caparaṃ, āvuso, bhikkhu paññavā hoti, uda­yattha­gā­miniyā paññāya samannāgato ariyāya nibbedhikāya sammā­duk­khak­kha­ya­gā­miniyā. Yaṃpāvuso, bhikkhu paññavā hoti … pe … sammā­duk­khak­kha­ya­gā­miniyā. Ayampi dhammo nāthakaraṇo. (1.10)
+* Dasa kasiṇāyatanāni. Pathavī­ka­siṇa­meko sañjānāti, uddhaṃ adho tiriyaṃ advayaṃ appamāṇaṃ. Āpokasiṇameko sañjānāti … pe … tejokasiṇameko sañjānāti … vāyokasiṇameko sañjānāti … nīlakasiṇameko sañjānāti … pītakasiṇameko sañjānāti … lohita­ka­siṇa­meko sañjānāti … odāta­kasiṇa­meko sañjānāti … ākāsa­kasiṇa­meko sañjānāti … viñ­ñā­ṇa­ka­siṇa­meko sañjānāti, uddhaṃ adho tiriyaṃ advayaṃ appamāṇaṃ. (2)
+Dasa akusala­kamma­pathā—pāṇātipāto, adinnādānaṃ, kāmesu­micchā­cāro, musāvādo, pisuṇā vācā, pharusā vācā, samphappalāpo, abhijjhā, byāpādo, micchādiṭṭhi. (3)
+Dasa kusala­kamma­pathā—pāṇātipātā veramaṇī, adinnādānā veramaṇī, kāmesu­micchā­cārā veramaṇī, musāvādā veramaṇī, pisuṇāya vācāya veramaṇī, pharusāya vācāya veramaṇī, samphappalāpā veramaṇī, anabhijjhā, abyāpādo, sammādiṭṭhi. (4)
+* Dasa ariyavāsā. Idhāvuso, bhikkhu pañcaṅ­ga­vippa­hīno hoti, ­chaḷaṅ­ga­saman­nā­gato, ekārakkho, caturāpasseno, ­paṇun­na­pac­ce­ka­sacco, sama­vaya­saṭ­ṭhesano, anāvi­la­saṅkappo, passad­dha­kāya­saṅ­khāro, suvimuttacitto, suvimuttapañño.
+Kathañcāvuso, bhikkhu pañcaṅ­ga­vippa­hīno hoti? Idhāvuso, bhikkhuno kāmacchando pahīno hoti, byāpādo pahīno hoti, thinamiddhaṃ pahīnaṃ hoti, uddhac­ca­kukkuc­caṃ pahīnaṃ hoti, vicikicchā pahīnā hoti. Evaṃ kho, āvuso, bhikkhu pañcaṅ­ga­vippa­hīno hoti. (5.1)
+Kathañcāvuso, bhikkhu ­chaḷaṅ­ga­saman­nā­gato hoti? Idhāvuso, bhikkhu cakkhunā rūpaṃ disvā neva sumano hoti na dummano, upekkhako viharati sato sampajāno. Sotena saddaṃ sutvā … pe … manasā dhammaṃ viññāya neva sumano hoti na dummano, upekkhako viharati sato sampajāno. Evaṃ kho, āvuso, bhikkhu ­chaḷaṅ­ga­saman­nā­gato hoti. (5.2)
+Kathañcāvuso, bhikkhu ekārakkho hoti? Idhāvuso, bhikkhu satārakkhena cetasā samannāgato hoti. Evaṃ kho, āvuso, bhikkhu ekārakkho hoti. (5.3)
+Kathañcāvuso, bhikkhu caturāpasseno hoti? Idhāvuso, bhikkhu saṅkhāyekaṃ paṭisevati, saṅkhāyekaṃ adhivāseti, saṅkhāyekaṃ parivajjeti, saṅkhāyekaṃ vinodeti. Evaṃ kho, āvuso, bhikkhu caturāpasseno hoti. (5.4)
+Kathañcāvuso, bhikkhu ­paṇun­na­pac­ce­ka­sacco hoti? Idhāvuso, bhikkhuno yāni tāni puthusa­maṇab­rāhma­ṇā­naṃ puthu­pac­ce­ka­saccāni, sabbāni tāni nunnāni honti paṇunnāni cattāni vantāni muttāni pahīnāni paṭi­nissaṭ­ṭhāni. Evaṃ kho, āvuso, bhikkhu ­paṇun­na­pac­ce­ka­sacco hoti. (5.5)
+Kathañcāvuso, bhikkhu sama­vaya­saṭ­ṭhesano hoti? Idhāvuso, bhikkhuno kāmesanā pahīnā hoti, bhavesanā pahīnā hoti, brahma­cari­yesanā paṭippassaddhā. Evaṃ kho, āvuso, bhikkhu sama­vaya­saṭ­ṭhesano hoti. (5.6)
+Kathañcāvuso, bhikkhu anāvi­la­saṅkappo hoti? Idhāvuso, bhikkhuno kāmasaṅkappo pahīno hoti, ­byāpā­da­saṅkappo pahīno hoti, vihiṃ­sāsaṅ­kappo pahīno hoti. Evaṃ kho, āvuso, bhikkhu anāvi­la­saṅkappo hoti. (5.7)
+Kathañcāvuso, bhikkhu passad­dha­kāya­saṅ­khāro hoti? Idhāvuso, bhikkhu sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanas­sa­do­manas­sā­naṃ atthaṅgamā aduk­kha­ma­su­khaṃ upekkhā­sati­pāri­suddhiṃ catutthaṃ jhānaṃ upasampajja viharati. Evaṃ kho, āvuso, bhikkhu passad­dha­kāya­saṅ­khāro hoti. (5.8)
+Kathañcāvuso, bhikkhu suvimuttacitto hoti? Idhāvuso, bhikkhuno rāgā cittaṃ vimuttaṃ hoti, dosā cittaṃ vimuttaṃ hoti, mohā cittaṃ vimuttaṃ hoti. Evaṃ kho, āvuso, bhikkhu suvimuttacitto hoti. (5.9)
+Kathañcāvuso, bhikkhu suvimuttapañño hoti? Idhāvuso, bhikkhu ‘rāgo me pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṃ anuppādadhammo’ti pajānāti. ‘Doso me pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṃ anuppādadhammo’ti pajānāti. ‘Moho me pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṃ anuppādadhammo’ti pajānāti. Evaṃ kho, āvuso, bhikkhu suvimuttapañño hoti. (5.10)
+Dasa asekkhā dhammā—asekkhā sammādiṭṭhi, asekkho sammāsaṅkappo, asekkhā sammāvācā, asekkho sammākammanto, asekkho sammāājīvo, asekkho sammāvāyāmo, asekkhā sammāsati, asekkho sammāsamādhi, asekkhaṃ sammāñāṇaṃ, asekkhā sammāvimutti. (6)
+Ime kho, āvuso, tena bhagavatā jānatā passatā arahatā sammā­sambud­dhena dasa dhammā sammadakkhātā. Tattha sabbeheva saṅgāyitabbaṃ na vivaditabbaṃ, yathayidaṃ brahmacariyaṃ addhaniyaṃ assa ciraṭṭhitikaṃ, tadassa bahujanahitāya bahu­jana­su­khāya lokānukampāya atthāya hitāya sukhāya devamanussānan”ti.
+Atha kho bhagavā uṭṭhahitvā āyasmantaṃ sāriputtaṃ āmantesi: “sādhu sādhu, sāriputta, sādhu kho tvaṃ, sāriputta, bhikkhūnaṃ saṅ­gīti­pariyā­yaṃ abhāsī”ti.
+Idamavocāyasmā sāriputto, samanuñño satthā ahosi. Attamanā te bhikkhū āyasmato sāriputtassa bhāsitaṃ abhinandunti.
+Saṅgītisuttaṃ niṭṭhitaṃ dasamaṃ.
+
+
+Pali text from the Mahāsaṅgīti Tipiṭaka Buddhavasse 2500: World Tipiṭaka Edition in Roman Script. Edited and published by The M.L. Maniratana Bunnag Dhamma Society Fund, 2005. Based on the digital edition of the Chaṭṭha Saṅgāyana published by the Vipassana Research Institute, with corrections and proofreading by the Dhamma Society. Saṅgītisutta
+Prepared for SuttaCentral by Blake Walshe and Bhikkhu Sujato.
+
+
+`
+,tags:[
+[5,15,"p"],
+[21,12,"h1"],
+[35,243,"p"],
+[279,923,"p"],
+[1203,602,"p"],
+[1806,830,"p"],
+[2637,344,"p"],
+[2982,153,"p"],
+[3136,883,"p"],
+[4020,636,"p"],
+[4657,324,"p"],
+[4982,8,"h2"],
+[4991,679,"p"],
+[5671,7,"h2"],
+[5679,312,"p"],
+[5992,20,"p"],
+[6013,28,"p"],
+[6042,36,"p"],
+[6079,28,"p"],
+[6108,23,"p"],
+[6132,34,"p"],
+[6167,37,"p"],
+[6205,51,"p"],
+[6257,60,"p"],
+[6318,46,"p"],
+[6365,58,"p"],
+[6424,43,"p"],
+[6468,26,"p"],
+[6495,26,"p"],
+[6522,33,"p"],
+[6556,28,"p"],
+[6585,37,"p"],
+[6623,27,"p"],
+[6651,55,"p"],
+[6707,53,"p"],
+[6761,44,"p"],
+[6806,32,"p"],
+[6839,29,"p"],
+[6869,46,"p"],
+[6916,29,"p"],
+[6946,37,"p"],
+[6984,37,"p"],
+[7022,39,"p"],
+[7062,57,"p"],
+[7120,69,"p"],
+[7190,67,"p"],
+[7258,25,"p"],
+[7284,30,"p"],
+[7315,298,"p"],
+[7614,7,"h2"],
+[7622,191,"p"],
+[7814,80,"p"],
+[7895,79,"p"],
+[7975,68,"p"],
+[8044,64,"p"],
+[8109,68,"p"],
+[8178,80,"p"],
+[8259,79,"p"],
+[8339,84,"p"],
+[8424,61,"p"],
+[8486,68,"p"],
+[8555,64,"p"],
+[8620,70,"p"],
+[8691,60,"p"],
+[8752,63,"p"],
+[8816,65,"p"],
+[8882,53,"p"],
+[8936,58,"p"],
+[8995,61,"p"],
+[9057,69,"p"],
+[9127,48,"p"],
+[9176,49,"p"],
+[9226,57,"p"],
+[9284,85,"p"],
+[9370,62,"p"],
+[9433,74,"p"],
+[9508,69,"p"],
+[9578,80,"p"],
+[9659,75,"p"],
+[9735,265,"p"],
+[10001,437,"p"],
+[10439,62,"p"],
+[10502,41,"p"],
+[10544,64,"p"],
+[10609,128,"p"],
+[10738,83,"p"],
+[10822,79,"p"],
+[10902,53,"p"],
+[10956,131,"p"],
+[11088,55,"p"],
+[11144,461,"p"],
+[11606,484,"p"],
+[12091,74,"p"],
+[12166,76,"p"],
+[12243,57,"p"],
+[12301,80,"p"],
+[12382,57,"p"],
+[12440,73,"p"],
+[12514,59,"p"],
+[12574,90,"p"],
+[12665,107,"p"],
+[12773,80,"p"],
+[12854,61,"p"],
+[12916,61,"p"],
+[12978,62,"p"],
+[13041,51,"p"],
+[13093,80,"p"],
+[13174,288,"p"],
+[13463,113,"p"],
+[13577,59,"p"],
+[13637,97,"p"],
+[13735,176,"p"],
+[13912,10,"h2"],
+[13923,214,"p"],
+[14138,278,"p"],
+[14417,563,"p"],
+[14981,329,"p"],
+[15311,668,"p"],
+[15980,343,"p"],
+[16324,304,"p"],
+[16629,362,"p"],
+[16992,413,"p"],
+[17406,405,"p"],
+[17812,634,"p"],
+[18447,490,"p"],
+[18938,136,"p"],
+[19075,498,"p"],
+[19574,508,"p"],
+[20083,502,"p"],
+[20586,313,"p"],
+[20900,832,"p"],
+[21733,339,"p"],
+[22073,481,"p"],
+[22555,249,"p"],
+[22805,78,"p"],
+[22884,129,"p"],
+[23014,123,"p"],
+[23138,903,"p"],
+[24042,97,"p"],
+[24140,66,"p"],
+[24207,115,"p"],
+[24323,362,"p"],
+[24686,111,"p"],
+[24798,282,"p"],
+[25081,139,"p"],
+[25221,93,"p"],
+[25315,120,"p"],
+[25436,350,"p"],
+[25787,96,"p"],
+[25884,69,"p"],
+[25954,103,"p"],
+[26058,139,"p"],
+[26198,231,"p"],
+[26430,191,"p"],
+[26622,58,"p"],
+[26681,62,"p"],
+[26744,115,"p"],
+[26860,127,"p"],
+[26988,92,"p"],
+[27081,75,"p"],
+[27157,663,"p"],
+[27821,472,"p"],
+[28294,280,"p"],
+[28575,78,"p"],
+[28654,76,"p"],
+[28731,120,"p"],
+[28852,119,"p"],
+[28972,120,"p"],
+[29093,117,"p"],
+[29211,110,"p"],
+[29322,571,"p"],
+[29894,303,"p"],
+[30198,104,"p"],
+[30303,103,"p"],
+[30407,179,"p"],
+[30587,29,"p"],
+[30617,10,"h2"],
+[30628,193,"p"],
+[30822,101,"p"],
+[30924,157,"p"],
+[31082,232,"p"],
+[31315,68,"p"],
+[31384,127,"p"],
+[31512,148,"p"],
+[31661,105,"p"],
+[31767,85,"p"],
+[31853,156,"p"],
+[32010,361,"p"],
+[32372,384,"p"],
+[32757,355,"p"],
+[33113,816,"p"],
+[33930,810,"p"],
+[34741,381,"p"],
+[35123,699,"p"],
+[35823,65,"p"],
+[35889,151,"p"],
+[36041,754,"p"],
+[36796,1140,"p"],
+[37937,87,"p"],
+[38025,111,"p"],
+[38137,101,"p"],
+[38239,444,"p"],
+[38684,440,"p"],
+[39125,436,"p"],
+[39562,420,"p"],
+[39983,454,"p"],
+[40438,496,"p"],
+[40935,910,"p"],
+[41846,118,"p"],
+[41965,177,"p"],
+[42143,9,"h2"],
+[42153,189,"p"],
+[42343,112,"p"],
+[42456,118,"p"],
+[42575,107,"p"],
+[42683,114,"p"],
+[42798,179,"p"],
+[42978,97,"p"],
+[43076,130,"p"],
+[43207,97,"p"],
+[43305,258,"p"],
+[43564,268,"p"],
+[43833,260,"p"],
+[44094,163,"p"],
+[44258,155,"p"],
+[44414,218,"p"],
+[44633,161,"p"],
+[44795,161,"p"],
+[44957,251,"p"],
+[45209,299,"p"],
+[45509,287,"p"],
+[45797,969,"p"],
+[46767,1142,"p"],
+[47910,88,"p"],
+[47999,646,"p"],
+[48646,624,"p"],
+[49271,621,"p"],
+[49893,621,"p"],
+[50515,633,"p"],
+[51149,593,"p"],
+[51743,155,"p"],
+[51899,115,"p"],
+[52015,239,"p"],
+[52255,461,"p"],
+[52717,125,"p"],
+[52843,175,"p"],
+[53019,10,"h2"],
+[53030,193,"p"],
+[53224,112,"p"],
+[53337,190,"p"],
+[53528,120,"p"],
+[53649,147,"p"],
+[53797,150,"p"],
+[53948,137,"p"],
+[54086,533,"p"],
+[54620,108,"p"],
+[54729,104,"p"],
+[54834,155,"p"],
+[54990,122,"p"],
+[55113,96,"p"],
+[55210,98,"p"],
+[55309,179,"p"],
+[55489,132,"p"],
+[55622,134,"p"],
+[55757,135,"p"],
+[55893,128,"p"],
+[56022,177,"p"],
+[56200,225,"p"],
+[56426,177,"p"],
+[56604,27,"p"],
+[56632,10,"h2"],
+[56643,193,"p"],
+[56837,130,"p"],
+[56968,122,"p"],
+[57091,242,"p"],
+[57334,325,"p"],
+[57660,225,"p"],
+[57886,238,"p"],
+[58125,224,"p"],
+[58350,385,"p"],
+[58736,397,"p"],
+[59134,231,"p"],
+[59366,334,"p"],
+[59701,421,"p"],
+[60123,243,"p"],
+[60367,260,"p"],
+[60628,247,"p"],
+[60876,381,"p"],
+[61258,377,"p"],
+[61636,259,"p"],
+[61896,430,"p"],
+[62327,354,"p"],
+[62682,738,"p"],
+[63421,569,"p"],
+[63991,670,"p"],
+[64662,621,"p"],
+[65284,149,"p"],
+[65434,103,"p"],
+[65538,187,"p"],
+[65726,160,"p"],
+[65887,160,"p"],
+[66048,163,"p"],
+[66212,479,"p"],
+[66692,487,"p"],
+[67180,580,"p"],
+[67761,501,"p"],
+[68263,59,"p"],
+[68323,67,"p"],
+[68391,48,"p"],
+[68440,176,"p"],
+[68617,128,"p"],
+[68746,124,"p"],
+[68871,114,"p"],
+[68986,125,"p"],
+[69112,177,"p"],
+[69290,9,"h2"],
+[69300,191,"p"],
+[69492,438,"p"],
+[69931,479,"p"],
+[70411,142,"p"],
+[70554,119,"p"],
+[70674,93,"p"],
+[70768,95,"p"],
+[70864,98,"p"],
+[70963,175,"p"],
+[71139,128,"p"],
+[71268,125,"p"],
+[71394,116,"p"],
+[71511,271,"p"],
+[71783,247,"p"],
+[72031,98,"p"],
+[72130,98,"p"],
+[72229,119,"p"],
+[72349,201,"p"],
+[72551,460,"p"],
+[73012,200,"p"],
+[73213,352,"p"],
+[73566,847,"p"],
+[74414,614,"p"],
+[75029,176,"p"],
+[75206,10,"h2"],
+[75217,191,"p"],
+[75409,377,"p"],
+[75787,402,"p"],
+[76190,190,"p"],
+[76381,220,"p"],
+[76602,280,"p"],
+[76883,185,"p"],
+[77069,215,"p"],
+[77285,294,"p"],
+[77580,211,"p"],
+[77792,243,"p"],
+[78036,401,"p"],
+[78438,158,"p"],
+[78597,229,"p"],
+[78827,242,"p"],
+[79070,258,"p"],
+[79329,331,"p"],
+[79661,140,"p"],
+[79802,205,"p"],
+[80008,287,"p"],
+[80296,208,"p"],
+[80505,209,"p"],
+[80715,304,"p"],
+[81020,195,"p"],
+[81216,392,"p"],
+[81609,234,"p"],
+[81844,301,"p"],
+[82146,153,"p"],
+[82300,114,"p"],
+[82415,32,"p"],
+[82450,333,"p"],
+[82797,61,"p"]
+]};
+},{}],"C:\\ksana2015\\kmf-editor\\index.js":[function(require,module,exports){
 var React=require("react");
 var ReactDOM=require("react-dom");
 require("ksana2015-webruntime/livereload")(); 
@@ -7,99 +1399,442 @@ ksanagap.boot("kmf-editor",function(){
 	var Main=React.createElement(require("./src/main.jsx"));
 	ksana.mainComponent=ReactDOM.render(Main,document.getElementById("main"));
 });
-},{"./src/main.jsx":"C:\\ksana2015\\kmf-editor\\src\\main.jsx","ksana2015-webruntime/ksanagap":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\ksanagap.js","ksana2015-webruntime/livereload":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\livereload.js","react":"react","react-dom":"react-dom"}],"C:\\ksana2015\\kmf-editor\\src\\controls.js":[function(require,module,exports){
+},{"./src/main.jsx":"C:\\ksana2015\\kmf-editor\\src\\main.jsx","ksana2015-webruntime/ksanagap":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\ksanagap.js","ksana2015-webruntime/livereload":"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\livereload.js","react":"react","react-dom":"react-dom"}],"C:\\ksana2015\\kmf-editor\\src\\annotation.js":[function(require,module,exports){
+/* this is slow , all tags will be touched, use it carefully*/
+var insertText=function(newtags,newtext,at,t) {
+	var fixSourceTag=function(){
+		for (var i=0;i<newtags.length;i++) {
+			if (newtags[i][0]>=at) {
+				newtags[i][0]+=t.length;
+			}
+		}
+	}
+
+	newtext=newtext.substr(0,at)+t+newtext.substr(at);
+	fixSourceTag();
+	return newtext;
+}
+
+
+var findSource=function(sourcetags,sourcepos){
+	for (i=0;i<sourcetags.length;i++) {
+		if (sourcetags[i][2]!=="source") continue;
+		var sourcetag=sourcetags[i];
+		var start=sourcetag[3].s, end=start+sourcetag[1];
+		if (start<=sourcepos && end>=sourcepos) {
+			return {start:sourcetag[0],offset:sourcepos-start, sourcetag};
+		};
+	}
+	//not inside source tag
+}
+
+var insertComment=function(rawcontent,newtext,newtags,author){
+
+	var comments=[];
+	for (var i=0;i<rawcontent.tags.length;i++) {
+		var tag=rawcontent.tags[i];
+		if (tag[2]!=="comment") continue;
+		var payload=tag[3];
+		if (payload.author===author) {
+			comments.push(tag);
+		} else { //other people comment , put a bookmark
+
+		}
+	}
+
+	comments.sort((c1,c2)=>c2[0]-c1[0]);
+
+	for (var i=0;i<comments.length;i++) {
+		var comment=comments[i];
+		var r=findSource(newtags,comment[0]);
+		if (!r) continue;
+		var {start,offset,sourcetag}=r;
+		if (offset!==0) { //break source tag
+			var part2s=sourcetag[3].s+offset;
+			var part2len=sourcetag[1]-offset;
+			if (part2len) {
+				sourcetag[1]=offset;
+				newtags.push([start+offset,part2len,"source",{s:part2s}])
+			}
+		}
+		newtext=insertText(newtags,newtext,start+offset,comment[3].text);
+	}
+
+	newtags.sort(function(t1,t2){return t1[0]-t2[0]});
+
+	return newtext;
+}
+
+var insertBr=function(rawcontent,newtext,newtags,author){
+	//find br of this user
+	var brs=[];
+	for (var i=0;i<rawcontent.tags.length;i++) {
+		var tag=rawcontent.tags[i];
+		if (tag[2]==="br" && tag[3] && tag[3].author===author) {
+			brs.push(tag);
+		}
+	}
+	brs.sort((b1,b2)=>b2[0]-b1[0]);
+	for (var i=0;i<brs.length;i++) {
+
+		var br=brs[i];
+		var r=findSource(newtags,br[0]);
+		if (!r) continue;
+		var {start,offset,sourcetag}=r;
+		if (offset!==0) { //break source tag
+			var part2s=sourcetag[3].s+offset;
+			var part2len=sourcetag[1]-offset;
+			if (part2len) {
+				sourcetag[1]=offset;
+				newtags.push([start+offset,part2len,"source",{s:part2s}])
+			}
+		}
+
+		//newtags.push([start+offset,0,"br",{s:part2s,author}]);
+		newtext=insertText(newtags,newtext,start+offset,"\n");
+	}
+
+	newtags.sort(function(t1,t2){return t1[0]-t2[0]});
+
+	return newtext;
+}
+module.exports={insertComment,insertBr};
+},{}],"C:\\ksana2015\\kmf-editor\\src\\controls.js":[function(require,module,exports){
 var React=require("react");
 var E=React.createElement;
-
+var PT=React.PropTypes;
 var Controls=React.createClass({displayName: "Controls",
-	render:function(){
-		return E("button",{},"abc");
+	contextTypes:{
+		action:PT.func.isRequired
+	}
+	,onRawMode_chi:function(){
+		this.context.action("mode",{tag:"",author:"",filename:"1n8"});
+	}
+	,onRawMode_pali:function(){
+		this.context.action("mode",{tag:"",author:"",filename:"dn33"});
+	}
+	,onPMode1:function(){
+		this.context.action("mode",{tag:"p",author:"u1"});
+	}
+	,onPMode2:function(){
+		this.context.action("mode",{tag:"p",author:"u2"});
+	}
+	,onWrite:function(){
+		this.context.action("write");
+	}
+	,onReset:function(){
+		this.context.action("reset");	
+	}
+	,render:function(){
+		return E("span",{},
+				E("button",{style:styles.rawmode,onClick:this.onRawMode_chi},"DA8")
+			,	E("button",{style:styles.rawmode,onClick:this.onRawMode_pali},"DN33")
+			, E("button",{style:styles.pmode,onClick:this.onPMode1},"User 1")
+			, E("button",{style:styles.pmode,onClick:this.onPMode2},"User 2")
+			, E("span",{}," ")
+			, E("button",{style:styles.pmode,onClick:this.onWrite},"Write")
+			, E("button",{style:styles.pmode,onClick:this.onReset},"Reset")
+			);
+
 	}
 });
+var styles={
+	rawmode:{fontSize:24,width:200},
+	pmode:{fontSize:24,width:200}
+}
 module.exports=Controls
-},{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
+},{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\editmain.js":[function(require,module,exports){
 var React=require("react");
 var E=React.createElement;
 var fs=require("./socketfs");
 var kcm=require("ksana-codemirror");
 var CodeMirror=kcm.Component;
+var PT=React.PropTypes;
+var serialize=require("./serialize");
 
-var Controls=require("./controls");
-var fn="1n8_o.kmf";
-var maincomponent = React.createClass({displayName: "maincomponent",
+var EditMain=React.createClass({displayName: "EditMain",
   getInitialState:function() {
-    return {text:""};
+  	var {text,tags}=this.context.getter("content");
+    return {text,tags,mode:"",author:""};
+  }
+  ,contextTypes:{
+  	store:PT.object.isRequired,
+  	getter:PT.func.isRequired,
+  	action:PT.func.isRequired
+  }
+  ,createMarker:function(author,type){
+    var marker = document.createElement('span');
+    marker.className= type;
+    marker.innerHTML=author;
+    return marker;
   }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
       var tag=tags[i];
-      //if (tag[2]!=="p" || !tag[3] || !tag[3]["xml:id"]) continue;
-      //if (tag[1]=="lb/")continue;
-
-      
-      if (tag[1]>0) {
+      if (tag[1]>0 ||(tag[1]==0 && (tag[2]=="comment"||tag[2]=="br") )) {
         var start=this.doc.posFromIndex( tag[0]);
         var end=this.doc.posFromIndex(tag[0]+tag[1]);
-        this.doc.markText(start,end,{className:"standOff",readOnly:true,payload:tag[3]})
+        var readOnly=tag[2]==="source";
+        if (tag[1]==0) {
+        	var marker=this.createMarker(tag[3].author,tag[2]);
+        	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
+        	//https://github.com/codemirror/CodeMirror/issues/3600
+        	this.doc.markText(start,end,{className:tag[2],
+        		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
+        } else {
+        	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
+        }
+        
       }  else {
         var marker = document.createElement('span');
         marker.className= "tag";
         marker.innerHTML="<";
+
         if (tag[2][0]=="/") marker.innerHTML=">"
         if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
         var start=this.doc.posFromIndex( tag[0]);
-        this.doc.setBookmark(start,{widget:marker});
+        this.doc.markText(start,start,
+        	{elementName:tag[2],replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload:tag[3]});
       }
-
-
     }
-
   }
   ,componentDidMount:function(){
     this.editor=this.refs.cm.getCodeMirror();
     this.doc=this.editor.doc;
-
     this.editor.focus();
-    fs.readFile(fn,"utf8",function(err,data){
-      var content=eval(data);
-      this.setState(content);
-      this.editor.setValue(content.text);
-      this.markText(content.tags);
-    }.bind(this));
+    this.markText(this.state.tags);
+    this.context.store.listen("content",this.onContent,this);
+    this.context.store.listen("commitTouched",this.onCommitTouched,this);
   }
-  ,inSource:function(){
+  ,componentWillUnmount:function(){
+  	this.context.store.unlistenAll(this);
+  }
+  ,onContent:function(content){
+  	this.doc.getAllMarks().map((m)=>m.clear());
+  	this.setState({text:content.text,mode:content.tags,author:content.author});
+  	this.doc.setValue(content.text);
+    this.markText(content.tags);
+    this.touched=false;
+  }
+  ,onCommitTouched:function(opts,cb){
+  	if (this.touched) {
+  		serialize.save({author:this.state.author,doc:this.doc},function(){
+  			this.touched=false;
+  			cb();
+  		}.bind(this))
+  	} else {
+  		cb();
+  	}
+  }
+  ,onKeyDown:function(cm,evt) {
+    var pos=this.doc.getCursor();
+	  var markers=this.doc.findMarksAt(pos);
 
+  	if (evt.keyCode==13 && this.state.author ) {
+  		if (markers.map((m)=>m.className).indexOf("p")>-1) {
+  			alert("cannot break at beginning of paragraph")
+  			evt.preventDefault();
+  			return;
+  		}
+  		if (markers.length==1 && markers[0].className=="source"){
+  			var text=this.doc.getValue();
+  			var index=this.doc.indexFromPos(pos);
+  			if (text[index+1]!=="\n") {
+  				this.breakSource(markers[0],pos);	
+  				return;
+  			}
+	  	  evt.preventDefault();  			
+  		}
+  	};
+
+  	if (evt.keyCode==8) {
+  		if (markers.map((m)=>m.className).indexOf("p")>-1) {
+  			alert("cannot delete a p")
+  			evt.preventDefault();
+  			return;
+  		}  		
+  	}
   }
   ,onKeyUp:function(cm,evt){
   }
+  ,onChange:function(){
+  	this.touched=true;
+  }
   ,breakSource:function(marker,at) { //break marker into two, to allow input
     var pos=marker.find();
-    var py=marker.payload;
+    var py=marker.payload||{};
     var part1len=at.ch-pos.from.ch;
-    console.log(part1len)
-    this.doc.markText(pos.from , at ,{className:"standOff",readOnly:true,payload:{s:py.s,l:part1len}});
-    this.doc.markText(at , pos.to , {className:"standOff",readOnly:true,payload:{s:py.s+part1len,l:py.l-part1len}});
+    this.doc.markText(pos.from , at ,{className:marker.className,readOnly:true,payload:{s:py.s}});
+    this.doc.markText(at , pos.to , {className:marker.className,readOnly:true,payload:{s:py.s+part1len}});
     marker.clear();
   }
   ,onKeyPress:function(cm,evt) {
-    var pos=this.doc.getCursor("from");
+    var pos=this.doc.getCursor();
+    if (pos.ch==0) { //do not allow input at beginning of line
+    	alert("cannot add comment at beginning of paragraph");
+    	evt.preventDefault();
+    	return;
+    }    
     var markers=this.doc.findMarksAt(pos);
     if (markers.length==1) {
       var m=markers[0];
       if (m.readOnly) this.breakSource(m,pos);
     }
 
+  }  
+  ,onCursorActivity:function(cm){
+  	clearTimeout(this.timercursor);
+  	this.timercursor=setTimeout(function(){
+  		var cur=cm.doc.getCursor();
+  		var markers=this.doc.findMarksAt(cur);
+  		var tags=[];
+
+  		for (var i=0;i<markers.length;i++) {
+  			var marker=markers[i];
+				var pos=marker.find();
+				if (pos.from) {
+  				var idx1=this.doc.indexFromPos(pos.from);
+  				var idx2=this.doc.indexFromPos(pos.to);
+  				tags.push([ idx1, idx2-idx1, marker.className, marker.payload  ]);
+				} else {
+					var idx1=this.doc.indexFromPos(pos);
+					tags.push([ idx1, 0, marker.className, marker.payload  ]);
+				}
+  		}
+  		this.context.action("showtag",tags);
+  	}.bind(this),200);
+  }
+	,render:function(){
+	  return E(CodeMirror,{ref:"cm",value:this.state.text,theme:"ambiance"
+	  				,onCursorActivity:this.onCursorActivity
+	  				,onChange:this.onChange
+	          ,onKeyUp:this.onKeyUp,onKeyDown:this.onKeyDown,onKeyPress:this.onKeyPress});
+
+	}
+});
+
+module.exports=EditMain;
+
+},{"./serialize":"C:\\ksana2015\\kmf-editor\\src\\serialize.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
+var React=require("react");
+var E=React.createElement;
+var fs=require("./socketfs");
+var kcm=require("ksana-codemirror");
+var CodeMirror=kcm.Component;
+var EditMain=require("./editmain");
+var Controls=require("./controls");
+var Status=require("./status");
+var PT=React.PropTypes;
+var store=require("./store");
+
+
+var {action,store,getter,registerGetter,unregisterGetter}=require("./model");
+
+var maincomponent = React.createClass({displayName: "maincomponent",
+  childContextTypes: {
+    store: PT.object
+    ,action: PT.func
+    ,getter: PT.func
+    ,registerGetter:PT.func
+    ,unregisterGetter:PT.func
+  }
+  ,getChildContext:function(){
+    return {action,store,getter,registerGetter,unregisterGetter};
   }
   ,render: function() {
-    return E("div",{"data-i":1},
-        E(Controls,{}),
-        E(CodeMirror,{ref:"cm",value:this.state.text,theme:"ambiance"
-          ,onKeyUp:this.onKeyUp,onKeyPress:this.onKeyPress})
+    return E("div",{},
+        E(Controls),E(Status),
+        E(EditMain)
       );
   }
 });
 module.exports=maincomponent;
-},{"./controls":"C:\\ksana2015\\kmf-editor\\src\\controls.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js":[function(require,module,exports){
+},{"./controls":"C:\\ksana2015\\kmf-editor\\src\\controls.js","./editmain":"C:\\ksana2015\\kmf-editor\\src\\editmain.js","./model":"C:\\ksana2015\\kmf-editor\\src\\model.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","./status":"C:\\ksana2015\\kmf-editor\\src\\status.js","./store":"C:\\ksana2015\\kmf-editor\\src\\store.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\model.js":[function(require,module,exports){
+/* action dispatcher */
+var listeners=[];
+var getters={};
+
+var eventqueue=[];
+var running=false;
+
+var fireEvent=function(){
+	if (eventqueue.length===0) {
+		running=false;
+		return;
+	}
+	running=true;
+
+	var task=eventqueue.pop();
+	var func=task[0], opts=task[1], cb=task[2], context=task[3];
+
+	if (func.length>1){
+		func.call(context,opts,function(err,res,res2){
+			cb&&cb(err,res,res2);
+			setTimeout(fireEvent,0);
+		});
+	} else { //sync func
+		func.call(context,opts);
+		setTimeout(fireEvent,0);
+	}
+}
+
+var queueTask=function(func,opts,cb,context) {
+	eventqueue.unshift([func,opts,cb,context]);
+	if (!running) setTimeout(fireEvent,0);
+}
+
+var action=function(evt,opts,cb){
+	for (var i=0;i<listeners.length;i+=1) {
+		var listener=listeners[i];
+		if (evt===listener[1] ) {
+			if (listener[2]==undefined) {
+				console.error("action has no callback",evt,listener);
+			}
+			queueTask( listener[2], opts,cb  , listener[0]);
+		}
+	}
+}
+
+var getter=function(name,opts,cb){ // sync getter
+	if (getters[name]) {
+		return getters[name](opts,cb);
+	} else {
+		console.error("getter '"+name +"' not found");
+	}
+}
+var hasGetter=function(name) {
+	return (!!getters[name]);
+}
+var registerGetter=function(name,cb,opts){
+	opts=opts||{};
+	if (!cb && name) delete getters[name];
+	else {
+		if (getters[name] && !opts.overwrite) {
+			console.error("getter name "+name+" overwrite.");
+		}
+		getters[name]=cb;
+	} 
+}
+var unregisterGetter=function(name) {
+	registerGetter(name);
+}
+
+var store={
+	listen:function(event,cb,element){
+		listeners.push([element,event,cb]);
+	}
+	,unlistenAll:function(element){
+		if (!element) {
+			console.error("unlistenAll should specify this")
+		}
+		listeners=listeners.filter(function(listener){
+			return (listener[0]!==element) ;
+		});
+	}
+}
+
+module.exports={ action, store, getter, registerGetter, unregisterGetter, hasGetter};
+},{}],"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js":[function(require,module,exports){
 /**
 	read all ktx files and return meta json
 */
@@ -248,7 +1983,107 @@ host.exec(function(err,data){
 
 
 module.exports=API;
-},{"./rpc":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc.js"}],"C:\\ksana2015\\kmf-editor\\src\\socketfs.js":[function(require,module,exports){
+},{"./rpc":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc.js"}],"C:\\ksana2015\\kmf-editor\\src\\serialize.js":[function(require,module,exports){
+var {getter}=require("./model");
+
+var saveRaw=function(content,doc,cb){
+	var tags=[];
+	var marks=doc.getAllMarks();
+
+	for (var i=0;i<marks.length;i++) {
+		var mark=marks[i];
+		var pos=marks[i].find();
+
+		if (pos.from) {
+			var start=doc.indexFromPos(pos.from);
+			var end=doc.indexFromPos(pos.to);
+			tags.push([start,end-start,mark.elementName||mark.className,mark.payload]);
+		} else { //
+			var start=doc.indexFromPos(pos);
+			tags.push([start,0,mark.elementName||mark.className,mark.payload]);
+		}
+	}
+
+	var text=doc.getValue();
+	content.text=text;
+	content.tags=tags;
+
+	cb(content);
+}
+
+var createCommentTag=function(content,comments,author) {
+	var tags=content.tags.filter(function(t){return !t[3] || t[3].author!==author });
+
+	for (var i=0;i<comments.length;i++) {
+		var comment=comments[i]
+		tags.push([comment[0],0,"comment",{text:comment[1],author} ]);
+	}
+
+	tags.sort((t1,t2)=> t1[0]-t2[0] );
+	content.tags=tags;
+	//content.tags=tagutils.matchOpenCloseTag(tags);
+}
+/*
+var getUserBr=function(text,at,rawpos,author){
+	if (text[at-1] && text[at-1]!=="\n" && text[at+1] && text[at+1]!=="\n") {
+		return [rawpos,0,"br",{author}];
+	}
+}
+*/
+var saveComment=function(content,doc,author,cb){
+	//extract user text, assuming source mark is sorted.
+	var marks=doc.getAllMarks(), markpos=[];
+
+	//sort the source marks
+	for (var i=0;i<marks.length;i++) {
+		if (marks[i].className!=="source") continue;
+		var pos=marks[i].find();
+		var start=doc.indexFromPos(pos.from);
+		var end=doc.indexFromPos(pos.to);
+		var sourcepos=marks[i].payload.s;
+		markpos.push([start,end, sourcepos]);
+	}
+	markpos.sort(function(m1,m2){return m1[0]-m2[0]});
+
+	var out=[], userbr=[],last=0,text=doc.getValue();
+	for (var i=0;i<markpos.length;i++) {
+		var start=markpos[i][0],end=markpos[i][1];
+
+		if (start>last) {
+			var t=text.substring(last,start);
+			if (t[t.length-1]=="\n") { //user br 
+				if (!(t.length>1 && t[t.length-2]==="\n")) { //check if in p
+					var rawpos=markpos[i][2]; //position in rawtext
+					userbr.push([rawpos,0,"br",{author}]);
+				}
+			}
+			t=t.replace(/\n/g,"");
+			if (t) out.push([markpos[i][2], t]);
+		}
+		last=end;
+	}
+
+	createCommentTag(content,out,author);
+
+	content.tags=content.tags.concat(userbr);
+	console.log(userbr);
+
+	content.tags.sort((c1,c2)=>c1[0]-c2[0]);
+
+	cb(content);
+}
+
+
+var save=function(opts,cb){
+	var content=getter("content");
+	var filename=getter("filename");
+	if (opts.author==="") saveRaw(content,opts.doc,cb);
+	else saveComment(content,opts.doc,opts.author,cb);
+};
+
+
+module.exports={save};
+},{"./model":"C:\\ksana2015\\kmf-editor\\src\\model.js"}],"C:\\ksana2015\\kmf-editor\\src\\socketfs.js":[function(require,module,exports){
 var fs=(typeof process!=="undefined")?require("fs"):{}; // webpack.config.js node:{    fs:"empty" }
 if (typeof fs.readFile=="undefined") {
 	var rpcfs=require("./rpc/rpc_fs");	
@@ -322,7 +2157,95 @@ var readdirmeta=function(path,cb) {//read all meta in given path
 }
 module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 	unlink:unlink,mkdir:mkdir,readdir:readdir,readdirmeta:readdirmeta,ready:ready};
-},{"./node/readdirmeta":"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js","./rpc/rpc_fs":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_fs.js","./rpc/rpc_util":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_util.js","fs":false}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js":[function(require,module,exports){
+},{"./node/readdirmeta":"C:\\ksana2015\\kmf-editor\\src\\node\\readdirmeta.js","./rpc/rpc_fs":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_fs.js","./rpc/rpc_util":"C:\\ksana2015\\kmf-editor\\src\\rpc\\rpc_util.js","fs":false}],"C:\\ksana2015\\kmf-editor\\src\\status.js":[function(require,module,exports){
+var React=require("react");
+var E=React.createElement;
+var PT=React.PropTypes;
+
+var Status=React.createClass({displayName: "Status",
+	contextTypes:{
+		store:PT.object.isRequired
+	}
+	,getInitialState:function(){
+		return {tags:[]}
+	}
+	,componentDidMount:function(){
+		this.context.store.listen("showtag",this.onShowTag,this);
+	}
+	,onShowTag:function(tags) {
+		this.setState({tags});
+	}
+	,componentWillUmount:function(){
+		this.context.store.unlistenAll(this);
+	}
+	,renderItem:function(item,key) {
+		return E("span",{key},JSON.stringify(item));
+	}
+	,render:function(){
+		return E("span",{}, this.state.tags.map(this.renderItem));
+	}
+});
+module.exports=Status;
+},{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\store.js":[function(require,module,exports){
+var files={"1n8":require("../data/1n8"), dn33:require("../data/dn33")};
+var filename="1n8";
+
+var written=JSON.parse(localStorage.getItem(filename)||"null");
+var content= written || files[filename];
+
+
+var {standoffutils,tagutils}=require("ksana-master-format");
+
+var {action,store,getter,registerGetter,unregisterGetter}=require("./model");
+var self={};
+
+registerGetter("content",function(){
+	return content;
+});
+
+registerGetter("filename",function(){
+	return filename;
+})
+
+store.listen("write",function(){
+	action("commitTouched",{},function(){
+		localStorage.setItem(filename,JSON.stringify(content));
+		alert("written to localstorage")
+	});
+});
+
+store.listen("reset",function(){
+	content=files[filename];
+	action("content",{text:content.text,tags:content.tags,mode:"",author:""});
+	alert("click Write to permanently lost your changes");
+});
+
+var buildAnnotation=function(opts,content){
+	var {text,tags}=standoffutils.layout(content,opts.tag);
+	text=require("./annotation").insertBr(content,text,tags,opts.author);
+	text=require("./annotation").insertComment(content,text,tags,opts.author);
+
+	return {text,tags};
+}
+
+store.listen("mode",function(opts){
+	action("commitTouched",{},function(){
+		setTimeout(function(){//return before firing another action
+			if (opts.filename && opts.filename!==filename) {
+				filename=opts.filename;
+				content=files[filename];
+			}
+			if (opts.tag) { //annotation mode
+				var {text,tags}=buildAnnotation(opts,content);
+
+				action("content",{text,tags,mode:opts.tag,author:opts.author});
+			} else { //raw mode
+				action("content",{text:content.text,tags:content.tags,mode:"",author:opts.author});
+			}
+		},50);
+	});
+});
+},{"../data/1n8":"C:\\ksana2015\\kmf-editor\\data\\1n8.js","../data/dn33":"C:\\ksana2015\\kmf-editor\\data\\dn33.js","./annotation":"C:\\ksana2015\\kmf-editor\\src\\annotation.js","./model":"C:\\ksana2015\\kmf-editor\\src\\model.js","ksana-master-format":"C:\\ksana2015\\node_modules\\ksana-master-format\\index.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
@@ -381,6 +2304,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     var inp = dialog.getElementsByTagName("input")[0], button;
     if (inp) {
+      inp.focus();
+
       if (options.value) {
         inp.value = options.value;
         if (options.selectValueOnOpen !== false) {
@@ -404,8 +2329,6 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       });
 
       if (options.closeOnBlur !== false) CodeMirror.on(inp, "blur", close);
-
-      inp.focus();
     } else if (button = dialog.getElementsByTagName("button")[0]) {
       CodeMirror.on(button, "click", function() {
         close();
@@ -623,8 +2546,18 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   };
 
   CodeMirror.defineExtension("showHint", function(options) {
-    // We want a single cursor position.
-    if (this.listSelections().length > 1 || this.somethingSelected()) return;
+    options = parseOptions(this, this.getCursor("start"), options);
+    var selections = this.listSelections()
+    if (selections.length > 1) return;
+    // By default, don't allow completion when something is selected.
+    // A hint function can have a `supportsSelection` property to
+    // indicate that it can handle selections.
+    if (this.somethingSelected()) {
+      if (!options.hint.supportsSelection) return;
+      // Don't try with cross-line selections
+      for (var i = 0; i < selections.length; i++)
+        if (selections[i].head.line != selections[i].anchor.line) return;
+    }
 
     if (this.state.completionActive) this.state.completionActive.close();
     var completion = this.state.completionActive = new Completion(this, options);
@@ -636,12 +2569,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   function Completion(cm, options) {
     this.cm = cm;
-    this.options = this.buildOptions(options);
+    this.options = options;
     this.widget = null;
     this.debounce = 0;
     this.tick = 0;
-    this.startPos = this.cm.getCursor();
-    this.startLen = this.cm.getLine(this.startPos.line).length;
+    this.startPos = this.cm.getCursor("start");
+    this.startLen = this.cm.getLine(this.startPos.line).length - this.cm.getSelection().length;
 
     var self = this;
     cm.on("cursorActivity", this.activityFunc = function() { self.cursorActivity(); });
@@ -696,24 +2629,22 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     },
 
     update: function(first) {
-      if (this.tick == null) return;
-      if (!this.options.hint.async) {
-        this.finishUpdate(this.options.hint(this.cm, this.options), first);
-      } else {
-        var myTick = ++this.tick, self = this;
-        this.options.hint(this.cm, function(data) {
-          if (self.tick == myTick) self.finishUpdate(data, first);
-        }, this.options);
-      }
+      if (this.tick == null) return
+      var self = this, myTick = ++this.tick
+      fetchHints(this.options.hint, this.cm, this.options, function(data) {
+        if (self.tick == myTick) self.finishUpdate(data, first)
+      })
     },
 
     finishUpdate: function(data, first) {
       if (this.data) CodeMirror.signal(this.data, "update");
-      if (data && this.data && CodeMirror.cmpPos(data.from, this.data.from)) data = null;
-      this.data = data;
 
       var picked = (this.widget && this.widget.picked) || (first && this.options.completeSingle);
       if (this.widget) this.widget.close();
+
+      if (data && this.data && isNewCompletion(this.data, data)) return;
+      this.data = data;
+
       if (data && data.list.length) {
         if (picked && data.list.length == 1) {
           this.pick(data, 0);
@@ -722,19 +2653,25 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
           CodeMirror.signal(data, "shown");
         }
       }
-    },
-
-    buildOptions: function(options) {
-      var editor = this.cm.options.hintOptions;
-      var out = {};
-      for (var prop in defaultOptions) out[prop] = defaultOptions[prop];
-      if (editor) for (var prop in editor)
-        if (editor[prop] !== undefined) out[prop] = editor[prop];
-      if (options) for (var prop in options)
-        if (options[prop] !== undefined) out[prop] = options[prop];
-      return out;
     }
   };
+
+  function isNewCompletion(old, nw) {
+    var moved = CodeMirror.cmpPos(nw.from, old.from)
+    return moved > 0 && old.to.ch - old.from.ch != nw.to.ch - nw.from.ch
+  }
+
+  function parseOptions(cm, pos, options) {
+    var editor = cm.options.hintOptions;
+    var out = {};
+    for (var prop in defaultOptions) out[prop] = defaultOptions[prop];
+    if (editor) for (var prop in editor)
+      if (editor[prop] !== undefined) out[prop] = editor[prop];
+    if (options) for (var prop in options)
+      if (options[prop] !== undefined) out[prop] = options[prop];
+    if (out.hint.resolve) out.hint = out.hint.resolve(cm, pos)
+    return out;
+  }
 
   function getText(completion) {
     if (typeof completion == "string") return completion;
@@ -934,18 +2871,52 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }
   };
 
-  CodeMirror.registerHelper("hint", "auto", function(cm, options) {
-    var helpers = cm.getHelpers(cm.getCursor(), "hint"), words;
-    if (helpers.length) {
-      for (var i = 0; i < helpers.length; i++) {
-        var cur = helpers[i](cm, options);
-        if (cur && cur.list.length) return cur;
-      }
-    } else if (words = cm.getHelper(cm.getCursor(), "hintWords")) {
-      if (words) return CodeMirror.hint.fromList(cm, {words: words});
-    } else if (CodeMirror.hint.anyword) {
-      return CodeMirror.hint.anyword(cm, options);
+  function applicableHelpers(cm, helpers) {
+    if (!cm.somethingSelected()) return helpers
+    var result = []
+    for (var i = 0; i < helpers.length; i++)
+      if (helpers[i].supportsSelection) result.push(helpers[i])
+    return result
+  }
+
+  function fetchHints(hint, cm, options, callback) {
+    if (hint.async) {
+      hint(cm, callback, options)
+    } else {
+      var result = hint(cm, options)
+      if (result && result.then) result.then(callback)
+      else callback(result)
     }
+  }
+
+  function resolveAutoHints(cm, pos) {
+    var helpers = cm.getHelpers(pos, "hint"), words
+    if (helpers.length) {
+      var resolved = function(cm, callback, options) {
+        var app = applicableHelpers(cm, helpers);
+        function run(i) {
+          if (i == app.length) return callback(null)
+          fetchHints(app[i], cm, options, function(result) {
+            if (result && result.list.length > 0) callback(result)
+            else run(i + 1)
+          })
+        }
+        run(0)
+      }
+      resolved.async = true
+      resolved.supportsSelection = true
+      return resolved
+    } else if (words = cm.getHelper(cm.getCursor(), "hintWords")) {
+      return function(cm) { return CodeMirror.hint.fromList(cm, {words: words}) }
+    } else if (CodeMirror.hint.anyword) {
+      return function(cm, options) { return CodeMirror.hint.anyword(cm, options) }
+    } else {
+      return function() {}
+    }
+  }
+
+  CodeMirror.registerHelper("hint", "auto", {
+    resolve: resolveAutoHints
   });
 
   CodeMirror.registerHelper("hint", "fromList", function(cm, options) {
@@ -974,7 +2945,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     alignWithWord: true,
     closeCharacters: /[\s()\[\]{};:>,]/,
     closeOnUnfocus: true,
-    completeOnSingleClick: false,
+    completeOnSingleClick: true,
     container: null,
     customKeys: null,
     extraKeys: null
@@ -1015,7 +2986,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       query.lastIndex = stream.pos;
       var match = query.exec(stream.string);
       if (match && match.index == stream.pos) {
-        stream.pos += match[0].length;
+        stream.pos += match[0].length || 1;
         return "searching";
       } else if (match) {
         stream.pos = match.index;
@@ -1107,7 +3078,10 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       persistentDialog(cm, queryDialog, q, function(query, event) {
         CodeMirror.e_stop(event);
         if (!query) return;
-        if (query != state.queryText) startSearch(cm, state, query);
+        if (query != state.queryText) {
+          startSearch(cm, state, query);
+          state.posFrom = state.posTo = cm.getCursor();
+        }
         if (hiding) hiding.style.opacity = 1
         findNext(cm, event.shiftKey, function(_, to) {
           var dialog
@@ -1179,7 +3153,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
           replaceAll(cm, query, text)
         } else {
           clearSearch(cm);
-          var cursor = getSearchCursor(cm, query, cm.getCursor());
+          var cursor = getSearchCursor(cm, query, cm.getCursor("from"));
           var advance = function() {
             var start = cursor.from(), match;
             if (!(match = cursor.findNext())) {
@@ -1425,6 +3399,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   "use strict";
   var WRAP_CLASS = "CodeMirror-activeline";
   var BACK_CLASS = "CodeMirror-activeline-background";
+  var GUTT_CLASS = "CodeMirror-activeline-gutter";
 
   CodeMirror.defineOption("styleActiveLine", false, function(cm, val, old) {
     var prev = old && old != CodeMirror.Init;
@@ -1443,6 +3418,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     for (var i = 0; i < cm.state.activeLines.length; i++) {
       cm.removeLineClass(cm.state.activeLines[i], "wrap", WRAP_CLASS);
       cm.removeLineClass(cm.state.activeLines[i], "background", BACK_CLASS);
+      cm.removeLineClass(cm.state.activeLines[i], "gutter", GUTT_CLASS);
     }
   }
 
@@ -1467,6 +3443,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       for (var i = 0; i < active.length; i++) {
         cm.addLineClass(active[i], "wrap", WRAP_CLASS);
         cm.addLineClass(active[i], "background", BACK_CLASS);
+        cm.addLineClass(active[i], "gutter", GUTT_CLASS);
       }
       cm.state.activeLines = active;
     });
@@ -1493,7 +3470,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   else if (typeof define == "function" && define.amd) // AMD
     return define([], mod);
   else // Plain browser env
-    this.CodeMirror = mod();
+    (this || window).CodeMirror = mod();
 })(function() {
   "use strict";
 
@@ -1501,27 +3478,30 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // Kludges for bugs and behavior differences that can't be feature
   // detected are enabled based on userAgent etc sniffing.
+  var userAgent = navigator.userAgent;
+  var platform = navigator.platform;
 
-  var gecko = /gecko\/\d/i.test(navigator.userAgent);
-  var ie_upto10 = /MSIE \d/.test(navigator.userAgent);
-  var ie_11up = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(navigator.userAgent);
+  var gecko = /gecko\/\d/i.test(userAgent);
+  var ie_upto10 = /MSIE \d/.test(userAgent);
+  var ie_11up = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(userAgent);
   var ie = ie_upto10 || ie_11up;
   var ie_version = ie && (ie_upto10 ? document.documentMode || 6 : ie_11up[1]);
-  var webkit = /WebKit\//.test(navigator.userAgent);
-  var qtwebkit = webkit && /Qt\/\d+\.\d+/.test(navigator.userAgent);
-  var chrome = /Chrome\//.test(navigator.userAgent);
-  var presto = /Opera\//.test(navigator.userAgent);
+  var webkit = /WebKit\//.test(userAgent);
+  var qtwebkit = webkit && /Qt\/\d+\.\d+/.test(userAgent);
+  var chrome = /Chrome\//.test(userAgent);
+  var presto = /Opera\//.test(userAgent);
   var safari = /Apple Computer/.test(navigator.vendor);
-  var mac_geMountainLion = /Mac OS X 1\d\D([8-9]|\d\d)\D/.test(navigator.userAgent);
-  var phantom = /PhantomJS/.test(navigator.userAgent);
+  var mac_geMountainLion = /Mac OS X 1\d\D([8-9]|\d\d)\D/.test(userAgent);
+  var phantom = /PhantomJS/.test(userAgent);
 
-  var ios = /AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent);
+  var ios = /AppleWebKit/.test(userAgent) && /Mobile\/\w+/.test(userAgent);
   // This is woefully incomplete. Suggestions for alternative methods welcome.
-  var mobile = ios || /Android|webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(navigator.userAgent);
-  var mac = ios || /Mac/.test(navigator.platform);
-  var windows = /win/i.test(navigator.platform);
+  var mobile = ios || /Android|webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(userAgent);
+  var mac = ios || /Mac/.test(platform);
+  var chromeOS = /\bCrOS\b/.test(userAgent);
+  var windows = /win/i.test(platform);
 
-  var presto_version = presto && navigator.userAgent.match(/Version\/(\d*\.\d*)/);
+  var presto_version = presto && userAgent.match(/Version\/(\d*\.\d*)/);
   if (presto_version) presto_version = Number(presto_version[1]);
   if (presto_version && presto_version >= 15) { presto = false; webkit = true; }
   // Some browsers use the wrong event properties to signal cmd/ctrl on OS X
@@ -1888,7 +3868,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (horiz.clientWidth) scroll(horiz.scrollLeft, "horizontal");
     });
 
-    this.checkedOverlay = false;
+    this.checkedZeroWidth = false;
     // Need to set a minimum width to see the scrollbar on IE7 (but must not set it on IE8).
     if (ie && ie_version < 8) this.horiz.style.minHeight = this.vert.style.minWidth = "18px";
   }
@@ -1923,29 +3903,43 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         this.horiz.firstChild.style.width = "0";
       }
 
-      if (!this.checkedOverlay && measure.clientHeight > 0) {
-        if (sWidth == 0) this.overlayHack();
-        this.checkedOverlay = true;
+      if (!this.checkedZeroWidth && measure.clientHeight > 0) {
+        if (sWidth == 0) this.zeroWidthHack();
+        this.checkedZeroWidth = true;
       }
 
       return {right: needsV ? sWidth : 0, bottom: needsH ? sWidth : 0};
     },
     setScrollLeft: function(pos) {
       if (this.horiz.scrollLeft != pos) this.horiz.scrollLeft = pos;
+      if (this.disableHoriz) this.enableZeroWidthBar(this.horiz, this.disableHoriz);
     },
     setScrollTop: function(pos) {
       if (this.vert.scrollTop != pos) this.vert.scrollTop = pos;
+      if (this.disableVert) this.enableZeroWidthBar(this.vert, this.disableVert);
     },
-    overlayHack: function() {
+    zeroWidthHack: function() {
       var w = mac && !mac_geMountainLion ? "12px" : "18px";
-      this.horiz.style.minHeight = this.vert.style.minWidth = w;
-      var self = this;
-      var barMouseDown = function(e) {
-        if (e_target(e) != self.vert && e_target(e) != self.horiz)
-          operation(self.cm, onMouseDown)(e);
-      };
-      on(this.vert, "mousedown", barMouseDown);
-      on(this.horiz, "mousedown", barMouseDown);
+      this.horiz.style.height = this.vert.style.width = w;
+      this.horiz.style.pointerEvents = this.vert.style.pointerEvents = "none";
+      this.disableHoriz = new Delayed;
+      this.disableVert = new Delayed;
+    },
+    enableZeroWidthBar: function(bar, delay) {
+      bar.style.pointerEvents = "auto";
+      function maybeDisable() {
+        // To find out whether the scrollbar is still visible, we
+        // check whether the element under the pixel in the bottom
+        // left corner of the scrollbar box is the scrollbar box
+        // itself (when the bar is still visible) or its filler child
+        // (when the bar is hidden). If it is still visible, we keep
+        // it enabled, if it's hidden, we disable pointer events.
+        var box = bar.getBoundingClientRect();
+        var elt = document.elementFromPoint(box.left + 1, box.bottom - 1);
+        if (elt != bar) bar.style.pointerEvents = "none";
+        else delay.set(1000, maybeDisable);
+      }
+      delay.set(1000, maybeDisable);
     },
     clear: function() {
       var parent = this.horiz.parentNode;
@@ -2007,6 +4001,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     d.sizer.style.paddingRight = (d.barWidth = sizes.right) + "px";
     d.sizer.style.paddingBottom = (d.barHeight = sizes.bottom) + "px";
+    d.heightForcer.style.borderBottom = sizes.bottom + "px solid transparent"
 
     if (sizes.right && sizes.bottom) {
       d.scrollbarFiller.style.display = "block";
@@ -2210,6 +4205,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   function postUpdateDisplay(cm, update) {
     var viewport = update.viewport;
+
     for (var first = true;; first = false) {
       if (!first || !cm.options.lineWrapping || update.oldDisplayWidth == displayWidth(cm)) {
         // Clip forced viewport to actual scrollable area.
@@ -2225,8 +4221,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       updateHeightsInViewport(cm);
       var barMeasure = measureForScrollbars(cm);
       updateSelection(cm);
-      setDocumentHeight(cm, barMeasure);
       updateScrollbars(cm, barMeasure);
+      setDocumentHeight(cm, barMeasure);
     }
 
     update.signal(cm, "update", cm);
@@ -2243,17 +4239,16 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       postUpdateDisplay(cm, update);
       var barMeasure = measureForScrollbars(cm);
       updateSelection(cm);
-      setDocumentHeight(cm, barMeasure);
       updateScrollbars(cm, barMeasure);
+      setDocumentHeight(cm, barMeasure);
       update.finish();
     }
   }
 
   function setDocumentHeight(cm, measure) {
     cm.display.sizer.style.minHeight = measure.docHeight + "px";
-    var total = measure.docHeight + cm.display.barHeight;
-    cm.display.heightForcer.style.top = total + "px";
-    cm.display.gutters.style.height = Math.max(total + scrollGap(cm), measure.clientHeight) + "px";
+    cm.display.heightForcer.style.top = measure.docHeight + "px";
+    cm.display.gutters.style.height = (measure.docHeight + cm.display.barHeight + scrollGap(cm)) + "px";
   }
 
   // Read the actual heights of the rendered lines, and update their
@@ -2287,7 +4282,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // given line.
   function updateWidgetHeight(line) {
     if (line.widgets) for (var i = 0; i < line.widgets.length; ++i)
-      line.widgets[i].height = line.widgets[i].node.offsetHeight;
+      line.widgets[i].height = line.widgets[i].node.parentNode.offsetHeight;
   }
 
   // Do a bulk-read of the DOM positions and sizes needed to draw the
@@ -2558,10 +4553,6 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     if (!cm.state.focused) { cm.display.input.focus(); onFocus(cm); }
   }
 
-  function isReadOnly(cm) {
-    return cm.options.readOnly || cm.doc.cantEdit;
-  }
-
   // This will be set to an array of strings when copying, so that,
   // when pasting, we know what kind of selections the copied text
   // was made out of.
@@ -2616,7 +4607,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     var pasted = e.clipboardData && e.clipboardData.getData("text/plain");
     if (pasted) {
       e.preventDefault();
-      if (!isReadOnly(cm) && !cm.options.disableInput)
+      if (!cm.isReadOnly() && !cm.options.disableInput)
         runInOp(cm, function() { applyTextInput(cm, pasted, 0, null, "paste"); });
       return true;
     }
@@ -2719,13 +4710,14 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       });
 
       on(te, "paste", function(e) {
-        if (handlePaste(e, cm)) return true;
+        if (signalDOMEvent(cm, e) || handlePaste(e, cm)) return
 
         cm.state.pasteIncoming = true;
         input.fastPoll();
       });
 
       function prepareCopyCut(e) {
+        if (signalDOMEvent(cm, e)) return
         if (cm.somethingSelected()) {
           lastCopied = cm.getSelections();
           if (input.inaccurateSelection) {
@@ -2753,7 +4745,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       on(te, "copy", prepareCopyCut);
 
       on(display.scroller, "paste", function(e) {
-        if (eventInWidget(display, e)) return;
+        if (eventInWidget(display, e) || signalDOMEvent(cm, e)) return;
         cm.state.pasteIncoming = true;
         input.focus();
       });
@@ -2887,7 +4879,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       // in which case reading its value would be expensive.
       if (this.contextMenuPending || !cm.state.focused ||
           (hasSelection(input) && !prevInput && !this.composing) ||
-          isReadOnly(cm) || cm.options.disableInput || cm.state.keySeq)
+          cm.isReadOnly() || cm.options.disableInput || cm.state.keySeq)
         return false;
 
       var text = input.value;
@@ -2949,10 +4941,11 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (reset && cm.doc.sel.contains(pos) == -1)
         operation(cm, setSelection)(cm.doc, simpleSelection(pos), sel_dontScroll);
 
-      var oldCSS = te.style.cssText;
-      input.wrapper.style.position = "absolute";
-      te.style.cssText = "position: fixed; width: 30px; height: 30px; top: " + (e.clientY - 5) +
-        "px; left: " + (e.clientX - 5) + "px; z-index: 1000; background: " +
+      var oldCSS = te.style.cssText, oldWrapperCSS = input.wrapper.style.cssText;
+      input.wrapper.style.cssText = "position: absolute"
+      var wrapperBox = input.wrapper.getBoundingClientRect()
+      te.style.cssText = "position: absolute; width: 30px; height: 30px; top: " + (e.clientY - wrapperBox.top - 5) +
+        "px; left: " + (e.clientX - wrapperBox.left - 5) + "px; z-index: 1000; background: " +
         (ie ? "rgba(255, 255, 255, .05)" : "transparent") +
         "; outline: none; border-width: 0; outline: none; overflow: hidden; opacity: .05; filter: alpha(opacity=5);";
       if (webkit) var oldScrollY = window.scrollY; // Work around Chrome issue (#2712)
@@ -2983,7 +4976,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       }
       function rehide() {
         input.contextMenuPending = false;
-        input.wrapper.style.position = "relative";
+        input.wrapper.style.cssText = oldWrapperCSS
         te.style.cssText = oldCSS;
         if (ie && ie_version < 9) display.scrollbars.setScrollTop(display.scroller.scrollTop = scrollPos);
 
@@ -3014,6 +5007,10 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       }
     },
 
+    readOnlyChanged: function(val) {
+      if (!val) this.reset();
+    },
+
     setUneditable: nothing,
 
     needsContentAttribute: false
@@ -3032,10 +5029,11 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     init: function(display) {
       var input = this, cm = input.cm;
       var div = input.div = display.lineDiv;
-      div.contentEditable = "true";
       disableBrowserMagic(div);
 
-      on(div, "paste", function(e) { handlePaste(e, cm); })
+      on(div, "paste", function(e) {
+        if (!signalDOMEvent(cm, e)) handlePaste(e, cm);
+      })
 
       on(div, "compositionstart", function(e) {
         var data = e.data;
@@ -3073,11 +5071,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
       on(div, "input", function() {
         if (input.composing) return;
-        if (!input.pollContent())
+        if (cm.isReadOnly() || !input.pollContent())
           runInOp(input.cm, function() {regChange(cm);});
       });
 
       function onCopyCut(e) {
+        if (signalDOMEvent(cm, e)) return
         if (cm.somethingSelected()) {
           lastCopied = cm.getSelections();
           if (e.type == "cut") cm.replaceSelection("", null, "cut");
@@ -3097,13 +5096,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         if (e.clipboardData && !ios) {
           e.preventDefault();
           e.clipboardData.clearData();
-          var toclipboard=lastCopied.join("\n");
-          if (cm._handlers&& cm._handlers.beforeCopyToClipboard) {
-            cm._handlers.beforeCopyToClipboard.forEach(function(handler){
-              toclipboard=handler(toclipboard,cm);
-            })
-          }
-          e.clipboardData.setData("text/plain", toclipboard);
+          e.clipboardData.setData("text/plain", lastCopied.join("\n"));
         } else {
           // Old-fashioned briefly-focus-a-textarea hack
           var kludge = hiddenTextarea(), te = kludge.firstChild;
@@ -3159,8 +5152,13 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       try { var rng = range(start.node, start.offset, end.offset, end.node); }
       catch(e) {} // Our model of the DOM might be outdated, in which case the range we try to set can be impossible
       if (rng) {
-        sel.removeAllRanges();
-        sel.addRange(rng);
+        if (!gecko && this.cm.state.focused) {
+          sel.collapse(start.node, start.offset);
+          if (!rng.collapsed) sel.addRange(rng);
+        } else {
+          sel.removeAllRanges();
+          sel.addRange(rng);
+        }
         if (old && sel.anchorNode == null) sel.addRange(old);
         else if (gecko) this.startGracePeriod();
       }
@@ -3304,17 +5302,24 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       this.div.focus();
     },
     applyComposition: function(composing) {
-      if (composing.data && composing.data != composing.startData)
+      if (this.cm.isReadOnly())
+        operation(this.cm, regChange)(this.cm)
+      else if (composing.data && composing.data != composing.startData)
         operation(this.cm, applyTextInput)(this.cm, composing.data, 0, composing.sel);
     },
 
     setUneditable: function(node) {
-      node.setAttribute("contenteditable", "false");
+      node.contentEditable = "false"
     },
 
     onKeyPress: function(e) {
       e.preventDefault();
-      operation(this.cm, applyTextInput)(this.cm, String.fromCharCode(e.charCode == null ? e.keyCode : e.charCode), 0);
+      if (!this.cm.isReadOnly())
+        operation(this.cm, applyTextInput)(this.cm, String.fromCharCode(e.charCode == null ? e.keyCode : e.charCode), 0);
+    },
+
+    readOnlyChanged: function(val) {
+      this.div.contentEditable = String(val != "nocursor")
     },
 
     onContextMenu: nothing,
@@ -3614,7 +5619,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // Give beforeSelectionChange handlers a change to influence a
   // selection update.
-  function filterSelectionChange(doc, sel) {
+  function filterSelectionChange(doc, sel, options) {
     var obj = {
       ranges: sel.ranges,
       update: function(ranges) {
@@ -3622,7 +5627,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         for (var i = 0; i < ranges.length; i++)
           this.ranges[i] = new Range(clipPos(doc, ranges[i].anchor),
                                      clipPos(doc, ranges[i].head));
-      }
+      },
+      origin: options && options.origin
     };
     signal(doc, "beforeSelectionChange", doc, obj);
     if (doc.cm) signal(doc.cm, "beforeSelectionChange", doc.cm, obj);
@@ -3648,7 +5654,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   function setSelectionNoUndo(doc, sel, options) {
     if (hasHandler(doc, "beforeSelectionChange") || doc.cm && hasHandler(doc.cm, "beforeSelectionChange"))
-      sel = filterSelectionChange(doc, sel);
+      sel = filterSelectionChange(doc, sel, options);
 
     var bias = options && options.bias ||
       (cmp(sel.primary().head, doc.sel.primary().head) < 0 ? -1 : 1);
@@ -3682,8 +5688,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     var out;
     for (var i = 0; i < sel.ranges.length; i++) {
       var range = sel.ranges[i];
-      var newAnchor = skipAtomic(doc, range.anchor, bias, mayClear);
-      var newHead = skipAtomic(doc, range.head, bias, mayClear);
+      var old = sel.ranges.length == doc.sel.ranges.length && doc.sel.ranges[i];
+      var newAnchor = skipAtomic(doc, range.anchor, old && old.anchor, bias, mayClear);
+      var newHead = skipAtomic(doc, range.head, old && old.head, bias, mayClear);
       if (out || newAnchor != range.anchor || newHead != range.head) {
         if (!out) out = sel.ranges.slice(0, i);
         out[i] = new Range(newAnchor, newHead);
@@ -3692,54 +5699,61 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     return out ? normalizeSelection(out, sel.primIndex) : sel;
   }
 
-  // Ensure a given position is not inside an atomic range.
-  function skipAtomic(doc, pos, bias, mayClear) {
-    var flipped = false, curPos = pos;
-    var dir = bias || 1;
-    doc.cantEdit = false;
-    search: for (;;) {
-      var line = getLine(doc, curPos.line);
-      if (line.markedSpans) {
-        for (var i = 0; i < line.markedSpans.length; ++i) {
-          var sp = line.markedSpans[i], m = sp.marker;
-          if ((sp.from == null || (m.inclusiveLeft ? sp.from <= curPos.ch : sp.from < curPos.ch)) &&
-              (sp.to == null || (m.inclusiveRight ? sp.to >= curPos.ch : sp.to > curPos.ch))) {
-            if (mayClear) {
-              signal(m, "beforeCursorEnter");
-              if (m.explicitlyCleared) {
-                if (!line.markedSpans) break;
-                else {--i; continue;}
-              }
-            }
-            if (!m.atomic) continue;
-            var newPos = m.find(dir < 0 ? -1 : 1);
-            if (cmp(newPos, curPos) == 0) {
-              newPos.ch += dir;
-              if (newPos.ch < 0) {
-                if (newPos.line > doc.first) newPos = clipPos(doc, Pos(newPos.line - 1));
-                else newPos = null;
-              } else if (newPos.ch > line.text.length) {
-                if (newPos.line < doc.first + doc.size - 1) newPos = Pos(newPos.line + 1, 0);
-                else newPos = null;
-              }
-              if (!newPos) {
-                if (flipped) {
-                  // Driven in a corner -- no valid cursor position found at all
-                  // -- try again *with* clearing, if we didn't already
-                  if (!mayClear) return skipAtomic(doc, pos, bias, true);
-                  // Otherwise, turn off editing until further notice, and return the start of the doc
-                  doc.cantEdit = true;
-                  return Pos(doc.first, 0);
-                }
-                flipped = true; newPos = pos; dir = -dir;
-              }
-            }
-            curPos = newPos;
-            continue search;
+  function skipAtomicInner(doc, pos, oldPos, dir, mayClear) {
+    var line = getLine(doc, pos.line);
+    if (line.markedSpans) for (var i = 0; i < line.markedSpans.length; ++i) {
+      var sp = line.markedSpans[i], m = sp.marker;
+      if ((sp.from == null || (m.inclusiveLeft ? sp.from <= pos.ch : sp.from < pos.ch)) &&
+          (sp.to == null || (m.inclusiveRight ? sp.to >= pos.ch : sp.to > pos.ch))) {
+        if (mayClear) {
+          signal(m, "beforeCursorEnter");
+          if (m.explicitlyCleared) {
+            if (!line.markedSpans) break;
+            else {--i; continue;}
           }
         }
+        if (!m.atomic) continue;
+
+        if (oldPos) {
+          var near = m.find(dir < 0 ? 1 : -1), diff;
+          if (dir < 0 ? m.inclusiveRight : m.inclusiveLeft)
+            near = movePos(doc, near, -dir, near && near.line == pos.line ? line : null);
+          if (near && near.line == pos.line && (diff = cmp(near, oldPos)) && (dir < 0 ? diff < 0 : diff > 0))
+            return skipAtomicInner(doc, near, pos, dir, mayClear);
+        }
+
+        var far = m.find(dir < 0 ? -1 : 1);
+        if (dir < 0 ? m.inclusiveLeft : m.inclusiveRight)
+          far = movePos(doc, far, dir, far.line == pos.line ? line : null);
+        return far ? skipAtomicInner(doc, far, pos, dir, mayClear) : null;
       }
-      return curPos;
+    }
+    return pos;
+  }
+
+  // Ensure a given position is not inside an atomic range.
+  function skipAtomic(doc, pos, oldPos, bias, mayClear) {
+    var dir = bias || 1;
+    var found = skipAtomicInner(doc, pos, oldPos, dir, mayClear) ||
+        (!mayClear && skipAtomicInner(doc, pos, oldPos, dir, true)) ||
+        skipAtomicInner(doc, pos, oldPos, -dir, mayClear) ||
+        (!mayClear && skipAtomicInner(doc, pos, oldPos, -dir, true));
+    if (!found) {
+      doc.cantEdit = true;
+      return Pos(doc.first, 0);
+    }
+    return found;
+  }
+
+  function movePos(doc, pos, dir, line) {
+    if (dir < 0 && pos.ch == 0) {
+      if (pos.line > doc.first) return clipPos(doc, Pos(pos.line - 1));
+      else return null;
+    } else if (dir > 0 && pos.ch == (line || getLine(doc, pos.line)).text.length) {
+      if (pos.line < doc.first + doc.size - 1) return Pos(pos.line + 1, 0);
+      else return null;
+    } else {
+      return new Pos(pos.line, pos.ch + dir);
     }
   }
 
@@ -3757,6 +5771,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     for (var i = 0; i < doc.sel.ranges.length; i++) {
       if (primary === false && i == doc.sel.primIndex) continue;
       var range = doc.sel.ranges[i];
+      if (range.from().line >= cm.display.viewTo || range.to().line < cm.display.viewFrom) continue;
       var collapsed = range.empty();
       if (collapsed || cm.options.showCursorWhenSelecting)
         drawSelectionCursor(cm, range.head, curFragment);
@@ -4558,16 +6573,17 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     if (op.preparedSelection)
       cm.display.input.showSelection(op.preparedSelection);
-    if (op.updatedDisplay)
-      setDocumentHeight(cm, op.barMeasure);
     if (op.updatedDisplay || op.startHeight != cm.doc.height)
       updateScrollbars(cm, op.barMeasure);
+    if (op.updatedDisplay)
+      setDocumentHeight(cm, op.barMeasure);
 
     if (op.selectionChanged) restartBlink(cm);
 
     if (cm.state.focused && op.updateInput)
       cm.display.input.reset(op.typing);
-    if (op.focus && op.focus == activeElt()) ensureFocus(op.cm);
+    if (op.focus && op.focus == activeElt() && (!document.hasFocus || document.hasFocus()))
+      ensureFocus(op.cm);
   }
 
   function endOperation_finish(op) {
@@ -4586,7 +6602,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       display.scroller.scrollTop = doc.scrollTop;
     }
     if (op.scrollLeft != null && (display.scroller.scrollLeft != op.scrollLeft || op.forceScroll)) {
-      doc.scrollLeft = Math.max(0, Math.min(display.scroller.scrollWidth - displayWidth(cm), op.scrollLeft));
+      doc.scrollLeft = Math.max(0, Math.min(display.scroller.scrollWidth - display.scroller.clientWidth, op.scrollLeft));
       display.scrollbars.setScrollLeft(doc.scrollLeft);
       display.scroller.scrollLeft = doc.scrollLeft;
       alignHorizontally(cm);
@@ -4882,7 +6898,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       return dx * dx + dy * dy > 20 * 20;
     }
     on(d.scroller, "touchstart", function(e) {
-      if (!isMouseLikeTouchEvent(e)) {
+      if (!signalDOMEvent(cm, e) && !isMouseLikeTouchEvent(e)) {
         clearTimeout(touchFinished);
         var now = +new Date;
         d.activeTouch = {start: now, moved: false,
@@ -4937,7 +6953,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       over: function(e) {if (!signalDOMEvent(cm, e)) { onDragOver(cm, e); e_stop(e); }},
       start: function(e){onDragStart(cm, e);},
       drop: operation(cm, onDrop),
-      leave: function() {clearDragCursor(cm);}
+      leave: function(e) {if (!signalDOMEvent(cm, e)) { clearDragCursor(cm); }}
     };
 
     var inp = d.input.getField();
@@ -5011,7 +7027,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // not interfere with, such as a scrollbar or widget.
   function onMouseDown(e) {
     var cm = this, display = cm.display;
-    if (display.activeTouch && display.input.supportsTouch() || signalDOMEvent(cm, e)) return;
+    if (signalDOMEvent(cm, e) || display.activeTouch && display.input.supportsTouch()) return;
     display.shift = e.shiftKey;
 
     if (eventInWidget(display, e)) {
@@ -5067,7 +7083,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }
 
     var sel = cm.doc.sel, modifier = mac ? e.metaKey : e.ctrlKey, contained;
-    if (cm.options.dragDrop && dragAndDrop && !isReadOnly(cm) &&
+    if (cm.options.dragDrop && dragAndDrop && !cm.isReadOnly() &&
         type == "single" && (contained = sel.contains(start)) > -1 &&
         (cmp((contained = sel.ranges[contained]).from(), start) < 0 || start.xRel > 0) &&
         (cmp(contained.to(), start) > 0 || start.xRel < 0))
@@ -5122,7 +7138,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       ourIndex = doc.sel.primIndex;
     }
 
-    if (e.altKey) {
+    if (chromeOS ? e.shiftKey && e.metaKey : e.altKey) {
       type = "rect";
       if (!addNew) ourRange = new Range(start, start);
       start = posFromMouse(cm, e, true, true);
@@ -5252,7 +7268,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // Determines whether an event happened in the gutter, and fires the
   // handlers for the corresponding event.
-  function gutterEvent(cm, e, type, prevent, signalfn) {
+  function gutterEvent(cm, e, type, prevent) {
     try { var mX = e.clientX, mY = e.clientY; }
     catch(e) { return false; }
     if (mX >= Math.floor(cm.display.gutters.getBoundingClientRect().right)) return false;
@@ -5269,14 +7285,14 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (g && g.getBoundingClientRect().right >= mX) {
         var line = lineAtHeight(cm.doc, mY);
         var gutter = cm.options.gutters[i];
-        signalfn(cm, type, cm, line, gutter, e);
+        signal(cm, type, cm, line, gutter, e);
         return e_defaultPrevented(e);
       }
     }
   }
 
   function clickInGutter(cm, e) {
-    return gutterEvent(cm, e, "gutterClick", true, signalLater);
+    return gutterEvent(cm, e, "gutterClick", true);
   }
 
   // Kludge to work around strange IE behavior where it'll sometimes
@@ -5291,15 +7307,21 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     e_preventDefault(e);
     if (ie) lastDrop = +new Date;
     var pos = posFromMouse(cm, e, true), files = e.dataTransfer.files;
-    if (!pos || isReadOnly(cm)) return;
+    if (!pos || cm.isReadOnly()) return;
     // Might be a file drop, in which case we simply extract the text
     // and insert it.
     if (files && files.length && window.FileReader && window.File) {
       var n = files.length, text = Array(n), read = 0;
       var loadFile = function(file, i) {
+        if (cm.options.allowDropFileTypes &&
+            indexOf(cm.options.allowDropFileTypes, file.type) == -1)
+          return;
+
         var reader = new FileReader;
         reader.onload = operation(cm, function() {
-          text[i] = reader.result;
+          var content = reader.result;
+          if (/[\x00-\x08\x0e-\x1f]{2}/.test(content)) content = "";
+          text[i] = content;
           if (++read == n) {
             pos = clipPos(cm.doc, pos);
             var change = {from: pos, to: pos,
@@ -5341,6 +7363,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     if (signalDOMEvent(cm, e) || eventInWidget(cm.display, e)) return;
 
     e.dataTransfer.setData("Text", cm.getSelection());
+    e.dataTransfer.effectAllowed = "copyMove"
 
     // Use dummy image instead of default browsers image.
     // Recent Safari (~6.0.2) have a tendency to segfault when this happens, so we don't do it there.
@@ -5441,8 +7464,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
     var display = cm.display, scroll = display.scroller;
     // Quit if there's nothing to scroll here
-    if (!(dx && scroll.scrollWidth > scroll.clientWidth ||
-          dy && scroll.scrollHeight > scroll.clientHeight)) return;
+    var canScrollX = scroll.scrollWidth > scroll.clientWidth;
+    var canScrollY = scroll.scrollHeight > scroll.clientHeight;
+    if (!(dx && canScrollX || dy && canScrollY)) return;
 
     // Webkit browsers on OS X abort momentum scrolls when the target
     // of the scroll event is removed from the scrollable element.
@@ -5466,10 +7490,15 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     // scrolling entirely here. It'll be slightly off from native, but
     // better than glitching out.
     if (dx && !gecko && !presto && wheelPixelsPerUnit != null) {
-      if (dy)
+      if (dy && canScrollY)
         setScrollTop(cm, Math.max(0, Math.min(scroll.scrollTop + dy * wheelPixelsPerUnit, scroll.scrollHeight - scroll.clientHeight)));
       setScrollLeft(cm, Math.max(0, Math.min(scroll.scrollLeft + dx * wheelPixelsPerUnit, scroll.scrollWidth - scroll.clientWidth)));
-      e_preventDefault(e);
+      // Only prevent default scrolling if vertical scrolling is
+      // actually possible. Otherwise, it causes vertical scroll
+      // jitter on OSX trackpads when deltaX is small and deltaY
+      // is large (issue #3579)
+      if (!dy || (dy && canScrollY))
+        e_preventDefault(e);
       display.wheelStartX = null; // Abort measurement, if in progress
       return;
     }
@@ -5518,7 +7547,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     cm.display.input.ensurePolled();
     var prevShift = cm.display.shift, done = false;
     try {
-      if (isReadOnly(cm)) cm.state.suppressEdits = true;
+      if (cm.isReadOnly()) cm.state.suppressEdits = true;
       if (dropShift) cm.display.shift = false;
       done = bound(cm) != Pass;
     } finally {
@@ -5697,12 +7726,13 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // right-click take effect on it.
   function onContextMenu(cm, e) {
     if (eventInWidget(cm.display, e) || contextMenuInGutter(cm, e)) return;
+    if (signalDOMEvent(cm, e, "contextmenu")) return;
     cm.display.input.onContextMenu(e);
   }
 
   function contextMenuInGutter(cm, e) {
     if (!hasHandler(cm, "gutterContextMenu")) return false;
-    return gutterEvent(cm, e, "gutterContextMenu", false, signal);
+    return gutterEvent(cm, e, "gutterContextMenu", false);
   }
 
   // UPDATING
@@ -6250,10 +8280,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   function findPosH(doc, pos, dir, unit, visually) {
     var line = pos.line, ch = pos.ch, origDir = dir;
     var lineObj = getLine(doc, line);
-    var possible = true;
     function findNextLine() {
       var l = line + dir;
-      if (l < doc.first || l >= doc.first + doc.size) return (possible = false);
+      if (l < doc.first || l >= doc.first + doc.size) return false
       line = l;
       return lineObj = getLine(doc, l);
     }
@@ -6263,14 +8292,16 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         if (!boundToLine && findNextLine()) {
           if (visually) ch = (dir < 0 ? lineRight : lineLeft)(lineObj);
           else ch = dir < 0 ? lineObj.text.length : 0;
-        } else return (possible = false);
+        } else return false
       } else ch = next;
       return true;
     }
 
-    if (unit == "char") moveOnce();
-    else if (unit == "column") moveOnce(true);
-    else if (unit == "word" || unit == "group") {
+    if (unit == "char") {
+      moveOnce()
+    } else if (unit == "column") {
+      moveOnce(true)
+    } else if (unit == "word" || unit == "group") {
       var sawType = null, group = unit == "group";
       var helper = doc.cm && doc.cm.getHelper(pos, "wordChars");
       for (var first = true;; first = false) {
@@ -6290,8 +8321,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         if (dir > 0 && !moveOnce(!first)) break;
       }
     }
-    var result = skipAtomic(doc, Pos(line, ch), origDir, true);
-    if (!possible) result.hitSide = true;
+    var result = skipAtomic(doc, Pos(line, ch), pos, origDir, true);
+    if (!cmp(pos, result)) result.hitSide = true;
     return result;
   }
 
@@ -6678,6 +8709,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       signal(this, "overwriteToggle", this, this.state.overwrite);
     },
     hasFocus: function() { return this.display.input.getField() == activeElt(); },
+    isReadOnly: function() { return !!(this.options.readOnly || this.doc.cantEdit); },
 
     scrollTo: methodOp(function(x, y) {
       if (x != null || y != null) resolveScrollToPos(this);
@@ -6875,11 +8907,12 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       cm.display.disabled = true;
     } else {
       cm.display.disabled = false;
-      if (!val) cm.display.input.reset();
     }
+    cm.display.input.readOnlyChanged(val)
   });
   option("disableInput", false, function(cm, val) {if (!val) cm.display.input.reset();}, true);
   option("dragDrop", true, dragDropChanged);
+  option("allowDropFileTypes", null);
 
   option("cursorBlinkRate", 530);
   option("cursorScrollMargin", 0);
@@ -7184,8 +9217,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
           var range = cm.listSelections()[i];
           cm.replaceRange(cm.doc.lineSeparator(), range.anchor, range.head, "+input");
           cm.indentLine(range.from().line + 1, null, true);
-          ensureCursorVisible(cm);
         }
+        ensureCursorVisible(cm);
       });
     },
     toggleOverwrite: function(cm) {cm.toggleOverwrite();}
@@ -8113,7 +10146,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         parentStyle += "width: " + cm.display.wrapper.clientWidth + "px;";
       removeChildrenAndAdd(cm.display.measure, elt("div", [widget.node], null, parentStyle));
     }
-    return widget.height = widget.node.offsetHeight;
+    return widget.height = widget.node.parentNode.offsetHeight;
   }
 
   function addLineWidget(doc, handle, node, options) {
@@ -8523,7 +10556,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       if (nextChange == pos) { // Update current marker set
         spanStyle = spanEndStyle = spanStartStyle = title = css = "";
         collapsed = null; nextChange = Infinity;
-        var foundBookmarks = [];
+        var foundBookmarks = [], endStyles
         for (var j = 0; j < spans.length; ++j) {
           var sp = spans[j], m = sp.marker;
           if (m.type == "bookmark" && sp.from == pos && m.widgetNode) {
@@ -8534,9 +10567,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
               spanEndStyle = "";
             }
             if (m.className) spanStyle += " " + m.className;
-            if (m.css) css = m.css;
+            if (m.css) css = (css ? css + ";" : "") + m.css;
             if (m.startStyle && sp.from == pos) spanStartStyle += " " + m.startStyle;
-            if (m.endStyle && sp.to == nextChange) spanEndStyle += " " + m.endStyle;
+            if (m.endStyle && sp.to == nextChange) (endStyles || (endStyles = [])).push(m.endStyle, sp.to)
             if (m.title && !title) title = m.title;
             if (m.collapsed && (!collapsed || compareCollapsedMarkers(collapsed.marker, m) < 0))
               collapsed = sp;
@@ -8544,14 +10577,17 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
             nextChange = sp.from;
           }
         }
+        if (endStyles) for (var j = 0; j < endStyles.length; j += 2)
+          if (endStyles[j + 1] == nextChange) spanEndStyle += " " + endStyles[j]
+
+        if (!collapsed || collapsed.from == pos) for (var j = 0; j < foundBookmarks.length; ++j)
+          buildCollapsedSpan(builder, 0, foundBookmarks[j]);
         if (collapsed && (collapsed.from || 0) == pos) {
           buildCollapsedSpan(builder, (collapsed.to == null ? len + 1 : collapsed.to) - pos,
                              collapsed.marker, collapsed.from == null);
           if (collapsed.to == null) return;
           if (collapsed.to == pos) collapsed = false;
         }
-        if (!collapsed && foundBookmarks.length) for (var j = 0; j < foundBookmarks.length; ++j)
-          buildCollapsedSpan(builder, 0, foundBookmarks[j]);
       }
       if (pos >= len) break;
 
@@ -8803,6 +10839,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     this.id = ++nextDocId;
     this.modeOption = mode;
     this.lineSep = lineSep;
+    this.extend = false;
 
     if (typeof text == "string") text = this.splitLines(text);
     updateDoc(this, {from: start, to: start, text: text});
@@ -8890,10 +10927,11 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       extendSelection(this, clipPos(this, head), other && clipPos(this, other), options);
     }),
     extendSelections: docMethodOp(function(heads, options) {
-      extendSelections(this, clipPosArray(this, heads, options));
+      extendSelections(this, clipPosArray(this, heads), options);
     }),
     extendSelectionsBy: docMethodOp(function(f, options) {
-      extendSelections(this, map(this.sel.ranges, f), options);
+      var heads = map(this.sel.ranges, f);
+      extendSelections(this, clipPosArray(this, heads), options);
     }),
     setSelections: docMethodOp(function(ranges, primary, options) {
       if (!ranges.length) return;
@@ -9017,8 +11055,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }),
     removeLineWidget: function(widget) { widget.clear(); },
 
-    markText: function(from, to, options, type) {
-      return markText(this, clipPos(this, from), clipPos(this, to), options, type||"range");
+    markText: function(from, to, options) {
+      return markText(this, clipPos(this, from), clipPos(this, to), options, options && options.type || "range");
     },
     setBookmark: function(pos, options) {
       var realOpts = {replacedWith: options && (options.nodeType == null ? options.widget : options),
@@ -9046,9 +11084,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
         var spans = line.markedSpans;
         if (spans) for (var i = 0; i < spans.length; i++) {
           var span = spans[i];
-          if (!(lineNo == from.line && from.ch > span.to ||
-                span.from == null && lineNo != from.line||
-                lineNo == to.line && span.from > to.ch) &&
+          if (!(span.to != null && lineNo == from.line && from.ch >= span.to ||
+                span.from == null && lineNo != from.line ||
+                span.from != null && lineNo == to.line && span.from >= to.ch) &&
               (!filter || filter(span.marker)))
             found.push(span.marker.parent || span.marker);
         }
@@ -9067,9 +11105,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     },
 
     posFromIndex: function(off) {
-      var ch, lineNo = this.first;
+      var ch, lineNo = this.first, sepSize = this.lineSeparator().length;
       this.iter(function(line) {
-        var sz = line.text.length + 1;
+        var sz = line.text.length + sepSize;
         if (sz > off) { ch = off; return true; }
         off -= sz;
         ++lineNo;
@@ -9080,8 +11118,9 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
       coords = clipPos(this, coords);
       var index = coords.ch;
       if (coords.line < this.first || coords.ch < 0) return 0;
+      var sepSize = this.lineSeparator().length;
       this.iter(this.first, coords.line, function (line) {
-        index += line.text.length + 1;
+        index += line.text.length + sepSize;
       });
       return index;
     },
@@ -9579,24 +11618,30 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
     }
   };
 
+  var noHandlers = []
+  function getHandlers(emitter, type, copy) {
+    var arr = emitter._handlers && emitter._handlers[type]
+    if (copy) return arr && arr.length > 0 ? arr.slice() : noHandlers
+    else return arr || noHandlers
+  }
+
   var off = CodeMirror.off = function(emitter, type, f) {
     if (emitter.removeEventListener)
       emitter.removeEventListener(type, f, false);
     else if (emitter.detachEvent)
       emitter.detachEvent("on" + type, f);
     else {
-      var arr = emitter._handlers && emitter._handlers[type];
-      if (!arr) return;
-      for (var i = 0; i < arr.length; ++i)
-        if (arr[i] == f) { arr.splice(i, 1); break; }
+      var handlers = getHandlers(emitter, type, false)
+      for (var i = 0; i < handlers.length; ++i)
+        if (handlers[i] == f) { handlers.splice(i, 1); break; }
     }
   };
 
   var signal = CodeMirror.signal = function(emitter, type /*, values...*/) {
-    var arr = emitter._handlers && emitter._handlers[type];
-    if (!arr) return;
+    var handlers = getHandlers(emitter, type, true)
+    if (!handlers.length) return;
     var args = Array.prototype.slice.call(arguments, 2);
-    for (var i = 0; i < arr.length; ++i) arr[i].apply(null, args);
+    for (var i = 0; i < handlers.length; ++i) handlers[i].apply(null, args);
   };
 
   var orphanDelayedCallbacks = null;
@@ -9609,8 +11654,8 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   // them to be executed when the last operation ends, or, if no
   // operation is active, when a timeout fires.
   function signalLater(emitter, type /*, values...*/) {
-    var arr = emitter._handlers && emitter._handlers[type];
-    if (!arr) return;
+    var arr = getHandlers(emitter, type, false)
+    if (!arr.length) return;
     var args = Array.prototype.slice.call(arguments, 2), list;
     if (operationGroup) {
       list = operationGroup.delayedCallbacks;
@@ -9650,8 +11695,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
   }
 
   function hasHandler(emitter, type) {
-    var arr = emitter._handlers && emitter._handlers[type];
-    return arr && arr.length > 0;
+    return getHandlers(emitter, type).length > 0
   }
 
   // Add on and off methods to a constructor's prototype, to make
@@ -10305,7 +12349,7 @@ module.exports={readFile:readFile,writeFile:writeFile,exists:exists,
 
   // THE END
 
-  CodeMirror.version = "5.6.1";
+  CodeMirror.version = "5.14.3";
 
   return CodeMirror;
 });
@@ -11139,7 +13183,213 @@ var deserialize=function(buffer,filename) {
 
 
 module.exports={serialize:serialize,deserialize:deserialize};
-},{"./markups":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\markups.js"}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\downloader.js":[function(require,module,exports){
+},{"./markups":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\markups.js"}],"C:\\ksana2015\\node_modules\\ksana-master-format\\index.js":[function(require,module,exports){
+var xml2standoff=require("./xml2standoff");
+var standoff2xml=require("./standoff2xml");
+var tagutils=require("./tagutils");
+var standoffutils=require("./standoffutils");
+module.exports={xml2standoff,standoff2xml,tagutils,standoffutils};
+},{"./standoff2xml":"C:\\ksana2015\\node_modules\\ksana-master-format\\standoff2xml.js","./standoffutils":"C:\\ksana2015\\node_modules\\ksana-master-format\\standoffutils.js","./tagutils":"C:\\ksana2015\\node_modules\\ksana-master-format\\tagutils.js","./xml2standoff":"C:\\ksana2015\\node_modules\\ksana-master-format\\xml2standoff.js"}],"C:\\ksana2015\\node_modules\\ksana-master-format\\standoff2xml.js":[function(require,module,exports){
+var standoff2xml=function(content){
+	var out="",i=0,len=content.text.length;
+	var n=0;
+	var tag=content.tags[n];
+
+	while (i<=len) {
+		while (tag && i===tag[0]) {
+			var tagname=tag[2], nulltag=false;
+			if (tagname[0]=="<") {//as it is, comment or directive
+				out+=tagname;
+			} else {
+				if (tagname[tagname.length-1]==="/") {
+					nulltag=true;
+					tagname=tagname.substr(0,tagname.length-1);
+				}
+
+				out+="<"+tagname;
+				var attrs=tag[3];
+				if (attrs) {
+					for (var attr in attrs) {
+						out+=" "+attr+'="'+attrs[attr]+'"';
+					}
+				}
+
+				if (nulltag) {
+					out+="/>";
+				} else {
+					out+=">";
+				}
+			}
+			tag=content.tags[++n];
+		}
+		if (i<len) out+=content.text[i];
+		i++;
+	}
+	return out;
+}
+
+module.exports=standoff2xml;
+},{}],"C:\\ksana2015\\node_modules\\ksana-master-format\\standoffutils.js":[function(require,module,exports){
+var stringify=function(json){
+	return "module.exports={header:{},text:`"+json.text+
+	"`\n,tags:[\n"+json.tags.map(function(tag){return JSON.stringify(tag)}).join(",\n")+"\n]};"
+}
+
+// return text without crlf and array of text snippet 
+// aaa\nbbb =>  [0,3], [4,3]
+var replaceCRLF=function(text_with_crlf) {
+	var last=0,snippet=[],text="";
+	text_with_crlf.replace(/\n/g,function(m,idx){
+		if (idx>last) {
+			snippet.push([last,idx]);
+			text+=text_with_crlf.substring(last,idx);
+		}
+		last=idx+1;
+	});
+	
+	if (text_with_crlf.length>last) {
+		text+=text_with_crlf.substring(last);
+		snippet.push([last,text_with_crlf.length]);
+	}
+	return {text,snippet};
+}
+
+/** split text line by splittag, remove crlf, for cbeta paragraph view mode*/
+var layout=function(json, splittag) {
+	var last=0;
+	var text="",tags=[],i=0;
+	while (i<=json.tags.length) {
+		var tag=json.tags[i];
+		if ( (tag && tag[2]===splittag) || i==json.tags.length) {
+			var end=tag?tag[0]:json.text.length;
+			var r=replaceCRLF(json.text.substring(last,end));
+			var start=text.length;
+
+			r.snippet.forEach(function(t){
+				tags.push([start, t[1]-t[0] ,"source",{s:last+t[0]}]); //source position
+				start+=(t[1]-t[0]);
+			});
+
+			text+=r.text;
+
+			tags.push([text.length,2,"p"]); //just to protect from modification
+			text+="\n\n";
+
+			if (tag) last=tag[0];
+		}
+		i++;
+	}
+
+	return {text,tags};
+}
+
+module.exports={stringify,layout};
+},{}],"C:\\ksana2015\\node_modules\\ksana-master-format\\tagutils.js":[function(require,module,exports){
+/**
+	match open and close tag in tags index
+*/
+var matchOpenCloseTag=function(tags){
+	var tagstack=[];
+	for (var i=0;i<tags.length;i++) {
+		var tag=tags[i];
+		var ele=tag[2];
+
+		//not a standoff
+		if (tag[1]>0) continue;
+		//only </body> might point to top of array, but it is not a standoff
+		if (tag[1]==0 && ele[0]!=="/") continue; 
+
+		//negative length, xml tag with tag[1] as index of pair in array
+		if (ele[0]!=="/") {
+			tag[1]=0;
+			tagstack.push(["/"+ele,-i]);
+		} else {
+			var opentag=tagstack.pop();
+			if (opentag[0]!==ele) throw "tag unbalance "+tagstack;
+
+			var index=-opentag[1];
+			tag[1]=-index;
+			tags[index][1]=-i;
+		}
+
+	}
+	return tags;
+}
+module.exports={matchOpenCloseTag};
+},{}],"C:\\ksana2015\\node_modules\\ksana-master-format\\xml2standoff.js":[function(require,module,exports){
+
+/** 
+	[offset_from_begining_of_text, len|-pos_of_match_tag , element, attributes ]
+
+	element="/xxx"  ; closing tag
+	element="xxx/"  ; null tag
+
+	if len==0 && element[0]=="<" , output as it is
+	if len>0 , a overlappable tag 
+	if len<0 , xml tag
+*/
+var xml2standoff=function(content){
+	var sax="sax";
+	var Sax=require(sax);
+	var tagstack=[],context={tags:[],text:""};
+
+	var onopentag=function(e){
+		var offset=context.text.length;
+		var T=[e.name,context.tags.length,e.isSelfClosing];
+
+		context.tags.push(formatTag(e,offset));
+		//if (!e.isSelfClosing) 
+		tagstack.push(T);
+	}
+	
+	var formatTag=function(tag,start){
+		var arr=[start,0,tag.name+(tag.isSelfClosing?"/":"")];
+
+		if (Object.keys(tag.attributes).length) arr.push(tag.attributes);
+		return arr;
+	}
+	var onprocessinginstruction=function(obj) {
+		var offset=context.text.length;
+		context.tags.push([offset,0,"<?"+obj.name+" "+obj.body+"?>"]);
+	}
+
+	var oncomment=function(comment) {
+		var offset=context.text.length;
+		context.tags.push([offset,0,"<!--"+comment+"-->"]);
+	}
+
+	var onclosetag=function(name){
+		if (tagstack[tagstack[tagstack.length-1][0] != name]) {
+			throw "unbalance tag"
+		}
+		var T=tagstack.pop();
+		var offset=context.text.length;
+		
+		
+		if (!T[2]){
+			context.tags[T[1]][1]=-context.tags.length;//resolve end tag pos
+			context.tags.push([offset,-T[1],"/"+T[0]]);
+		} 
+		//context.tags[T[1]][1]=offset;//resolve end position
+	}
+	var ontext=function(text){
+		context.text+=text;
+	}
+
+	var parser=Sax.parser(true);
+	parser.onopentag=onopentag;
+	parser.onclosetag=onclosetag;
+	parser.ontext=ontext;
+	parser.oncomment=oncomment;
+	parser.onprocessinginstruction=onprocessinginstruction;
+	parser.write(content);
+	//context.tags.sort(function(tag1,tag2){
+//		return tag1[0]-tag2[0];
+//	});
+	return context;
+}
+module.exports=xml2standoff;
+},{}],"C:\\ksana2015\\node_modules\\ksana2015-webruntime\\downloader.js":[function(require,module,exports){
 
 var userCancel=false;
 var files=[];
