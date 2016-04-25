@@ -33,8 +33,8 @@ store.listen("reset",function(){
 
 var buildAnnotation=function(opts,content){
 	var {text,tags}=standoffutils.layout(content,opts.tag);
-	text=require("./annotation").insertComment(content,text,tags,opts.author);
 	text=require("./annotation").insertBr(content,text,tags,opts.author);
+	text=require("./annotation").insertComment(content,text,tags,opts.author);
 
 	return {text,tags};
 }

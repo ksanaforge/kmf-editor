@@ -72,7 +72,7 @@ var insertBr=function(rawcontent,newtext,newtags,author){
 			brs.push(tag);
 		}
 	}
-	brs.sort((b1,c2)=>b2[0]-b1[0]);
+	brs.sort((b1,b2)=>b2[0]-b1[0]);
 	for (var i=0;i<brs.length;i++) {
 
 		var br=brs[i];

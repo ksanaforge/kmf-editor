@@ -81,10 +81,33 @@ var EditMain=React.createClass({
   	}
   }
   ,onKeyDown:function(cm,evt) {
-  	if (evt.keyCode==13 && this.state.author) {
-  		evt.preventDefault();
-  		return;
+    var pos=this.doc.getCursor();
+	  var markers=this.doc.findMarksAt(pos);
+
+  	if (evt.keyCode==13 && this.state.author ) {
+  		if (markers.map((m)=>m.className).indexOf("p")>-1) {
+  			alert("cannot break at beginning of paragraph")
+  			evt.preventDefault();
+  			return;
+  		}
+  		if (markers.length==1 && markers[0].className=="source"){
+  			var text=this.doc.getValue();
+  			var index=this.doc.indexFromPos(pos);
+  			if (text[index+1]!=="\n") {
+  				this.breakSource(markers[0],pos);	
+  				return;
+  			}
+	  	  evt.preventDefault();  			
+  		}
   	};
+
+  	if (evt.keyCode==8) {
+  		if (markers.map((m)=>m.className).indexOf("p")>-1) {
+  			alert("cannot delete a p")
+  			evt.preventDefault();
+  			return;
+  		}  		
+  	}
   }
   ,onKeyUp:function(cm,evt){
   }
@@ -101,6 +124,11 @@ var EditMain=React.createClass({
   }
   ,onKeyPress:function(cm,evt) {
     var pos=this.doc.getCursor();
+    if (pos.ch==0) { //do not allow input at beginning of line
+    	alert("cannot add comment at beginning of paragraph");
+    	evt.preventDefault();
+    	return;
+    }    
     var markers=this.doc.findMarksAt(pos);
     if (markers.length==1) {
       var m=markers[0];
