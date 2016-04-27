@@ -1,14 +1,6 @@
-save raw content
-
-custom user layout by free br
-
+prevent multiple br
 ENTER to create new br ( one crlf )
 
-br is per-user
+highlight controls button
 
-two continuos br create an p (global, all user will see)
-
-do not allow three continuous \n
-
-save data to localStorage.
-reset data
+錄說明

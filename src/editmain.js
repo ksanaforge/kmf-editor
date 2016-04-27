@@ -93,7 +93,7 @@ var EditMain=React.createClass({
   		if (markers.length==1 && markers[0].className=="source"){
   			var text=this.doc.getValue();
   			var index=this.doc.indexFromPos(pos);
-  			if (text[index+1]!=="\n") {
+  			if (pos.ch>0 && text[index+1]!=="\n") {
   				this.breakSource(markers[0],pos);	
   				return;
   			}

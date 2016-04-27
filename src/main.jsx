@@ -25,8 +25,9 @@ var maincomponent = React.createClass({
   }
   ,render: function() {
     return E("div",{},
-        E(Controls),E(Status),
-        E(EditMain)
+        E(Controls),
+        E(EditMain),
+        E(Status)
       );
   }
 });

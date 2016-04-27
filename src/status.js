@@ -22,7 +22,7 @@ var Status=React.createClass({
 		return E("span",{key},JSON.stringify(item));
 	}
 	,render:function(){
-		return E("span",{}, this.state.tags.map(this.renderItem));
+		return E("div",{style:{fontSize:"75%"}}, this.state.tags.map(this.renderItem));
 	}
 });
 module.exports=Status;

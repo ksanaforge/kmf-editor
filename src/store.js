@@ -9,6 +9,7 @@ var {standoffutils,tagutils}=require("ksana-master-format");
 
 var {action,store,getter,registerGetter,unregisterGetter}=require("./model");
 var self={};
+var author="";
 
 registerGetter("content",function(){
 	return content;
@@ -16,19 +17,23 @@ registerGetter("content",function(){
 
 registerGetter("filename",function(){
 	return filename;
+});
+
+registerGetter("author",function(){
+	return author;
 })
 
 store.listen("write",function(){
 	action("commitTouched",{},function(){
 		localStorage.setItem(filename,JSON.stringify(content));
-		alert("written to localstorage")
+		alert("Written to localstorage")
 	});
 });
 
 store.listen("reset",function(){
 	content=files[filename];
 	action("content",{text:content.text,tags:content.tags,mode:"",author:""});
-	alert("click Write to permanently lost your changes");
+	alert("click Save to permanently lost your changes");
 });
 
 var buildAnnotation=function(opts,content){
@@ -48,7 +53,7 @@ store.listen("mode",function(opts){
 			}
 			if (opts.tag) { //annotation mode
 				var {text,tags}=buildAnnotation(opts,content);
-
+				author=opts.author;
 				action("content",{text,tags,mode:opts.tag,author:opts.author});
 			} else { //raw mode
 				action("content",{text:content.text,tags:content.tags,mode:"",author:opts.author});
