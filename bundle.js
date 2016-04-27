@@ -1505,19 +1505,27 @@ var E=React.createElement;
 var PT=React.PropTypes;
 var Controls=React.createClass({displayName: "Controls",
 	contextTypes:{
-		action:PT.func.isRequired
+		action:PT.func.isRequired,
+		getter:PT.func.isRequired
+	}
+	,getInitialState:function(){
+		return {filename:"1n8",author:""};
 	}
 	,onRawMode_chi:function(){
 		this.context.action("mode",{tag:"",author:"",filename:"1n8"});
+		this.setState({filename:"1n8",author:""});
 	}
 	,onRawMode_pali:function(){
 		this.context.action("mode",{tag:"",author:"",filename:"dn33"});
+		this.setState({filename:"dn33",author:""});
 	}
 	,onPMode1:function(){
 		this.context.action("mode",{tag:"p",author:"u1"});
+		this.setState({author:"u1"});
 	}
 	,onPMode2:function(){
 		this.context.action("mode",{tag:"p",author:"u2"});
+		this.setState({author:"u2"});
 	}
 	,onWrite:function(){
 		this.context.action("write");
@@ -1526,13 +1534,23 @@ var Controls=React.createClass({displayName: "Controls",
 		this.context.action("reset");	
 	}
 	,render:function(){
+		var u1style=JSON.parse(JSON.stringify(styles.pmode));
+		Object.assign(u1style,this.state.author=="u1"?styles.selected:null);
+		var u2style=JSON.parse(JSON.stringify(styles.pmode));
+		Object.assign(u2style,this.state.author=="u2"?styles.selected:null);
+
+		var f1style=JSON.parse(JSON.stringify(styles.rawmode));
+		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
+		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
+		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
+
 		return E("span",{},
-				E("button",{style:styles.rawmode,onClick:this.onRawMode_chi},"DA8")
-			,	E("button",{style:styles.rawmode,onClick:this.onRawMode_pali},"DN33")
-			, E("button",{style:styles.pmode,onClick:this.onPMode1},"User 1")
-			, E("button",{style:styles.pmode,onClick:this.onPMode2},"User 2")
+				E("button",{style:f1style,onClick:this.onRawMode_chi},"DA8")
+			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
+			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")
+			, E("button",{style:u2style,onClick:this.onPMode2},"User 2")
 			, E("span",{}," ")
-			, E("button",{style:styles.pmode,onClick:this.onWrite},"Write")
+			, E("button",{style:styles.pmode,onClick:this.onWrite},"Save")
 			, E("button",{style:styles.pmode,onClick:this.onReset},"Reset")
 			);
 
@@ -1540,8 +1558,9 @@ var Controls=React.createClass({displayName: "Controls",
 });
 var styles={
 	rawmode:{fontSize:24,width:200},
-	pmode:{fontSize:24,width:200}
-}
+	pmode:{fontSize:24,width:200},
+	selected:{color:"green"}
+};
 module.exports=Controls
 },{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\editmain.js":[function(require,module,exports){
 var React=require("react");
@@ -1639,7 +1658,7 @@ var EditMain=React.createClass({displayName: "EditMain",
   		if (markers.length==1 && markers[0].className=="source"){
   			var text=this.doc.getValue();
   			var index=this.doc.indexFromPos(pos);
-  			if (text[index+1]!=="\n") {
+  			if (pos.ch>0 && text[index+1]!=="\n") {
   				this.breakSource(markers[0],pos);	
   				return;
   			}
@@ -1743,8 +1762,9 @@ var maincomponent = React.createClass({displayName: "maincomponent",
   }
   ,render: function() {
     return E("div",{},
-        E(Controls),E(Status),
-        E(EditMain)
+        E(Controls),
+        E(EditMain),
+        E(Status)
       );
   }
 });
@@ -2182,7 +2202,7 @@ var Status=React.createClass({displayName: "Status",
 		return E("span",{key},JSON.stringify(item));
 	}
 	,render:function(){
-		return E("span",{}, this.state.tags.map(this.renderItem));
+		return E("div",{style:{fontSize:"75%"}}, this.state.tags.map(this.renderItem));
 	}
 });
 module.exports=Status;
@@ -2198,6 +2218,7 @@ var {standoffutils,tagutils}=require("ksana-master-format");
 
 var {action,store,getter,registerGetter,unregisterGetter}=require("./model");
 var self={};
+var author="";
 
 registerGetter("content",function(){
 	return content;
@@ -2205,19 +2226,23 @@ registerGetter("content",function(){
 
 registerGetter("filename",function(){
 	return filename;
+});
+
+registerGetter("author",function(){
+	return author;
 })
 
 store.listen("write",function(){
 	action("commitTouched",{},function(){
 		localStorage.setItem(filename,JSON.stringify(content));
-		alert("written to localstorage")
+		alert("Written to localstorage")
 	});
 });
 
 store.listen("reset",function(){
 	content=files[filename];
 	action("content",{text:content.text,tags:content.tags,mode:"",author:""});
-	alert("click Write to permanently lost your changes");
+	alert("click Save to permanently lost your changes");
 });
 
 var buildAnnotation=function(opts,content){
@@ -2237,7 +2262,7 @@ store.listen("mode",function(opts){
 			}
 			if (opts.tag) { //annotation mode
 				var {text,tags}=buildAnnotation(opts,content);
-
+				author=opts.author;
 				action("content",{text,tags,mode:opts.tag,author:opts.author});
 			} else { //raw mode
 				action("content",{text:content.text,tags:content.tags,mode:"",author:opts.author});
