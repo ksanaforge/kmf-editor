@@ -44,13 +44,13 @@ var Controls=React.createClass({
 		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
 		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
-
+		var cantogglecomment=!!this.state.author;
 		return E("span",{},
 				E("button",{style:f1style,onClick:this.onRawMode_chi},"DA8")
 			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
+			, E("button",{disabled:cantogglecomment,style:styles.comment,onClick:this.onToggleComment},"comment")
 			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")
 			, E("button",{style:u2style,onClick:this.onPMode2},"User 2")
-			, E("button",{style:styles.comment,onClick:this.onToggleComment},"comment")
 			, E("span",{}," ")
 			, E("button",{style:styles.pmode,onClick:this.onWrite},"Save")
 			, E("button",{style:styles.pmode,onClick:this.onReset},"Reset")
@@ -59,9 +59,9 @@ var Controls=React.createClass({
 	}
 });
 var styles={
-	rawmode:{fontSize:24,width:200},
-	pmode:{fontSize:24,width:200},
-	comment:{fontSize:18},
+	rawmode:{fontSize:24,width:150},
+	pmode:{fontSize:24,width:150},
+	comment:{fontSize:24},
 	selected:{color:"green"}
 };
 module.exports=Controls
