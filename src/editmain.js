@@ -9,7 +9,7 @@ var serialize=require("./serialize");
 var EditMain=React.createClass({
   getInitialState:function() {
   	var {text,tags}=this.context.getter("content");
-    return {text,tags,mode:"",author:""};
+    return {text,tags,mode:"",author:"",showComment:false};
   }
   ,contextTypes:{
   	store:PT.object.isRequired,
@@ -29,13 +29,18 @@ var EditMain=React.createClass({
         var start=this.doc.posFromIndex( tag[0]);
         var end=this.doc.posFromIndex(tag[0]+tag[1]);
         var readOnly=tag[2]==="source";
-        if (tag[1]==0) {
-        	var marker=this.createMarker(tag[3].author,tag[2]);
+        if (tag[1]==0) {//null tag
+          if (tag[2]=="comment" && this.state.showComment) {
+            var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);
+          } else {
+            var marker=this.createMarker(tag[3].author,tag[2]);
+          }
+        	
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
         	//https://github.com/codemirror/CodeMirror/issues/3600
         	this.doc.markText(start,end,{className:tag[2],
         		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
-        } else {
+        } else { //tag with len
         	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
         }
         
@@ -56,16 +61,24 @@ var EditMain=React.createClass({
     this.editor=this.refs.cm.getCodeMirror();
     this.doc=this.editor.doc;
     this.editor.focus();
+
     this.markText(this.state.tags);
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
+    this.context.store.listen("toggleComment",this.onToggleComment,this);
   }
   ,componentWillUnmount:function(){
   	this.context.store.unlistenAll(this);
   }
+  ,onToggleComment:function(){
+    this.setState({showComment:!this.state.showComment},function(){
+      this.doc.getAllMarks().map((m)=>m.clear());
+      this.markText(this.state.tags);
+    }.bind(this));
+  }
   ,onContent:function(content){
   	this.doc.getAllMarks().map((m)=>m.clear());
-  	this.setState({text:content.text,mode:content.tags,author:content.author});
+  	this.setState({text:content.text,tags:content.tags,author:content.author});
   	this.doc.setValue(content.text);
     this.markText(content.tags);
     this.touched=false;

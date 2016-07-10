@@ -7,8 +7,13 @@ body {margin:0px;}
 
  /*.standoff {border-radius: 20px;background:lightblue;font-family: DFKai-SB;color:black;}*/
 .standoff {font-family: DFKai-SB;color:lightblue;}
-.source {font-family: DFKai-SB;color:green;background:#303030;border-radius: 25px}
+/*;border-radius: 25px;background:#303030*/
+.source {font-family: DFKai-SB;color:green}
 .comment {color:brown;background:lightblue;border-radius: 25%}
+.comment_u1 {border:green 1px solid;border-radius: 10%;}
+.comment_u1:before {content:"u1:";}
+.comment_u2 {border:yellow 1px solid;border-radius: 10%;}
+.comment_u2:before {content:"u2:";}
 .br {color:lightblue;}
 .br:after {content :"⏎"}
 .h1 {font-size:150%;}
