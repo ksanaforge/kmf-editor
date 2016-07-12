@@ -4,3 +4,6 @@ ENTER to create new br ( one crlf )
 highlight controls button
 
 錄說明
+
+SHOW annotation of all user in different color
+prepare for PNC 2016

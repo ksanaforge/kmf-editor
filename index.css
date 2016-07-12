@@ -11,10 +11,9 @@ body {margin:0px;}
 .source {font-family: DFKai-SB;color:green}
 .comment {color:brown;background:lightblue;border-radius: 25%}
 .comment_u1 {border:green 1px solid;border-radius: 10;}
-.comment_u1:before {content:"u1:";}
 .comment_u2 {border:yellow 1px solid;border-radius: 10;}
-.comment_u2:before {content:"u2:";}
-.br {color:lightblue;}
-.br:after {content :"⏎"}
+
+.br_u1 {color:green;}
+.br_u2 {color:yellow;}
 .h1 {font-size:150%;}
 .h2 {font-size:125%;}

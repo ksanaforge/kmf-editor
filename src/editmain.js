@@ -30,10 +30,18 @@ var EditMain=React.createClass({
         var end=this.doc.posFromIndex(tag[0]+tag[1]);
         var readOnly=tag[2]==="source";
         if (tag[1]==0) {//null tag
-          if (tag[2]=="comment" && this.state.showComment) {
-            var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);
+          if (this.state.showComment) {
+            if (tag[2]=="comment") {
+              var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);  
+            } else {
+              if (tag[2]=="br") {
+                var marker=this.createMarker("⏎",tag[2]+"_"+tag[3].author);  
+              } else {
+                var marker=this.createMarker(tag[3].author,tag[2]);  
+              }
+            }
           } else {
-            var marker=this.createMarker(tag[3].author,tag[2]);
+            var marker=this.createMarker("",tag[2]);            
           }
         	
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});

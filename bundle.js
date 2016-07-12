@@ -1527,6 +1527,9 @@ var Controls=React.createClass({displayName: "Controls",
 		this.context.action("mode",{tag:"p",author:"u2"});
 		this.setState({author:"u2"});
 	}
+	,onToggleComment:function(){
+		this.context.action("toggleComment");
+	}
 	,onWrite:function(){
 		this.context.action("write");
 	}
@@ -1543,10 +1546,11 @@ var Controls=React.createClass({displayName: "Controls",
 		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
 		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
-
+		var cantogglecomment=!!this.state.author;
 		return E("span",{},
 				E("button",{style:f1style,onClick:this.onRawMode_chi},"DA8")
 			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
+			, E("button",{disabled:cantogglecomment,style:styles.comment,onClick:this.onToggleComment},"comment")
 			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")
 			, E("button",{style:u2style,onClick:this.onPMode2},"User 2")
 			, E("span",{}," ")
@@ -1557,8 +1561,9 @@ var Controls=React.createClass({displayName: "Controls",
 	}
 });
 var styles={
-	rawmode:{fontSize:24,width:200},
-	pmode:{fontSize:24,width:200},
+	rawmode:{fontSize:24,width:150},
+	pmode:{fontSize:24,width:150},
+	comment:{fontSize:24},
 	selected:{color:"green"}
 };
 module.exports=Controls
@@ -1574,7 +1579,7 @@ var serialize=require("./serialize");
 var EditMain=React.createClass({displayName: "EditMain",
   getInitialState:function() {
   	var {text,tags}=this.context.getter("content");
-    return {text,tags,mode:"",author:""};
+    return {text,tags,mode:"",author:"",showComment:false};
   }
   ,contextTypes:{
   	store:PT.object.isRequired,
@@ -1594,13 +1599,26 @@ var EditMain=React.createClass({displayName: "EditMain",
         var start=this.doc.posFromIndex( tag[0]);
         var end=this.doc.posFromIndex(tag[0]+tag[1]);
         var readOnly=tag[2]==="source";
-        if (tag[1]==0) {
-        	var marker=this.createMarker(tag[3].author,tag[2]);
+        if (tag[1]==0) {//null tag
+          if (this.state.showComment) {
+            if (tag[2]=="comment") {
+              var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);  
+            } else {
+              if (tag[2]=="br") {
+                var marker=this.createMarker("⏎",tag[2]+"_"+tag[3].author);  
+              } else {
+                var marker=this.createMarker(tag[3].author,tag[2]);  
+              }
+            }
+          } else {
+            var marker=this.createMarker("",tag[2]);            
+          }
+        	
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
         	//https://github.com/codemirror/CodeMirror/issues/3600
         	this.doc.markText(start,end,{className:tag[2],
         		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
-        } else {
+        } else { //tag with len
         	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
         }
         
@@ -1621,16 +1639,24 @@ var EditMain=React.createClass({displayName: "EditMain",
     this.editor=this.refs.cm.getCodeMirror();
     this.doc=this.editor.doc;
     this.editor.focus();
+
     this.markText(this.state.tags);
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
+    this.context.store.listen("toggleComment",this.onToggleComment,this);
   }
   ,componentWillUnmount:function(){
   	this.context.store.unlistenAll(this);
   }
+  ,onToggleComment:function(){
+    this.setState({showComment:!this.state.showComment},function(){
+      this.doc.getAllMarks().map((m)=>m.clear());
+      this.markText(this.state.tags);
+    }.bind(this));
+  }
   ,onContent:function(content){
   	this.doc.getAllMarks().map((m)=>m.clear());
-  	this.setState({text:content.text,mode:content.tags,author:content.author});
+  	this.setState({text:content.text,tags:content.tags,author:content.author});
   	this.doc.setValue(content.text);
     this.markText(content.tags);
     this.touched=false;
@@ -12718,9 +12744,12 @@ var CodeMirrorComponent = React.createClass({
 	,shouldComponentUpdate:function(nextProps) {
 		var update= (nextProps.value!==this.props.value || nextProps.history!==this.props.history 
 				||nextProps.markups!==this.props.markups);
+
+		if (nextProps.value!==this.props.value) {
+			this.codeMirror.getDoc().setValue(nextProps.value);
+		}
 		return update;
 	}
-
 	,componentWillReceiveProps:function (nextProps) {
 		if (this.codeMirror) {
 
@@ -12733,7 +12762,6 @@ var CodeMirrorComponent = React.createClass({
 			}
 		}
 	}
-
 	,getCodeMirror:function () {
 		return this.codeMirror;
 	}
@@ -13260,8 +13288,10 @@ var stringify=function(json){
 	"`\n,tags:[\n"+json.tags.map(function(tag){return JSON.stringify(tag)}).join(",\n")+"\n]};"
 }
 
-// return text without crlf and array of text snippet 
-// aaa\nbbb =>  [0,3], [4,3]
+// return text without crlf and array of snippet 
+// aaa\nbbb =>  
+//    return text   = aaabbb
+//           snippet= [0,3], [4,3]
 var replaceCRLF=function(text_with_crlf) {
 	var last=0,snippet=[],text="";
 	text_with_crlf.replace(/\n/g,function(m,idx){
@@ -13297,8 +13327,8 @@ var layout=function(json, splittag) {
 
 			text+=r.text;
 
-			tags.push([text.length,2,"p"]); //just to protect from modification
-			text+="\n\n";
+			tags.push([text.length,2,splittag]); //just to protect following \n\n from modification
+			text+="\n\n"; 
 
 			if (tag) last=tag[0];
 		}
