@@ -22,6 +22,24 @@ var EditMain=React.createClass({
     marker.innerHTML=author;
     return marker;
   }
+  ,markKepan:function(author){
+    author=author||this.state.author;
+    if (!author) return;
+    var content={text:this.state.text,tags:this.state.tags};
+    var comments=serialize.extractComment(content,this.doc,author);
+    var text=this.doc.getValue();
+    for (var i=0;i<comments.length;i++) {
+      var s=comments[i][0],l=comments[i][1];
+      while (s<text.length&&text[s]=="\n") {
+        s++;l--
+      }
+      if (l<1)continue;
+      var start=this.doc.posFromIndex(s);
+      var end=this.doc.posFromIndex(s+l);
+      var str=text.substr(s,l);
+      if (str[0]=="-") this.doc.markText(start,end,{className:"kepan"});  
+    }
+  }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
       var tag=tags[i];
@@ -50,8 +68,7 @@ var EditMain=React.createClass({
         		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
         } else { //tag with len
         	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
-        }
-        
+        }        
       }  else {
         var marker = document.createElement('span');
         marker.className= "tag";
@@ -69,8 +86,9 @@ var EditMain=React.createClass({
     this.editor=this.refs.cm.getCodeMirror();
     this.doc=this.editor.doc;
     this.editor.focus();
-
+    this.doc.getAllMarks().map((m)=>m.clear());
     this.markText(this.state.tags);
+    this.markKepan();
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
     this.context.store.listen("toggleComment",this.onToggleComment,this);
@@ -82,6 +100,7 @@ var EditMain=React.createClass({
     this.setState({showComment:!this.state.showComment},function(){
       this.doc.getAllMarks().map((m)=>m.clear());
       this.markText(this.state.tags);
+      this.markKepan();
     }.bind(this));
   }
   ,onContent:function(content){
@@ -89,6 +108,7 @@ var EditMain=React.createClass({
   	this.setState({text:content.text,tags:content.tags,author:content.author});
   	this.doc.setValue(content.text);
     this.markText(content.tags);
+    this.markKepan(content.author);
     this.touched=false;
   }
   ,onCommitTouched:function(opts,cb){
@@ -107,7 +127,7 @@ var EditMain=React.createClass({
 
   	if (evt.keyCode==13 && this.state.author ) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
-  			alert("cannot break at beginning of paragraph")
+  			//alert("cannot break at beginning of paragraph");
   			evt.preventDefault();
   			return;
   		}
@@ -124,7 +144,7 @@ var EditMain=React.createClass({
 
   	if (evt.keyCode==8) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
-  			alert("cannot delete a p")
+  			//alert("cannot delete a p");
   			evt.preventDefault();
   			return;
   		}  		
@@ -145,8 +165,9 @@ var EditMain=React.createClass({
   }
   ,onKeyPress:function(cm,evt) {
     var pos=this.doc.getCursor();
-    if (pos.ch==0) { //do not allow input at beginning of line
-    	alert("cannot add comment at beginning of paragraph");
+    var curline=this.doc.getLine(pos.line);
+    if (pos.ch==curline.length) { //do not allow input at end of line
+    	alert("cannot add comment at end of paragraph");
     	evt.preventDefault();
     	return;
     }    
@@ -158,6 +179,8 @@ var EditMain=React.createClass({
 
   }  
   ,onCursorActivity:function(cm){
+    //show tags is causing reflow
+    return;
   	clearTimeout(this.timercursor);
   	this.timercursor=setTimeout(function(){
   		var cur=cm.doc.getCursor();
@@ -176,7 +199,7 @@ var EditMain=React.createClass({
 					tags.push([ idx1, 0, marker.className, marker.payload  ]);
 				}
   		}
-  		this.context.action("showtag",tags);
+  		this.context.action("showtag",tags); 
   	}.bind(this),200);
   }
 	,render:function(){
