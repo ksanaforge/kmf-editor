@@ -62,7 +62,7 @@ var markKepanGroup=function(doc,s,l,str,levels,markerCleared){
 var toc=[];
 var markKepan=function(content,doc,author,markerCleared){
     toc=[];
-    
+    var remaining=0;//if have remaining, render is not complete, need another call
     var comments=serialize.extractComment(content,doc,author);
     var text=doc.getValue();
     var levels=[0];
@@ -73,9 +73,18 @@ var markKepan=function(content,doc,author,markerCleared){
       }
       if (l<1)continue;
       var str=text.substr(s,l);
-      if (str[0]!=KepanMarker) continue;
+      //only KepanMarker
+      if (str[0]!=KepanMarker ) continue;
+      if (str.length==KepanMarker.length) {
+        //do not render now, wait for user input a digit for upper level.
+        remaining++;
+        continue;
+      }
+
       markKepanGroup(doc,s,l,str,levels,markerCleared);
     }
+    if (remaining) console.log("remaining",remaining)
+    return remaining;
 }
 var findNearestTocNode=function(offset){
   for (var i=0;i<toc.length;i++) {

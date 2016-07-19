@@ -31,8 +31,8 @@ var EditMain=React.createClass({
     author=author||this.state.author;
     if (!author) return;
     var content={text:this.state.text,tags:this.state.tags};
-    kepan.markKepan(content,this.doc,author,this.markerCleared);
-    this.kepanTouch=false;
+    var remain=kepan.markKepan(content,this.doc,author,this.markerCleared);
+    if (!remain) this.kepanTouch=false;
   }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
@@ -203,7 +203,7 @@ var EditMain=React.createClass({
     markers=markers.filter(function(m){return m.className=="source"});
     //make sure not in source area
     if (markers.length && this.kepanTouch) {
-        setTimeout(this.markKepan,100);
+        setTimeout(this.markKepan,300);
     }
   }
   ,onCursorActivity:function(cm){
