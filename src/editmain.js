@@ -5,6 +5,7 @@ var kcm=require("ksana-codemirror");
 var CodeMirror=kcm.Component;
 var PT=React.PropTypes;
 var serialize=require("./serialize");
+var KepanMarker="-";
 
 var EditMain=React.createClass({
   getInitialState:function() {
@@ -22,23 +23,64 @@ var EditMain=React.createClass({
     marker.innerHTML=author;
     return marker;
   }
+  ,getLevelName:function(level) {
+    return "甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥"[level-1];
+  }
+  ,markKepanGroup:function(s,l,str,level,seq){
+    var nodes=str.substr(1).split(KepanMarker);
+    var upper=0,prevlevel=level;
+    var len=KepanMarker.length; //first kepanMarker
+
+    for (var i=0;i<nodes.length;i++) {
+      var start=this.doc.posFromIndex(s+len-1);
+      var end=this.doc.posFromIndex(s+len);
+      if (i) level++;
+      var caption=str.substr(len,nodes[i].length);
+      var up=caption.match(/^\d+/);
+      var errorclassname="";
+      if (up) {
+        end=this.doc.posFromIndex(s+len+up.length);        
+        up=parseInt(up[0],10);
+        level-=up;
+        if (level<1) {
+          level=1;
+          errorclassname="kepan_error";
+        }
+      }
+      //text is s+len till s+len+nodes[i].length
+      if (prevlevel==level) seq++;else seq=1;
+      var kepanmarker=this.createMarker(this.getLevelName(level)+seq,errorclassname||"kepan");
+      var marker=this.doc.markText(start,end,{className:"kepan",clearOnEnter:true,replacedWith:kepanmarker});
+      marker.on('clear', function(m){
+        this.kepanTouch=true;
+      }.bind(this));
+
+      len+=KepanMarker.length+nodes[i].length;
+      
+      prevlevel=level;
+    }
+    return {level,seq};
+  }
   ,markKepan:function(author){
+    this.doc.getAllMarks().map(function(m){if (m.className=="kepan") m.clear()});
     author=author||this.state.author;
     if (!author) return;
     var content={text:this.state.text,tags:this.state.tags};
     var comments=serialize.extractComment(content,this.doc,author);
     var text=this.doc.getValue();
+    var level=1,seq=1;
     for (var i=0;i<comments.length;i++) {
       var s=comments[i][0],l=comments[i][1];
       while (s<text.length&&text[s]=="\n") {
         s++;l--
       }
       if (l<1)continue;
-      var start=this.doc.posFromIndex(s);
-      var end=this.doc.posFromIndex(s+l);
       var str=text.substr(s,l);
-      if (str[0]=="-") this.doc.markText(start,end,{className:"kepan"});  
+      if (str[0]!=KepanMarker) continue;
+      var r=this.markKepanGroup(s,l,str,level,seq);
+      level=r.level;seq=r.seq;
     }
+    this.kepanTouch=false;
   }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
@@ -152,7 +194,13 @@ var EditMain=React.createClass({
   }
   ,onKeyUp:function(cm,evt){
   }
-  ,onChange:function(){
+  ,onChange:function(cm,obj){
+    if (obj.text.length && obj.text[0].indexOf(KepanMarker)>-1) {
+      this.kepanTouch=true;
+    }
+    if (obj.removed.length && obj.removed[0].indexOf(KepanMarker)>-1) {
+      this.kepanTouch=true;
+    }
   	this.touched=true;
   }
   ,breakSource:function(marker,at) { //break marker into two, to allow input
@@ -170,7 +218,7 @@ var EditMain=React.createClass({
     	alert("cannot add comment at end of paragraph");
     	evt.preventDefault();
     	return;
-    }    
+    }
     var markers=this.doc.findMarksAt(pos);
     if (markers.length==1) {
       var m=markers[0];
@@ -178,7 +226,17 @@ var EditMain=React.createClass({
     }
 
   }  
+  ,onLeaveKepan:function(cm){
+    var cur=cm.doc.getCursor();
+    var markers=cm.doc.findMarksAt(cur);
+    markers=markers.filter(function(m){return m.className=="source"});
+    //make sure not in source area
+    if (markers.length && this.kepanTouch) {
+        setTimeout(this.markKepan,100);
+    }
+  }
   ,onCursorActivity:function(cm){
+    return this.onLeaveKepan(cm);
     //show tags is causing reflow
     return;
   	clearTimeout(this.timercursor);

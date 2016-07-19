@@ -17,7 +17,13 @@ body {margin:0px;}
 .br_u2 {color:yellow;}
 .h1 {font-size:150%;}
 .h2 {font-size:125%;}
-
-.kepan {border:green 1px solid;border-radius: 10px;}
-.kepan::before {content:"3";background:green;color:white;
-border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
+.kepan_error {background-color:red}
+.kepan {background-color:green;border-top-left-radius: 10px}
+.kepan1 {}
+.kepan2 {}
+.kepan3 {}
+.kepan4 {}
+.kepan5 {}
+.kepan6 {}
+.kepan7 {}
+.kepan8 {}
