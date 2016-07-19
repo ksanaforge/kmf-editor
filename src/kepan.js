@@ -1,26 +1,6 @@
 var KepanMarker="-";
 var serialize=require("./serialize");
 
-var  buildtoc=function(toc) {
-  if (!toc || !toc.length) return;  
-    var depths=[];
-    var prev=0;
-    for (var i=0;i<toc.length;i++) {
-      var depth=toc[i].d;
-      if (prev>depth) { //link to prev sibling
-        if (depths[depth]) {
-          toc[depths[depth]].n = i;
-          toc[i].p=depths[depth];
-        }
-        for (var j=depth;j<prev;j++) depths[j]=0;
-      }
-      if (i<toc.length-1 && toc[i+1].d>depth) {
-        toc[i].child=true;
-      }
-      depths[depth]=i;
-      prev=depth;
-    } 
-};
 
 var getLevelName=function(level) {
     //return level;
@@ -38,6 +18,7 @@ var markKepanGroup=function(doc,s,l,str,levels,markerCleared){
   var upper=0,prevlevel=levels.length;
   var len=KepanMarker.length; //first kepanMarker
 
+
   for (var i=0;i<nodes.length;i++) {
     var start=doc.posFromIndex(s+len-1);
     var end=doc.posFromIndex(s+len);
@@ -45,11 +26,12 @@ var markKepanGroup=function(doc,s,l,str,levels,markerCleared){
       levels.push(0);
     }
     var caption=str.substr(len,nodes[i].length);
-    var up=0;
+    var upwidth=0; //level up width, prevent clearOnEnter when moving around
     if (i==0) { //check leading number to upper level
       var up=caption.match(/^\d+/);
       var errorclassname="";
       if (up) {
+        upwidth=up[0].length;
         end=doc.posFromIndex(s+len+up.length);        
         up=parseInt(up[0],10);
         if (up+1>levels.length) {
@@ -72,14 +54,14 @@ var markKepanGroup=function(doc,s,l,str,levels,markerCleared){
         markerCleared();
       });
     }
-    toc.push({d:levels.length,start:s+len,end:s+len+nodes[i].length,t:caption});
+    toc.push([levels.length,s+len+upwidth,caption]);
     len+=KepanMarker.length+nodes[i].length;
   }
 }
 
 var toc=[];
 var markKepan=function(content,doc,author,markerCleared){
-    toc=[{d:0,start:0,end:0}];
+    toc=[];
     
     var comments=serialize.extractComment(content,doc,author);
     var text=doc.getValue();
@@ -94,27 +76,42 @@ var markKepan=function(content,doc,author,markerCleared){
       if (str[0]!=KepanMarker) continue;
       markKepanGroup(doc,s,l,str,levels,markerCleared);
     }
-    buildtoc(toc);
 }
 var findNearestTocNode=function(offset){
   for (var i=0;i<toc.length;i++) {
-    if (toc[i].start>offset) return i-1;
+    if (toc[i][1]>offset)return i-1;
   }
-  return 0;
+  return toc.length-1;
+}
+var getSiblings=function(n){
+  var depth=toc[n][0],i;
+  var out=[];
+  for (i=n-1;i>=0;i--) {
+    var d=toc[i][0];
+    if (d<depth) break;
+    else if (d===depth) out.unshift(i);
+  }
+  for (i=n;i<toc.length;i++) {
+    var d=toc[i][0];
+    if (d<depth) break;
+    else if (d===depth) out.push(i);
+  }
+  return out;
 }
 var nextKepan=function(doc,offset){
   var i=findNearestTocNode(offset);
   if (i<0) return;
-  if (toc[i].n) return toc[toc[i].n].end;
-  else if (toc[i+1].d==toc[i].d) return toc[i+1].end;
-  else return 0;
+  var siblings=getSiblings(i);
+  var at=siblings.indexOf(i);
+  if (at<siblings.length-1) return toc[siblings[at+1]][1];
+  else return toc[siblings[0]][1];
 }
 var prevKepan=function(doc,offset){
   var i=findNearestTocNode(offset);
   if (i<0) return;
-
-  if (toc[i].p) return toc[toc[i].p].end;
-  else if (toc[i-1].d==toc[i].d) return toc[i-1].end;
-  else return 0;
+  var siblings=getSiblings(i);
+  var at=siblings.indexOf(i);
+  if (at>0) return toc[siblings[at-1]][1];
+  else return toc[siblings[siblings.length-1]][1];
 }
-module.exports={buildtoc,nextKepan,prevKepan,KepanMarker,markKepan};
+module.exports={nextKepan,prevKepan,KepanMarker,markKepan};
