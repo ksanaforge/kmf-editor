@@ -108,19 +108,27 @@ var getSiblings=function(n){
   return out;
 }
 var nextKepan=function(doc,offset){
-  var i=findNearestTocNode(offset);
-  if (i<0) return;
-  var siblings=getSiblings(i);
-  var at=siblings.indexOf(i);
+  var n=findNearestTocNode(offset);
+  if (n<0) return;
+  var siblings=getSiblings(n);
+  var at=siblings.indexOf(n);
   if (at<siblings.length-1) return toc[siblings[at+1]][1];
   else return toc[siblings[0]][1];
 }
 var prevKepan=function(doc,offset){
-  var i=findNearestTocNode(offset);
-  if (i<0) return;
-  var siblings=getSiblings(i);
-  var at=siblings.indexOf(i);
+  var n=findNearestTocNode(offset);
+  if (n<0) return;
+  var siblings=getSiblings(n);
+  var at=siblings.indexOf(n);
   if (at>0) return toc[siblings[at-1]][1];
   else return toc[siblings[siblings.length-1]][1];
 }
-module.exports={nextKepan,prevKepan,KepanMarker,markKepan};
+var parentKepan=function(doc,offset){
+  var n=findNearestTocNode(offset);
+  if (n<0) return;
+  var d=toc[n][0];
+  for (var i=n-1;i>0;i--) {
+    if (toc[i][0]<d) return toc[i][1];
+  }
+}
+module.exports={nextKepan,prevKepan,KepanMarker,markKepan,parentKepan};

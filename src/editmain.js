@@ -76,22 +76,25 @@ var EditMain=React.createClass({
       }
     }
   }
+  ,jump:function(cm,func){
+    var pos=cm.doc.getCursor();
+    if (pos.from) pos=pos.from;
+    var idx=cm.doc.indexFromPos(pos);
+    var n=func(cm.doc,idx);
+    if (n) cm.doc.setCursor(  cm.doc.posFromIndex(n) );
+  }
   ,setHotkeys:function(cm){
+    var jump=this.jump;
     cm.setOption("extraKeys", {
       "Ctrl-,": function(cm) {
-        var pos=cm.doc.getCursor();
-        if (pos.from) pos=pos.from;
-        var idx=cm.doc.indexFromPos(pos);
-        var n=kepan.prevKepan(cm.doc,idx);
-        if (n) cm.doc.setCursor(  cm.doc.posFromIndex(n) );
+        jump(cm,kepan.prevKepan);
       },
       "Ctrl-.": function(cm) {
-        var pos=cm.doc.getCursor();
-        if (pos.from) pos=pos.from;
-        var idx=cm.doc.indexFromPos(pos);
-        var n=kepan.nextKepan(cm.doc,idx);
-        if (n) cm.doc.setCursor(  cm.doc.posFromIndex(n) );
+        jump(cm,kepan.nextKepan);
       }
+      ,"Ctrl-/": function(cm) {
+        jump(cm,kepan.parentKepan);
+      }      
     });
   }
   ,componentDidMount:function(){
