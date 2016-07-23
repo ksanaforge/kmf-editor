@@ -36,43 +36,43 @@ var EditMain=React.createClass({
   }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
-      var tag=tags[i];
-      if (tag[1]>0 ||(tag[1]==0 && (tag[2]=="comment"||tag[2]=="br") )) {
-        var start=this.doc.posFromIndex( tag[0]);
-        var end=this.doc.posFromIndex(tag[0]+tag[1]);
-        var readOnly=tag[2]==="source";
-        if (tag[1]==0) {//null tag
+      var tag=tags[i],tagstart=tag[0],taglen=tag[1],tagtype=tag[2],payload=tag[3];
+      if (taglen>0 ||(taglen==0 && (tag[2]=="comment"||tag[2]=="br") )) {
+        var start=this.doc.posFromIndex( tagstart);
+        var end=this.doc.posFromIndex(tagstart+taglen);
+        var readOnly=tagtype==="source";
+        if (taglen==0) {//null tag
           if (this.state.showComment) {
-            if (tag[2]=="comment") {
-              var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);  
+            if (tagtype=="comment") {
+              var marker=this.createMarker(payload.text,"comment_"+payload.author);  
             } else {
-              if (tag[2]=="br") {
-                var marker=this.createMarker("⏎",tag[2]+"_"+tag[3].author);  
+              if (tagtype=="br") {
+                var marker=this.createMarker("⏎",tagtype+"_"+payload.author);  
               } else {
-                var marker=this.createMarker(tag[3].author,tag[2]);  
+                var marker=this.createMarker(payload.author,tag[2]);  
               }
             }
           } else {
-            var marker=this.createMarker("",tag[2]);            
+            var marker=this.createMarker("",tagtype);            
           }
         	
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
         	//https://github.com/codemirror/CodeMirror/issues/3600
-        	this.doc.markText(start,end,{className:tag[2],
-        		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
+        	this.doc.markText(start,end,{className:tagtype,
+        		replacedWith:marker,type:"bookmark",payload,clearWhenEmpty:false});
         } else { //tag with len
-        	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
+        	this.doc.markText(start,end,{className:tagtype,readOnly,payload});	
         }        
       }  else {
         var marker = document.createElement('span');
         marker.className= "tag";
         marker.innerHTML="<";
 
-        if (tag[2][0]=="/") marker.innerHTML=">"
-        if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
+        if (tagtype[0]=="/") marker.innerHTML=">"
+        if (tagtype[tagtype.length-1]=="/") marker.innerHTML="&#8823;"
         var start=this.doc.posFromIndex( tag[0]);
         this.doc.markText(start,start,
-        	{elementName:tag[2],replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload:tag[3]});
+        	{elementName:tagtype,replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload});
       }
     }
   }
@@ -158,7 +158,7 @@ var EditMain=React.createClass({
   		}
   	};
 
-  	if (evt.keyCode==8) {
+  	if (evt.keyCode==8 && this.state.author) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
   			//alert("cannot delete a p");
   			evt.preventDefault();
