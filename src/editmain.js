@@ -5,6 +5,7 @@ var kcm=require("ksana-codemirror");
 var CodeMirror=kcm.Component;
 var PT=React.PropTypes;
 var serialize=require("./serialize");
+var kepan=require("./kepan");
 
 var EditMain=React.createClass({
   getInitialState:function() {
@@ -22,55 +23,88 @@ var EditMain=React.createClass({
     marker.innerHTML=author;
     return marker;
   }
+  ,markerCleared:function(){
+    this.kepanTouch=true;
+  }
+  ,markKepan:function(author){
+    this.doc.getAllMarks().map(function(m){if (m.className=="kepan") m.clear()});
+    author=author||this.state.author;
+    if (!author) return;
+    var content={text:this.state.text,tags:this.state.tags};
+    var remain=kepan.markKepan(content,this.doc,author,this.markerCleared);
+    if (!remain) this.kepanTouch=false;
+  }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
-      var tag=tags[i];
-      if (tag[1]>0 ||(tag[1]==0 && (tag[2]=="comment"||tag[2]=="br") )) {
-        var start=this.doc.posFromIndex( tag[0]);
-        var end=this.doc.posFromIndex(tag[0]+tag[1]);
-        var readOnly=tag[2]==="source";
-        if (tag[1]==0) {//null tag
+      var tag=tags[i],tagstart=tag[0],taglen=tag[1],tagtype=tag[2],payload=tag[3];
+      if (taglen>0 ||(taglen==0 && (tag[2]=="comment"||tag[2]=="br") )) {
+        var start=this.doc.posFromIndex( tagstart);
+        var end=this.doc.posFromIndex(tagstart+taglen);
+        var readOnly=tagtype==="source";
+        if (taglen==0) {//null tag
           if (this.state.showComment) {
-            if (tag[2]=="comment") {
-              var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);  
+            if (tagtype=="comment") {
+              var marker=this.createMarker(payload.text,"comment_"+payload.author);  
             } else {
-              if (tag[2]=="br") {
-                var marker=this.createMarker("⏎",tag[2]+"_"+tag[3].author);  
+              if (tagtype=="br") {
+                var marker=this.createMarker("⏎",tagtype+"_"+payload.author);  
               } else {
-                var marker=this.createMarker(tag[3].author,tag[2]);  
+                var marker=this.createMarker(payload.author,tag[2]);  
               }
             }
           } else {
-            var marker=this.createMarker("",tag[2]);            
+            var marker=this.createMarker("",tagtype);            
           }
         	
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
         	//https://github.com/codemirror/CodeMirror/issues/3600
-        	this.doc.markText(start,end,{className:tag[2],
-        		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
+        	this.doc.markText(start,end,{className:tagtype,
+        		replacedWith:marker,type:"bookmark",payload,clearWhenEmpty:false});
         } else { //tag with len
-        	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
-        }
-        
+        	this.doc.markText(start,end,{className:tagtype,readOnly,payload});	
+        }        
       }  else {
         var marker = document.createElement('span');
         marker.className= "tag";
         marker.innerHTML="<";
 
-        if (tag[2][0]=="/") marker.innerHTML=">"
-        if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
+        if (tagtype[0]=="/") marker.innerHTML=">"
+        if (tagtype[tagtype.length-1]=="/") marker.innerHTML="&#8823;"
         var start=this.doc.posFromIndex( tag[0]);
         this.doc.markText(start,start,
-        	{elementName:tag[2],replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload:tag[3]});
+        	{elementName:tagtype,replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload});
       }
     }
   }
+  ,jump:function(cm,func){
+    var pos=cm.doc.getCursor();
+    if (pos.from) pos=pos.from;
+    var idx=cm.doc.indexFromPos(pos);
+    var n=func(cm.doc,idx);
+    if (n) cm.doc.setCursor(  cm.doc.posFromIndex(n) );
+  }
+  ,setHotkeys:function(cm){
+    var jump=this.jump;
+    cm.setOption("extraKeys", {
+      "Ctrl-,": function(cm) {
+        jump(cm,kepan.prevKepan);
+      },
+      "Ctrl-.": function(cm) {
+        jump(cm,kepan.nextKepan);
+      }
+      ,"Ctrl-/": function(cm) {
+        jump(cm,kepan.parentKepan);
+      }      
+    });
+  }
   ,componentDidMount:function(){
     this.editor=this.refs.cm.getCodeMirror();
+    this.setHotkeys(this.editor);
     this.doc=this.editor.doc;
     this.editor.focus();
-
+    this.doc.getAllMarks().map((m)=>m.clear());
     this.markText(this.state.tags);
+    this.markKepan();
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
     this.context.store.listen("toggleComment",this.onToggleComment,this);
@@ -82,6 +116,7 @@ var EditMain=React.createClass({
     this.setState({showComment:!this.state.showComment},function(){
       this.doc.getAllMarks().map((m)=>m.clear());
       this.markText(this.state.tags);
+      this.markKepan();
     }.bind(this));
   }
   ,onContent:function(content){
@@ -89,6 +124,7 @@ var EditMain=React.createClass({
   	this.setState({text:content.text,tags:content.tags,author:content.author});
   	this.doc.setValue(content.text);
     this.markText(content.tags);
+    this.markKepan(content.author);
     this.touched=false;
   }
   ,onCommitTouched:function(opts,cb){
@@ -107,7 +143,7 @@ var EditMain=React.createClass({
 
   	if (evt.keyCode==13 && this.state.author ) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
-  			alert("cannot break at beginning of paragraph")
+  			//alert("cannot break at beginning of paragraph");
   			evt.preventDefault();
   			return;
   		}
@@ -122,9 +158,9 @@ var EditMain=React.createClass({
   		}
   	};
 
-  	if (evt.keyCode==8) {
+  	if (evt.keyCode==8 && this.state.author) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
-  			alert("cannot delete a p")
+  			//alert("cannot delete a p");
   			evt.preventDefault();
   			return;
   		}  		
@@ -132,7 +168,13 @@ var EditMain=React.createClass({
   }
   ,onKeyUp:function(cm,evt){
   }
-  ,onChange:function(){
+  ,onChange:function(cm,obj){
+    if (obj.text.length && obj.text[0].indexOf(kepan.KepanMarker)>-1) {
+      this.kepanTouch=true;
+    }
+    if (obj.removed.length && obj.removed[0].indexOf(kepan.KepanMarker)>-1) {
+      this.kepanTouch=true;
+    }
   	this.touched=true;
   }
   ,breakSource:function(marker,at) { //break marker into two, to allow input
@@ -145,11 +187,12 @@ var EditMain=React.createClass({
   }
   ,onKeyPress:function(cm,evt) {
     var pos=this.doc.getCursor();
-    if (pos.ch==0) { //do not allow input at beginning of line
-    	alert("cannot add comment at beginning of paragraph");
+    var curline=this.doc.getLine(pos.line);
+    if (pos.ch==curline.length) { //do not allow input at end of line
+    	alert("cannot add comment at end of paragraph");
     	evt.preventDefault();
     	return;
-    }    
+    }
     var markers=this.doc.findMarksAt(pos);
     if (markers.length==1) {
       var m=markers[0];
@@ -157,7 +200,19 @@ var EditMain=React.createClass({
     }
 
   }  
+  ,onLeaveKepan:function(cm){
+    var cur=cm.doc.getCursor();
+    var markers=cm.doc.findMarksAt(cur);
+    markers=markers.filter(function(m){return m.className=="source"});
+    //make sure not in source area
+    if (markers.length && this.kepanTouch) {
+        setTimeout(this.markKepan,300);
+    }
+  }
   ,onCursorActivity:function(cm){
+    return this.onLeaveKepan(cm);
+    //show tags is causing reflow
+    return;
   	clearTimeout(this.timercursor);
   	this.timercursor=setTimeout(function(){
   		var cur=cm.doc.getCursor();
@@ -176,7 +231,7 @@ var EditMain=React.createClass({
 					tags.push([ idx1, 0, marker.className, marker.payload  ]);
 				}
   		}
-  		this.context.action("showtag",tags);
+  		this.context.action("showtag",tags); 
   	}.bind(this),200);
   }
 	,render:function(){

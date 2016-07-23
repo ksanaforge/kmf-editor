@@ -17,3 +17,18 @@ body {margin:0px;}
 .br_u2 {color:yellow;}
 .h1 {font-size:150%;}
 .h2 {font-size:125%;}
+.kepan_error {background-color:red}
+.kepan {border-top-left-radius: 10px;color:black;}
+.kepan1 {background-color:#ff7f00;}
+.kepan2 {background-color:#ffff00;}
+.kepan3 {background-color:#7fff00;}
+.kepan4 {background-color:#00ff00;}
+.kepan5 {background-color:#00ff7f;}
+.kepan6 {background-color:#00ffff;}
+.kepan7 {background-color:#007fff;}
+.kepan8 {background-color:#0000ff;}
+.kepan9 {background-color:#7f00ff;}
+.kepan10 {background-color:#ff00ff;}
+.kepan11 {background-color:#ff007f;}
+
+.kepan12 {background-color:#7f0000;}

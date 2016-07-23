@@ -13,6 +13,10 @@ var Controls=React.createClass({
 		this.context.action("mode",{tag:"",author:"",filename:"1n8"});
 		this.setState({filename:"1n8",author:""});
 	}
+	,onRawMode_ds:function(){
+		this.context.action("mode",{tag:"",author:"",filename:"ds"});
+		this.setState({filename:"ds",author:""});
+	}
 	,onRawMode_pali:function(){
 		this.context.action("mode",{tag:"",author:"",filename:"dn33"});
 		this.setState({filename:"dn33",author:""});
@@ -42,11 +46,14 @@ var Controls=React.createClass({
 
 		var f1style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
+		var f3style=JSON.parse(JSON.stringify(styles.rawmode));
+		Object.assign(f3style,this.state.filename=="ds"?styles.selected:null);
 		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
 		var cantogglecomment=!!this.state.author;
 		return E("span",{},
 				E("button",{style:f1style,onClick:this.onRawMode_chi},"DA8")
+			,	E("button",{style:f3style,onClick:this.onRawMode_ds},"DS")
 			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
 			, E("button",{disabled:cantogglecomment,style:styles.comment,onClick:this.onToggleComment},"comment")
 			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")

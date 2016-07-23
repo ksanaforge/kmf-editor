@@ -1,8 +1,21 @@
-var files={"1n8":require("../data/1n8"), dn33:require("../data/dn33")};
+var files={"1n8":require("../data/1n8"), dn33:require("../data/dn33")
+,"ds":require("../data/ds")};
 var filename="1n8";
 
 var written=JSON.parse(localStorage.getItem(filename)||"null");
 var content= written || files[filename];
+
+//build P tags by crlf
+var autoP=function(text){
+	var tags=[],lastidx=0;
+	text.replace(/\r?\n/g,function(m,idx){
+		if (lastidx) tags.push([lastidx,idx-lastidx,"p"]);
+		lastidx=idx;
+	});
+	tags.push([lastidx,text.length-lastidx,"p"]);
+	return tags;
+}
+if (!files.ds.tags||!files.ds.tags.length) files.ds.tags=autoP(files.ds.text);
 
 
 var {standoffutils,tagutils}=require("ksana-master-format");
@@ -31,7 +44,9 @@ store.listen("write",function(){
 });
 
 store.listen("reset",function(){
-	content=files[filename];
+	var written=JSON.parse(localStorage.getItem(filename)||"null");
+  content= written || files[filename];	
+
 	action("content",{text:content.text,tags:content.tags,mode:"",author:""});
 	alert("click Save to permanently lost your changes");
 });
@@ -49,10 +64,14 @@ store.listen("mode",function(opts){
 		setTimeout(function(){//return before firing another action
 			if (opts.filename && opts.filename!==filename) {
 				filename=opts.filename;
-				content=files[filename];
+
+				var written=JSON.parse(localStorage.getItem(filename)||"null");
+  			content= written || files[filename];	
 			}
+
 			if (opts.tag) { //annotation mode
 				var {text,tags}=buildAnnotation(opts,content);
+
 				author=opts.author;
 				action("content",{text,tags,mode:opts.tag,author:opts.author});
 			} else { //raw mode

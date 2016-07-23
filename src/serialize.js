@@ -24,31 +24,24 @@ var saveRaw=function(content,doc,cb){
 
 	cb(content);
 }
-
-var createCommentTag=function(content,comments,author) {
-	var tags=content.tags.filter(function(t){return !t[3] || t[3].author!==author });
-
-	for (var i=0;i<comments.length;i++) {
-		var comment=comments[i]
-		tags.push([comment[0],0,"comment",{text:comment[1],author} ]);
+//assuming anything other than source is user annotation
+var extractComment=function(content,doc,author) {
+	var sourcepos=extractSource(doc);
+	var annotations=[],prevend=0;
+	for (var i=0;i<sourcepos.length;i++) {
+		var src=sourcepos[i];
+		if (src[0]>prevend) {
+			annotations.push([prevend,src[0]-prevend]);
+		}
+		prevend=src[1];
 	}
-
-	tags.sort((t1,t2)=> t1[0]-t2[0] );
-	content.tags=tags;
-	//content.tags=tagutils.matchOpenCloseTag(tags);
+	return annotations;
 }
-/*
-var getUserBr=function(text,at,rawpos,author){
-	if (text[at-1] && text[at-1]!=="\n" && text[at+1] && text[at+1]!=="\n") {
-		return [rawpos,0,"br",{author}];
-	}
-}
-*/
-var saveComment=function(content,doc,author,cb){
-	//extract user text, assuming source mark is sorted.
-	var marks=doc.getAllMarks(), markpos=[];
 
+var extractSource=function(doc){
 	//sort the source marks
+	var markpos=[];
+	var marks=doc.getAllMarks(); 
 	for (var i=0;i<marks.length;i++) {
 		if (marks[i].className!=="source") continue;
 		var pos=marks[i].find();
@@ -57,9 +50,13 @@ var saveComment=function(content,doc,author,cb){
 		var sourcepos=marks[i].payload.s;
 		markpos.push([start,end, sourcepos]);
 	}
-	markpos.sort(function(m1,m2){return m1[0]-m2[0]});
+	return markpos.sort(function(m1,m2){return m1[0]-m2[0]});
+}
+var extractAnnotation=function(content,doc,author) {
 
-	var out=[], userbr=[],last=0,text=doc.getValue();
+	var markpos=extractSource(doc);
+
+	var comments=[], userbr=[],last=0,text=doc.getValue();
 	for (var i=0;i<markpos.length;i++) {
 		var start=markpos[i][0],end=markpos[i][1];
 
@@ -72,15 +69,37 @@ var saveComment=function(content,doc,author,cb){
 				}
 			}
 			t=t.replace(/\n/g,"");
-			if (t) out.push([markpos[i][2], t]);
+			if (t) comments.push([markpos[i][2], t]);
 		}
 		last=end;
 	}
 
-	createCommentTag(content,out,author);
 
+	var tags=content.tags.filter(function(t){return !t[3] || t[3].author!==author });
+
+	for (var i=0;i<comments.length;i++) {
+		var comment=comments[i]
+		tags.push([comment[0],0,"comment",{text:comment[1],author} ]);
+	}
+
+	tags.sort((t1,t2)=> t1[0]-t2[0] );
+	
+	return {userbr,tags};
+	//content.tags=tagutils.matchOpenCloseTag(tags);
+}
+/*
+var getUserBr=function(text,at,rawpos,author){
+	if (text[at-1] && text[at-1]!=="\n" && text[at+1] && text[at+1]!=="\n") {
+		return [rawpos,0,"br",{author}];
+	}
+}
+*/
+var saveComment=function(content,doc,author,cb){
+	//extract user text, assuming source mark is sorted.
+
+	var {userbr,tags}=extractAnnotation(content,doc,author);
+	content.tags=tags;
 	content.tags=content.tags.concat(userbr);
-	console.log(userbr);
 
 	content.tags.sort((c1,c2)=>c1[0]-c2[0]);
 
@@ -96,4 +115,4 @@ var save=function(opts,cb){
 };
 
 
-module.exports={save};
+module.exports={save,extractComment};

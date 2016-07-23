@@ -1390,6 +1390,92 @@ Prepared for SuttaCentral by Blake Walshe and Bhikkhu Sujato.
 [82450,333,"p"],
 [82797,61,"p"]
 ]};
+},{}],"C:\\ksana2015\\kmf-editor\\data\\ds.js":[function(require,module,exports){
+module.exports={header:{},text:`金剛般若波羅蜜經
+如是我聞：一時，佛在舍衛國祇樹給孤獨園，與大比丘眾千二百五十人俱。
+爾時，世尊食時，著衣持鉢，入舍衛大城乞食。於其城中，次第乞已，還至本處。飯食訖，收衣鉢，洗足已，敷座而坐。
+時，長老須菩提在大眾中即從座起，偏袒右肩，右膝著地，合掌恭敬而白佛言：「希有！世尊！如來善護念諸菩薩，善付囑諸菩薩。世尊！善男子、善女人，發阿耨多羅三藐三菩提心，應云何住？云何降伏其心？」
+佛言：「善哉，善哉！須菩提！如汝所說：『如來善護念諸菩薩，善付囑諸菩薩。』汝今諦聽，當為汝說。善男子、善女人，發阿耨多羅三藐三菩提心，應如是住，如是降伏其心。」
+「唯然。世尊！願樂欲聞。」
+佛告須菩提：「諸菩薩摩訶薩應如是降伏其心：『所有一切眾生之類，若卵生、若胎生、若濕生、若化生，若有色、若無色，若有想、若無想、若非有想非無想，我皆令入無餘涅槃而滅度之。』如是滅度無量無數無邊眾生，實無眾生得滅度者。	何以故？須菩提！若菩薩有我相、人相、眾生相、壽者相，即非菩薩。復次，須菩提！菩薩於法，應無所住，行於布施，所謂不住色布施，不住聲香味觸法布施。須菩提！菩薩應如是布施，不住於相。何以故？若菩薩不住相布施，其福德不可思量。
+「須菩提！於意云何？東方虛空可思量不？」「不也，世尊！」「須菩提！南西北方四維上下虛空可思量不？」「不也，世尊！」須菩提！菩薩無住相布施，福德亦復如是不可思量。須菩提！菩薩但應如所教住。
+「須菩提！於意云何？可以身相見如來不？」「不也，世尊！不可以身相得見如來。何以故？如來所說身相，即非身相。」
+佛告須菩提：「凡所有相，皆是虛妄。若見諸相非相，則見如來。」須菩提白佛言：「世尊！頗有眾生，得聞如是言說章句，生實信不？」
+佛告須菩提：「莫作是說。如來滅後，後五百歲，有持戒修福者，於此章句能生信心，以此為實，當知是人，不於一佛二佛三四五佛而種善根，已於無量千萬佛所種諸善根，聞是章句，乃至一念生淨信者，須菩提！如來悉知悉見，是諸眾生得如是無量福德。何以故？是諸眾生無復我相、人相、眾生相、壽者相、無法相，亦無非法相。何以故？是諸眾生若心取相，則為著我、人、眾生、壽者。若取法相，即著我、人、眾生、壽者。何以故？若取非法相，即著我、人、眾生、壽者，是故不應取法，不應取非法。以是義故，如來常說：『汝等比丘，知我說法，如筏喻者，法尚應捨，何況非法。』
+「須菩提！於意云何？如來得阿耨多羅三藐三菩提耶？如來有所說法耶？」
+須菩提言：「如我解佛所說義，無有定法名阿耨多羅三藐三菩提，亦無有定法，如來可說。何以故？如來所說法，皆不可取、不可說、非法、非非法。所以者何？一切賢聖，皆以無為法而有差別。」
+「須菩提！於意云何？若人滿三千大千世界七寶以用布施，是人所得福德，寧為多不？」須菩提言：「甚多，世尊！何以故？是福德即非福德性，是故如來說福德多。」若復有人，於此經中受持，乃至四句偈等，為他人說，其福勝彼。何以故？須菩提！一切諸佛，及諸佛阿耨多羅三藐三菩提法，皆從此經出。須菩提！所謂佛法者，即非佛法。
+「須菩提！於意云何？須陀洹能作是念：『我得須陀洹果。』不？」須菩提言：「不也，世尊！何以故？須陀洹名為入流，而無所入，不入色、聲、香、味、觸、法，是名須陀洹。」
+「須菩提！於意云何？斯陀含能作是念：『我得斯陀含果。』不？」須菩提言：「不也，世尊！何以故？斯陀含名一往來，而實無往來，是名斯陀含。」
+「須菩提！於意云何？阿那含能作是念：『我得阿那含果。』不？」須菩提言：「不也，世尊！何以故？阿那含名為不來，而實無來，是故名阿那含。」
+「須菩提！於意云何？阿羅漢能作是念：『我得阿羅漢道。』不？」須菩提言：「不也，世尊！何以故？實無有法名阿羅漢。世尊！若阿羅漢作是念：『我得阿羅漢道。』即為著我、人、眾生、壽者。
+世尊！佛說我得無諍三昧人中最為第一，是第一離欲阿羅漢。我不作是念：『我是離欲阿羅漢。』
+世尊！我若作是念：『我得阿羅漢道。』世尊則不說須菩提是樂阿蘭那行者。以須菩提實無所行，而名須菩提是樂阿蘭那行。」
+佛告須菩提：「於意云何？如來昔在然燈佛所，於法有所得不？」「世尊！如來在然燈佛所，於法實無所得。」
+「須菩提！於意云何？菩薩莊嚴佛土不？」「不也，世尊！何以故？莊嚴佛土者，則非莊嚴，是名莊嚴。」
+是故須菩提，諸菩薩摩訶薩應如是生清淨心，不應住色生心，不應住聲、香、味、觸、法生心，應無所住而生其心。
+「須菩提！譬如有人，身如須彌山王，於意云何？是身為大不？」須菩提言：「甚大，世尊！何以故？佛說非身，是名大身。」
+「須菩提！如恒河中所有沙數，如是沙等恒河，於意云何？是諸恒河沙寧為多不？」須菩提言：「甚多，世尊！但諸恒河尚多無數，何況其沙。」
+「須菩提！我今實言告汝。若有善男子、善女人，以七寶滿爾所恒河沙數三千大千世界，以用布施，得福多不？」須菩提言：「甚多，世尊！」
+佛告須菩提：「若善男子、善女人，於此經中，乃至受持四句偈等，為他人說，而此福德勝前福德。」
+復次，須菩提！隨說是經，乃至四句偈等，當知此處，一切世間天、人、阿修羅，皆應供養，如佛塔廟，何況有人盡能受持讀誦。須菩提！當知是人成就最上第一希有之法，若是經典所在之處，則為有佛，若尊重弟子。
+爾時，須菩提白佛言：「世尊！當何名此經？我等云何奉持？」
+佛告須菩提：「是經名為『金剛般若波羅蜜』。以是名字，汝當奉持。所以者何？須菩提！佛說般若波羅蜜，則非般若波羅蜜。
+須菩提！於意云何？如來有所說法不？」須菩提白佛言：「世尊！如來無所說。」
+「須菩提！於意云何？三千大千世界所有微塵是為多不？」須菩提言：「甚多，世尊！」
+須菩提！諸微塵，如來說非微塵，是名微塵。如來說世界，非世界，是名世界。
+「須菩提！於意云何？可以三十二相見如來不？」「不也，世尊！不可以三十二相得見如來。何以故？如來說三十二相，即是非相，是名三十二相。」
+「須菩提！若有善男子、善女人，以恒河沙等身命布施；若復有人，於此經中，乃至受持四句偈等，為他人說，其福甚多。」
+爾時，須菩提聞說是經，深解義趣，涕淚悲泣，而白佛言：「希有，世尊！佛說如是甚深經典，我從昔來所得慧眼，未曾得聞如是之經。世尊！若復有人得聞是經，信心清淨，則生實相，當知是人，成就第一希有功德。世尊！是實相者，則是非相，是故如來說名實相。世尊！我今得聞如是經典，信解受持不足為難，若當來世，後五百歲，其有眾生，得聞是經，信解受持，是人則為第一希有。何以故？此人無我相、人相、眾生相、壽者相。所以者何？我相即是非相，人相、眾生相、壽者相即是非相。何以故？離一切諸相，則名諸佛。」
+佛告須菩提：「如是，如是！若復有人，得聞是經，不驚、不怖、不畏，當知是人甚為希有。何以故？須菩提！如來說第一波羅蜜，非第一波羅蜜，是名第一波羅蜜。須菩提！忍辱波羅蜜，如來說非忍辱波羅蜜。何以故？須菩提！如我昔為歌利王割截身體，我於爾時，無我相、無人相、無眾生相、無壽者相。何以故？我於往昔節節支解時，若有我相、人相、眾生相、壽者相，應生瞋恨。須菩提！又念過去於五百世作忍辱仙人，於爾所世，無我相、無人相、無眾生相、無壽者相。是故須菩提！菩薩應離一切相，發阿耨多羅三藐三菩提心，不應住色生心，不應住聲香味觸法生心，應生無所住心。若心有住，則為非住。是故佛說：『菩薩心不應住色布施。』
+須菩提！菩薩為利益一切眾生，應如是布施。
+如來說：『一切諸相，即是非相。』又說：『一切眾生，則非眾生。』
+須菩提！如來是真語者、實語者、如語者、不誑語者、不異語者。須菩提！如來所得法，此法無實無虛。須菩提！若菩薩心住於法而行布施，如人入闇，則無所見；
+若菩薩心不住法而行布施，如人有目，日光明照，見種種色。
+須菩提！當來之世，若有善男子、善女人，能於此經受持讀誦，則為如來以佛智慧，悉知是人，悉見是人，皆得成就無量無邊功德。須菩提！若有善男子、善女人，初日分以恒河沙等身布施，中日分復以恒河沙等身布施，後日分亦以恒河沙等身布施，如是無量百千萬億劫以身布施；若復有人，聞此經典，信心不逆，其福勝彼，何況書寫、受持、讀誦、為人解說。
+須菩提！以要言之，是經有不可思議、不可稱量、無邊功德。如來為發大乘者說，為發最上乘者說。
+若有人能受持讀誦，廣為人說，如來悉知是人，悉見是人，皆得成就不可量、不可稱、無有邊、不可思議功德，如是人等，則為荷擔如來阿耨多羅三藐三菩提。何以故？須菩提！若樂小法者，著我見、人見、眾生見、壽者見，則於此經，不能聽受讀誦、為人解說。
+須菩提！在在處處，若有此經，一切世間天、人、阿修羅，所應供養；當知此處，則為是塔，皆應恭敬，作禮圍繞，以諸華香而散其處。
+復次，須菩提！善男子、善女人，受持讀誦此經，若為人輕賤，是人先世罪業，應墮惡道，以今世人輕賤故，先世罪業則為消滅，當得阿耨多羅三藐三菩提。
+須菩提！我念過去無量阿僧祇劫，於然燈佛前，得值八百四千萬億那由他諸佛，悉皆供養承事，無空過者；若復有人，於後末世，能受持讀誦此經，所得功德，於我所供養諸佛功德，百分不及一，千萬億分、乃至算數譬喻所不能及。
+須菩提！若善男子、善女人，於後末世，有受持讀誦此經，所得功德，我若具說者，或有人聞，心則狂亂，狐疑不信。須菩提！當知是經義不可思議，果報亦不可思議。
+爾時，須菩提白佛言：「世尊！善男子、善女人，發阿耨多羅三藐三菩提心，云何應住？云何降伏其心？」
+佛告須菩提：「善男子、善女人，發阿耨多羅三藐三菩提者，當生如是心：『我應滅度一切眾生。滅度一切眾生已，而無有一眾生實滅度者。』何以故？須菩提！若菩薩有我相、人相、眾生相、壽者相，則非菩薩。所以者何？須菩提！實無有法發阿耨多羅三藐三菩提者。
+「須菩提！於意云何？如來於然燈佛所，有法得阿耨多羅三藐三菩提不？」
+「不也，世尊！如我解佛所說義，佛於然燈佛所，無有法得阿耨多羅三藐三菩提。」
+佛言：「如是，如是！須菩提！實無有法如來得阿耨多羅三藐三菩提。須菩提！若有法如來得阿耨多羅三藐三菩提者，然燈佛則不與我授記：『汝於來世，當得作佛，號釋迦牟尼。』以實無有法得阿耨多羅三藐三菩提，是故然燈佛與我受記，作是言：『汝於來世，當得作佛，號釋迦牟尼。』何以故？如來者，即諸法如義。若有人言：『如來得阿耨多羅三藐三菩提。』須菩提！實無有法，佛得阿耨多羅三藐三菩提。須菩提！如來所得阿耨多羅三藐三菩提，於是中無實無虛。是故如來說：『一切法皆是佛法。』須菩提！所言一切法者，即非一切法，是故名一切法。須菩提！譬如人身長大。須菩提言：「世尊！如來說人身長大，則為非大身，是名大身。」須菩提！菩薩亦如是。若作是言：『我當滅度無量眾生。』則不名菩薩。何以故？須菩提！實無有法名為菩薩。是故佛說：『一切法無我、無人、無眾生、無壽者。』須菩提！若菩薩作是言：『我當莊嚴佛土。』是不名菩薩。何以故？如來說莊嚴佛土者，即非莊嚴，是名莊嚴。須菩提！若菩薩通達無我法者，如來說名真是菩薩。
+「須菩提！於意云何？如來有肉眼不？」「如是，世尊！如來有肉眼。」「須菩提！於意云何？如來有天眼不？」「如是，世尊！如來有天眼。」「須菩提！於意云何？如來有慧眼不？」「如是，世尊！如來有慧眼。」「須菩提！於意云何？如來有法眼不？」「如是，世尊！如來有法眼。」「須菩提！於意云何？如來有佛眼不？」「如是，世尊！如來有佛眼。」
+「須菩提！於意云何？恒河中所有沙，佛說是沙不？」「如是，世尊！如來說是沙。」
+「須菩提！於意云何？如一恒河中所有沙，有如是等恒河，是諸恒河所有沙數佛世界，如是寧為多不？」「甚多，世尊！」
+佛告須菩提：「爾所國土中，所有眾生，若干種心，如來悉知。何以故？如來說諸心，皆為非心，是名為心。所以者何？須菩提！過去心不可得，現在心不可得，未來心不可得。」
+「須菩提！於意云何？若有人滿三千大千世界七寶以用布施，是人以是因緣，得福多不？」「如是，世尊！此人以是因緣，得福甚多。」
+「須菩提！若福德有實，如來不說得福德多；以福德無故，如來說得福德多。」
+「須菩提！於意云何？佛可以具足色身見不？」「不也，世尊！如來不應以具足色身見。何以故？如來說具足色身，即非具足色身，是名具足色身。」
+「須菩提！於意云何？如來可以具足諸相見不？」「不也，世尊！如來不應以具足諸相見。何以故？如來說諸相具足，即非具足，是名諸相具足。」
+「須菩提！汝勿謂如來作是念：『我當有所說法。』莫作是念，何以故？若人言：『如來有所說法。』即為謗佛，不能解我所說故。須菩提！說法者，無法可說，是名說法。」
+爾時，慧命須菩提白佛言：「世尊！頗有眾生，於未來世，聞說是法，生信心不？」
+佛言：「須菩提！彼非眾生，非不眾生。何以故？須菩提！眾生、眾生者，如來說非眾生，是名眾生。」
+須菩提白佛言：「世尊！佛得阿耨多羅三藐三菩提，為無所得耶？」
+如是，如是！須菩提！我於阿耨多羅三藐三菩提乃至無有少法可得，是名阿耨多羅三藐三菩提。復次，須菩提！是法平等，無有高下，是名阿耨多羅三藐三菩提；以無我、無人、無眾生、無壽者，修一切善法，則得阿耨多羅三藐三菩提。須菩提！所言善法者，如來說非善法，是名善法。須菩提！若三千大千世界中所有諸須彌山王，如是等七寶聚，有人持用布施；
+若人以此般若波羅蜜經，乃至四句偈等，受持讀誦、為他人說，於前福德百分不及一，百千萬億分，乃至算數譬喻所不能及。須菩提！於意云何？汝等勿謂如來作是念：『我當度眾生。』須菩提！莫作是念。何以故？實無有眾生如來度者，若有眾生如來度者，如來則有我、人、眾生、壽者。須菩提！如來說：『有我者，則非有我，而凡夫之人以為有我。』須菩提！凡夫者，如來說則非凡夫。
+「須菩提！於意云何？可以三十二相觀如來不？」須菩提言：「如是，如是！以三十二相觀如來。」
+佛言：「須菩提！若以三十二相觀如來者，轉輪聖王則是如來。」須菩提白佛言：「世尊！如我解佛所說義，不應以三十二相觀如來。」
+爾時，世尊而說偈言：「若以色見我，以音聲求我，是人行邪道，不能見如來。」
+須菩提！汝若作是念：『如來不以具足相故，得阿耨多羅三藐三菩提。』須菩提！莫作是念。如來不以具足相故，得阿耨多羅三藐三菩提。
+須菩提！汝若作是念：『發阿耨多羅三藐三菩提者，說諸法斷滅相。』莫作是念。何以故？發阿耨多羅三藐三菩提心者，於法不說斷滅相。
+「須菩提！若菩薩以滿恒河沙等世界七寶布施；若復有人知一切法無我，得成於忍，此菩薩勝前菩薩所得功德。須菩提！以諸菩薩不受福德故。」
+須菩提白佛言：「世尊！云何菩薩不受福德？」須菩提！菩薩所作福德，不應貪著，是故說不受福德。須菩提！若有人言：『如來若來若去、若坐若臥。』是人不解我所說義。何以故？如來者，無所從來，亦無所去，故名如來。
+「須菩提！若善男子、善女人，以三千大千世界碎為微塵，於意云何？是微塵眾寧為多不？」
+「甚多，世尊！何以故？若是微塵眾實有者，佛則不說是微塵眾。所以者何？佛說微塵眾，則非微塵眾，是名微塵眾。世尊！如來所說三千大千世界，則非世界，是名世界。何以故？若世界實有者，則是一合相。如來說一合相，則非一合相，是名一合相。」須菩提！一合相者，則是不可說，但凡夫之人貪著其事。
+「須菩提！若人言：『佛說我見、人見、眾生見、壽者見。』須菩提！於意云何？是人解我所說義不？」
+「世尊！是人不解如來所說義。何以故？世尊說我見、人見、眾生見、壽者見，即非我見、人見、眾生見、壽者見，是名我見、人見、眾生見、壽者見。」
+須菩提！發阿耨多羅三藐三菩提心者，於一切法，應如是知，如是見，如是信解，不生法相。須菩提！所言法相者，如來說即非法相，是名法相。須菩提！若有人以滿無量阿僧祇世界七寶持用布施，
+若有善男子、善女人，發菩薩心者，持於此經，乃至四句偈等，受持讀誦，為人演說，其福勝彼。云何為人演說？不取於相，如如不動。
+何以故？「一切有為法，如夢、幻、泡、影，如露亦如電，應作如是觀。」
+佛說是經已，長老須菩提及諸比丘、比丘尼、優婆塞、優婆夷，一切世間天、人、阿修羅，聞佛所說，皆大歡喜，信受奉行。`
+,tags:[
+]
+};
 },{}],"C:\\ksana2015\\kmf-editor\\index.js":[function(require,module,exports){
 var React=require("react");
 var ReactDOM=require("react-dom");
@@ -1515,6 +1601,10 @@ var Controls=React.createClass({displayName: "Controls",
 		this.context.action("mode",{tag:"",author:"",filename:"1n8"});
 		this.setState({filename:"1n8",author:""});
 	}
+	,onRawMode_ds:function(){
+		this.context.action("mode",{tag:"",author:"",filename:"ds"});
+		this.setState({filename:"ds",author:""});
+	}
 	,onRawMode_pali:function(){
 		this.context.action("mode",{tag:"",author:"",filename:"dn33"});
 		this.setState({filename:"dn33",author:""});
@@ -1544,11 +1634,14 @@ var Controls=React.createClass({displayName: "Controls",
 
 		var f1style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
+		var f3style=JSON.parse(JSON.stringify(styles.rawmode));
+		Object.assign(f3style,this.state.filename=="ds"?styles.selected:null);
 		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
 		var cantogglecomment=!!this.state.author;
 		return E("span",{},
 				E("button",{style:f1style,onClick:this.onRawMode_chi},"DA8")
+			,	E("button",{style:f3style,onClick:this.onRawMode_ds},"DS")
 			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
 			, E("button",{disabled:cantogglecomment,style:styles.comment,onClick:this.onToggleComment},"comment")
 			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")
@@ -1575,6 +1668,7 @@ var kcm=require("ksana-codemirror");
 var CodeMirror=kcm.Component;
 var PT=React.PropTypes;
 var serialize=require("./serialize");
+var kepan=require("./kepan");
 
 var EditMain=React.createClass({displayName: "EditMain",
   getInitialState:function() {
@@ -1592,55 +1686,88 @@ var EditMain=React.createClass({displayName: "EditMain",
     marker.innerHTML=author;
     return marker;
   }
+  ,markerCleared:function(){
+    this.kepanTouch=true;
+  }
+  ,markKepan:function(author){
+    this.doc.getAllMarks().map(function(m){if (m.className=="kepan") m.clear()});
+    author=author||this.state.author;
+    if (!author) return;
+    var content={text:this.state.text,tags:this.state.tags};
+    var remain=kepan.markKepan(content,this.doc,author,this.markerCleared);
+    if (!remain) this.kepanTouch=false;
+  }
   ,markText:function(tags){
     for (var i=0;i<tags.length;i++) {
-      var tag=tags[i];
-      if (tag[1]>0 ||(tag[1]==0 && (tag[2]=="comment"||tag[2]=="br") )) {
-        var start=this.doc.posFromIndex( tag[0]);
-        var end=this.doc.posFromIndex(tag[0]+tag[1]);
-        var readOnly=tag[2]==="source";
-        if (tag[1]==0) {//null tag
+      var tag=tags[i],tagstart=tag[0],taglen=tag[1],tagtype=tag[2],payload=tag[3];
+      if (taglen>0 ||(taglen==0 && (tag[2]=="comment"||tag[2]=="br") )) {
+        var start=this.doc.posFromIndex( tagstart);
+        var end=this.doc.posFromIndex(tagstart+taglen);
+        var readOnly=tagtype==="source";
+        if (taglen==0) {//null tag
           if (this.state.showComment) {
-            if (tag[2]=="comment") {
-              var marker=this.createMarker(tag[3].text,"comment_"+tag[3].author);  
+            if (tagtype=="comment") {
+              var marker=this.createMarker(payload.text,"comment_"+payload.author);  
             } else {
-              if (tag[2]=="br") {
-                var marker=this.createMarker("⏎",tag[2]+"_"+tag[3].author);  
+              if (tagtype=="br") {
+                var marker=this.createMarker("⏎",tagtype+"_"+payload.author);  
               } else {
-                var marker=this.createMarker(tag[3].author,tag[2]);  
+                var marker=this.createMarker(payload.author,tag[2]);  
               }
             }
           } else {
-            var marker=this.createMarker("",tag[2]);            
+            var marker=this.createMarker("",tagtype);            
           }
         	
         	//this.doc.setBookmark(start,{widget:marker,payload:tag[3]});
         	//https://github.com/codemirror/CodeMirror/issues/3600
-        	this.doc.markText(start,end,{className:tag[2],
-        		replacedWith:marker,type:"bookmark",payload:tag[3],clearWhenEmpty:false});
+        	this.doc.markText(start,end,{className:tagtype,
+        		replacedWith:marker,type:"bookmark",payload,clearWhenEmpty:false});
         } else { //tag with len
-        	this.doc.markText(start,end,{className:tag[2],readOnly,payload:tag[3]});	
-        }
-        
+        	this.doc.markText(start,end,{className:tagtype,readOnly,payload});	
+        }        
       }  else {
         var marker = document.createElement('span');
         marker.className= "tag";
         marker.innerHTML="<";
 
-        if (tag[2][0]=="/") marker.innerHTML=">"
-        if (tag[2][tag[2].length-1]=="/") marker.innerHTML="&#8823;"
+        if (tagtype[0]=="/") marker.innerHTML=">"
+        if (tagtype[tagtype.length-1]=="/") marker.innerHTML="&#8823;"
         var start=this.doc.posFromIndex( tag[0]);
         this.doc.markText(start,start,
-        	{elementName:tag[2],replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload:tag[3]});
+        	{elementName:tagtype,replaceWith:marker,type:"bookmark",clearWhenEmpty:false,payload});
       }
     }
   }
+  ,jump:function(cm,func){
+    var pos=cm.doc.getCursor();
+    if (pos.from) pos=pos.from;
+    var idx=cm.doc.indexFromPos(pos);
+    var n=func(cm.doc,idx);
+    if (n) cm.doc.setCursor(  cm.doc.posFromIndex(n) );
+  }
+  ,setHotkeys:function(cm){
+    var jump=this.jump;
+    cm.setOption("extraKeys", {
+      "Ctrl-,": function(cm) {
+        jump(cm,kepan.prevKepan);
+      },
+      "Ctrl-.": function(cm) {
+        jump(cm,kepan.nextKepan);
+      }
+      ,"Ctrl-/": function(cm) {
+        jump(cm,kepan.parentKepan);
+      }      
+    });
+  }
   ,componentDidMount:function(){
     this.editor=this.refs.cm.getCodeMirror();
+    this.setHotkeys(this.editor);
     this.doc=this.editor.doc;
     this.editor.focus();
-
+    this.doc.getAllMarks().map((m)=>m.clear());
     this.markText(this.state.tags);
+    this.markKepan();
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
     this.context.store.listen("toggleComment",this.onToggleComment,this);
@@ -1652,6 +1779,7 @@ var EditMain=React.createClass({displayName: "EditMain",
     this.setState({showComment:!this.state.showComment},function(){
       this.doc.getAllMarks().map((m)=>m.clear());
       this.markText(this.state.tags);
+      this.markKepan();
     }.bind(this));
   }
   ,onContent:function(content){
@@ -1659,6 +1787,7 @@ var EditMain=React.createClass({displayName: "EditMain",
   	this.setState({text:content.text,tags:content.tags,author:content.author});
   	this.doc.setValue(content.text);
     this.markText(content.tags);
+    this.markKepan(content.author);
     this.touched=false;
   }
   ,onCommitTouched:function(opts,cb){
@@ -1677,7 +1806,7 @@ var EditMain=React.createClass({displayName: "EditMain",
 
   	if (evt.keyCode==13 && this.state.author ) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
-  			alert("cannot break at beginning of paragraph")
+  			//alert("cannot break at beginning of paragraph");
   			evt.preventDefault();
   			return;
   		}
@@ -1692,9 +1821,9 @@ var EditMain=React.createClass({displayName: "EditMain",
   		}
   	};
 
-  	if (evt.keyCode==8) {
+  	if (evt.keyCode==8 && this.state.author) {
   		if (markers.map((m)=>m.className).indexOf("p")>-1) {
-  			alert("cannot delete a p")
+  			//alert("cannot delete a p");
   			evt.preventDefault();
   			return;
   		}  		
@@ -1702,7 +1831,13 @@ var EditMain=React.createClass({displayName: "EditMain",
   }
   ,onKeyUp:function(cm,evt){
   }
-  ,onChange:function(){
+  ,onChange:function(cm,obj){
+    if (obj.text.length && obj.text[0].indexOf(kepan.KepanMarker)>-1) {
+      this.kepanTouch=true;
+    }
+    if (obj.removed.length && obj.removed[0].indexOf(kepan.KepanMarker)>-1) {
+      this.kepanTouch=true;
+    }
   	this.touched=true;
   }
   ,breakSource:function(marker,at) { //break marker into two, to allow input
@@ -1715,11 +1850,12 @@ var EditMain=React.createClass({displayName: "EditMain",
   }
   ,onKeyPress:function(cm,evt) {
     var pos=this.doc.getCursor();
-    if (pos.ch==0) { //do not allow input at beginning of line
-    	alert("cannot add comment at beginning of paragraph");
+    var curline=this.doc.getLine(pos.line);
+    if (pos.ch==curline.length) { //do not allow input at end of line
+    	alert("cannot add comment at end of paragraph");
     	evt.preventDefault();
     	return;
-    }    
+    }
     var markers=this.doc.findMarksAt(pos);
     if (markers.length==1) {
       var m=markers[0];
@@ -1727,7 +1863,19 @@ var EditMain=React.createClass({displayName: "EditMain",
     }
 
   }  
+  ,onLeaveKepan:function(cm){
+    var cur=cm.doc.getCursor();
+    var markers=cm.doc.findMarksAt(cur);
+    markers=markers.filter(function(m){return m.className=="source"});
+    //make sure not in source area
+    if (markers.length && this.kepanTouch) {
+        setTimeout(this.markKepan,300);
+    }
+  }
   ,onCursorActivity:function(cm){
+    return this.onLeaveKepan(cm);
+    //show tags is causing reflow
+    return;
   	clearTimeout(this.timercursor);
   	this.timercursor=setTimeout(function(){
   		var cur=cm.doc.getCursor();
@@ -1746,7 +1894,7 @@ var EditMain=React.createClass({displayName: "EditMain",
 					tags.push([ idx1, 0, marker.className, marker.payload  ]);
 				}
   		}
-  		this.context.action("showtag",tags);
+  		this.context.action("showtag",tags); 
   	}.bind(this),200);
   }
 	,render:function(){
@@ -1760,7 +1908,142 @@ var EditMain=React.createClass({displayName: "EditMain",
 
 module.exports=EditMain;
 
-},{"./serialize":"C:\\ksana2015\\kmf-editor\\src\\serialize.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
+},{"./kepan":"C:\\ksana2015\\kmf-editor\\src\\kepan.js","./serialize":"C:\\ksana2015\\kmf-editor\\src\\serialize.js","./socketfs":"C:\\ksana2015\\kmf-editor\\src\\socketfs.js","ksana-codemirror":"C:\\ksana2015\\node_modules\\ksana-codemirror\\src\\index.js","react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\kepan.js":[function(require,module,exports){
+var KepanMarker="-";
+var serialize=require("./serialize");
+
+
+var getLevelName=function(level) {
+    //return level;
+    return " 甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥"[level];
+}
+var createMarker=function(caption,type){
+    var marker = document.createElement('span');
+    marker.className = type;
+    marker.innerHTML = caption;
+    return marker;
+}
+
+var markKepanGroup=function(doc,s,l,str,levels,markerCleared){
+  var nodes=str.substr(1).split(KepanMarker);
+  var upper=0,prevlevel=levels.length;
+  var len=KepanMarker.length; //first kepanMarker
+
+
+  for (var i=0;i<nodes.length;i++) {
+    var start=doc.posFromIndex(s+len-1);
+    var end=doc.posFromIndex(s+len);
+    if (i) {
+      levels.push(0);
+    }
+    var caption=str.substr(len,nodes[i].length);
+    var upwidth=0; //level up width, prevent clearOnEnter when moving around
+    if (i==0) { //check leading number to upper level
+      var up=caption.match(/^\d+/);
+      var errorclassname="";
+      if (up) {
+        upwidth=up[0].length;
+        end=doc.posFromIndex(s+len+up.length);        
+        up=parseInt(up[0],10);
+        if (up+1>levels.length) {
+          levels.length=1;
+          errorclassname="kepan_error";
+        } else {
+          levels.length=levels.length-up;
+        }
+      }
+    }
+
+    levels[levels.length-1]++;
+    //text is s+len till s+len+nodes[i].length
+    var seq=(levels[levels.length-1]);
+    var label=getLevelName(levels.length)+seq;
+    var kepanmarker=createMarker(label,errorclassname||"kepan kepan"+levels.length);
+    var marker=doc.markText(start,end,{className:"kepan",clearOnEnter:true,replacedWith:kepanmarker});
+    if (markerCleared) {
+      marker.on('clear', function(m){
+        markerCleared();
+      });
+    }
+    toc.push([levels.length,s+len+upwidth,caption]);
+    len+=KepanMarker.length+nodes[i].length;
+  }
+}
+
+var toc=[];
+var markKepan=function(content,doc,author,markerCleared){
+    toc=[];
+    var remaining=0;//if have remaining, render is not complete, need another call
+    var comments=serialize.extractComment(content,doc,author);
+    var text=doc.getValue();
+    var levels=[0];
+    for (var i=0;i<comments.length;i++) {
+      var s=comments[i][0],l=comments[i][1];
+      while (s<text.length&&text[s]=="\n") {
+        s++;l--
+      }
+      if (l<1)continue;
+      var str=text.substr(s,l);
+      //only KepanMarker
+      if (str[0]!=KepanMarker ) continue;
+      if (str.length==KepanMarker.length) {
+        //do not render now, wait for user input a digit for upper level.
+        remaining++;
+        continue;
+      }
+
+      markKepanGroup(doc,s,l,str,levels,markerCleared);
+    }
+    if (remaining) console.log("remaining",remaining)
+    return remaining;
+}
+var findNearestTocNode=function(offset){
+  for (var i=0;i<toc.length;i++) {
+    if (toc[i][1]>offset)return i-1;
+  }
+  return toc.length-1;
+}
+var getSiblings=function(n){
+  var depth=toc[n][0],i;
+  var out=[];
+  for (i=n-1;i>=0;i--) {
+    var d=toc[i][0];
+    if (d<depth) break;
+    else if (d===depth) out.unshift(i);
+  }
+  for (i=n;i<toc.length;i++) {
+    var d=toc[i][0];
+    if (d<depth) break;
+    else if (d===depth) out.push(i);
+  }
+  return out;
+}
+var nextKepan=function(doc,offset){
+  var n=findNearestTocNode(offset);
+  if (n<0) return;
+  var siblings=getSiblings(n);
+  var at=siblings.indexOf(n);
+  if (at<siblings.length-1) return toc[siblings[at+1]][1];
+  else return toc[siblings[0]][1];
+}
+var prevKepan=function(doc,offset){
+  var n=findNearestTocNode(offset);
+  if (n<0) return;
+  var siblings=getSiblings(n);
+  var at=siblings.indexOf(n);
+  if (at>0) return toc[siblings[at-1]][1];
+  else return toc[siblings[siblings.length-1]][1];
+}
+var parentKepan=function(doc,offset){
+  var n=findNearestTocNode(offset);
+  if (n<0) return;
+  var d=toc[n][0];
+  for (var i=n-1;i>0;i--) {
+    if (toc[i][0]<d) return toc[i][1];
+  }
+}
+module.exports={nextKepan,prevKepan,KepanMarker,markKepan,parentKepan};
+},{"./serialize":"C:\\ksana2015\\kmf-editor\\src\\serialize.js"}],"C:\\ksana2015\\kmf-editor\\src\\main.jsx":[function(require,module,exports){
 var React=require("react");
 var E=React.createElement;
 var fs=require("./socketfs");
@@ -2056,31 +2339,24 @@ var saveRaw=function(content,doc,cb){
 
 	cb(content);
 }
-
-var createCommentTag=function(content,comments,author) {
-	var tags=content.tags.filter(function(t){return !t[3] || t[3].author!==author });
-
-	for (var i=0;i<comments.length;i++) {
-		var comment=comments[i]
-		tags.push([comment[0],0,"comment",{text:comment[1],author} ]);
+//assuming anything other than source is user annotation
+var extractComment=function(content,doc,author) {
+	var sourcepos=extractSource(doc);
+	var annotations=[],prevend=0;
+	for (var i=0;i<sourcepos.length;i++) {
+		var src=sourcepos[i];
+		if (src[0]>prevend) {
+			annotations.push([prevend,src[0]-prevend]);
+		}
+		prevend=src[1];
 	}
-
-	tags.sort((t1,t2)=> t1[0]-t2[0] );
-	content.tags=tags;
-	//content.tags=tagutils.matchOpenCloseTag(tags);
+	return annotations;
 }
-/*
-var getUserBr=function(text,at,rawpos,author){
-	if (text[at-1] && text[at-1]!=="\n" && text[at+1] && text[at+1]!=="\n") {
-		return [rawpos,0,"br",{author}];
-	}
-}
-*/
-var saveComment=function(content,doc,author,cb){
-	//extract user text, assuming source mark is sorted.
-	var marks=doc.getAllMarks(), markpos=[];
 
+var extractSource=function(doc){
 	//sort the source marks
+	var markpos=[];
+	var marks=doc.getAllMarks(); 
 	for (var i=0;i<marks.length;i++) {
 		if (marks[i].className!=="source") continue;
 		var pos=marks[i].find();
@@ -2089,9 +2365,13 @@ var saveComment=function(content,doc,author,cb){
 		var sourcepos=marks[i].payload.s;
 		markpos.push([start,end, sourcepos]);
 	}
-	markpos.sort(function(m1,m2){return m1[0]-m2[0]});
+	return markpos.sort(function(m1,m2){return m1[0]-m2[0]});
+}
+var extractAnnotation=function(content,doc,author) {
 
-	var out=[], userbr=[],last=0,text=doc.getValue();
+	var markpos=extractSource(doc);
+
+	var comments=[], userbr=[],last=0,text=doc.getValue();
 	for (var i=0;i<markpos.length;i++) {
 		var start=markpos[i][0],end=markpos[i][1];
 
@@ -2104,15 +2384,37 @@ var saveComment=function(content,doc,author,cb){
 				}
 			}
 			t=t.replace(/\n/g,"");
-			if (t) out.push([markpos[i][2], t]);
+			if (t) comments.push([markpos[i][2], t]);
 		}
 		last=end;
 	}
 
-	createCommentTag(content,out,author);
 
+	var tags=content.tags.filter(function(t){return !t[3] || t[3].author!==author });
+
+	for (var i=0;i<comments.length;i++) {
+		var comment=comments[i]
+		tags.push([comment[0],0,"comment",{text:comment[1],author} ]);
+	}
+
+	tags.sort((t1,t2)=> t1[0]-t2[0] );
+	
+	return {userbr,tags};
+	//content.tags=tagutils.matchOpenCloseTag(tags);
+}
+/*
+var getUserBr=function(text,at,rawpos,author){
+	if (text[at-1] && text[at-1]!=="\n" && text[at+1] && text[at+1]!=="\n") {
+		return [rawpos,0,"br",{author}];
+	}
+}
+*/
+var saveComment=function(content,doc,author,cb){
+	//extract user text, assuming source mark is sorted.
+
+	var {userbr,tags}=extractAnnotation(content,doc,author);
+	content.tags=tags;
 	content.tags=content.tags.concat(userbr);
-	console.log(userbr);
 
 	content.tags.sort((c1,c2)=>c1[0]-c2[0]);
 
@@ -2128,7 +2430,7 @@ var save=function(opts,cb){
 };
 
 
-module.exports={save};
+module.exports={save,extractComment};
 },{"./model":"C:\\ksana2015\\kmf-editor\\src\\model.js"}],"C:\\ksana2015\\kmf-editor\\src\\socketfs.js":[function(require,module,exports){
 var fs=(typeof process!=="undefined")?require("fs"):{}; // webpack.config.js node:{    fs:"empty" }
 if (typeof fs.readFile=="undefined") {
@@ -2233,11 +2535,24 @@ var Status=React.createClass({displayName: "Status",
 });
 module.exports=Status;
 },{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\store.js":[function(require,module,exports){
-var files={"1n8":require("../data/1n8"), dn33:require("../data/dn33")};
+var files={"1n8":require("../data/1n8"), dn33:require("../data/dn33")
+,"ds":require("../data/ds")};
 var filename="1n8";
 
 var written=JSON.parse(localStorage.getItem(filename)||"null");
 var content= written || files[filename];
+
+//build P tags by crlf
+var autoP=function(text){
+	var tags=[],lastidx=0;
+	text.replace(/\r?\n/g,function(m,idx){
+		if (lastidx) tags.push([lastidx,idx-lastidx,"p"]);
+		lastidx=idx;
+	});
+	tags.push([lastidx,text.length-lastidx,"p"]);
+	return tags;
+}
+if (!files.ds.tags||!files.ds.tags.length) files.ds.tags=autoP(files.ds.text);
 
 
 var {standoffutils,tagutils}=require("ksana-master-format");
@@ -2266,7 +2581,9 @@ store.listen("write",function(){
 });
 
 store.listen("reset",function(){
-	content=files[filename];
+	var written=JSON.parse(localStorage.getItem(filename)||"null");
+  content= written || files[filename];	
+
 	action("content",{text:content.text,tags:content.tags,mode:"",author:""});
 	alert("click Save to permanently lost your changes");
 });
@@ -2284,10 +2601,14 @@ store.listen("mode",function(opts){
 		setTimeout(function(){//return before firing another action
 			if (opts.filename && opts.filename!==filename) {
 				filename=opts.filename;
-				content=files[filename];
+
+				var written=JSON.parse(localStorage.getItem(filename)||"null");
+  			content= written || files[filename];	
 			}
+
 			if (opts.tag) { //annotation mode
 				var {text,tags}=buildAnnotation(opts,content);
+
 				author=opts.author;
 				action("content",{text,tags,mode:opts.tag,author:opts.author});
 			} else { //raw mode
@@ -2296,7 +2617,7 @@ store.listen("mode",function(opts){
 		},50);
 	});
 });
-},{"../data/1n8":"C:\\ksana2015\\kmf-editor\\data\\1n8.js","../data/dn33":"C:\\ksana2015\\kmf-editor\\data\\dn33.js","./annotation":"C:\\ksana2015\\kmf-editor\\src\\annotation.js","./model":"C:\\ksana2015\\kmf-editor\\src\\model.js","ksana-master-format":"C:\\ksana2015\\node_modules\\ksana-master-format\\index.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js":[function(require,module,exports){
+},{"../data/1n8":"C:\\ksana2015\\kmf-editor\\data\\1n8.js","../data/dn33":"C:\\ksana2015\\kmf-editor\\data\\dn33.js","../data/ds":"C:\\ksana2015\\kmf-editor\\data\\ds.js","./annotation":"C:\\ksana2015\\kmf-editor\\src\\annotation.js","./model":"C:\\ksana2015\\kmf-editor\\src\\model.js","ksana-master-format":"C:\\ksana2015\\node_modules\\ksana-master-format\\index.js"}],"C:\\ksana2015\\node_modules\\codemirror\\addon\\dialog\\dialog.js":[function(require,module,exports){
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
