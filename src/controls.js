@@ -17,6 +17,10 @@ var Controls=React.createClass({
 		this.context.action("mode",{tag:"",author:"",filename:"ds"});
 		this.setState({filename:"ds",author:""});
 	}
+	,onRawMode_amitaba:function(){
+		this.context.action("mode",{tag:"",author:"",filename:"amitaba"});
+		this.setState({filename:"amitaba",author:""});
+	}
 	,onRawMode_pali:function(){
 		this.context.action("mode",{tag:"",author:"",filename:"dn33"});
 		this.setState({filename:"dn33",author:""});
@@ -48,12 +52,15 @@ var Controls=React.createClass({
 		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
 		var f3style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f3style,this.state.filename=="ds"?styles.selected:null);
+		var f4style=JSON.parse(JSON.stringify(styles.rawmode));
+		Object.assign(f4style,this.state.filename=="amitaba"?styles.selected:null);
 		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
 		var cantogglecomment=!!this.state.author;
 		return E("span",{},
-				E("button",{style:f1style,onClick:this.onRawMode_chi},"DA8")
-			,	E("button",{style:f3style,onClick:this.onRawMode_ds},"DS")
+				E("button",{style:f1style,onClick:this.onRawMode_chi},"合誦經")
+			,	E("button",{style:f3style,onClick:this.onRawMode_ds},"金剛經")
+			,	E("button",{style:f4style,onClick:this.onRawMode_amitaba},"阿彌陀經")
 			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
 			, E("button",{disabled:cantogglecomment,style:styles.comment,onClick:this.onToggleComment},"comment")
 			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")
@@ -66,8 +73,8 @@ var Controls=React.createClass({
 	}
 });
 var styles={
-	rawmode:{fontSize:24,width:150},
-	pmode:{fontSize:24,width:150},
+	rawmode:{fontSize:24,width:120},
+	pmode:{fontSize:24,width:120},
 	comment:{fontSize:24},
 	selected:{color:"green"}
 };

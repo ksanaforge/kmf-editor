@@ -1,5 +1,5 @@
 var files={"1n8":require("../data/1n8"), dn33:require("../data/dn33")
-,"ds":require("../data/ds")};
+,"ds":require("../data/ds"),"amitaba":require("../data/amitaba")};
 var filename="1n8";
 
 var written=JSON.parse(localStorage.getItem(filename)||"null");
@@ -16,6 +16,7 @@ var autoP=function(text){
 	return tags;
 }
 if (!files.ds.tags||!files.ds.tags.length) files.ds.tags=autoP(files.ds.text);
+if (!files.amitaba.tags||!files.amitaba.tags.length) files.amitaba.tags=autoP(files.amitaba.text);
 
 
 var {standoffutils,tagutils}=require("ksana-master-format");
