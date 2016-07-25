@@ -1662,8 +1662,8 @@ var Controls=React.createClass({displayName: "Controls",
 		this.context.action("mode",{tag:"p",author:"u2"});
 		this.setState({author:"u2"});
 	}
-	,onToggleComment:function(){
-		this.context.action("toggleComment");
+	,onToggle:function(){
+		this.context.action("toggleAnnotation");
 	}
 	,onWrite:function(){
 		this.context.action("write");
@@ -1675,7 +1675,7 @@ var Controls=React.createClass({displayName: "Controls",
 		var u1style=JSON.parse(JSON.stringify(styles.pmode));
 		Object.assign(u1style,this.state.author=="u1"?styles.selected:null);
 		var u2style=JSON.parse(JSON.stringify(styles.pmode));
-		Object.assign(u2style,this.state.author=="u2"?styles.selected:null);
+		Object.assign(u2style,this.state.author=="u2"?styles.selected2:null);
 
 		var f1style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f1style,this.state.filename=="1n8"?styles.selected:null);
@@ -1685,27 +1685,29 @@ var Controls=React.createClass({displayName: "Controls",
 		Object.assign(f4style,this.state.filename=="amitaba"?styles.selected:null);
 		var f2style=JSON.parse(JSON.stringify(styles.rawmode));
 		Object.assign(f2style,this.state.filename=="dn33"?styles.selected:null);
-		var cantogglecomment=!!this.state.author;
+		var cantoggle=!!this.state.author;
 		return E("span",{},
-				E("button",{style:f1style,onClick:this.onRawMode_chi},"合誦經")
+				//E("button",{style:f1style,onClick:this.onRawMode_chi},"弊宿經")
+				E("button",{style:f4style,onClick:this.onRawMode_amitaba},"阿彌陀經")
 			,	E("button",{style:f3style,onClick:this.onRawMode_ds},"金剛經")
-			,	E("button",{style:f4style,onClick:this.onRawMode_amitaba},"阿彌陀經")
-			,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
-			, E("button",{disabled:cantogglecomment,style:styles.comment,onClick:this.onToggleComment},"comment")
-			, E("button",{style:u1style,onClick:this.onPMode1},"User 1")
-			, E("button",{style:u2style,onClick:this.onPMode2},"User 2")
 			, E("span",{}," ")
-			, E("button",{style:styles.pmode,onClick:this.onWrite},"Save")
-			, E("button",{style:styles.pmode,onClick:this.onReset},"Reset")
+			//,	E("button",{style:f2style,onClick:this.onRawMode_pali},"DN33")
+			, E("button",{style:u1style,onClick:this.onPMode1},"Annotator1")
+			, E("button",{style:u2style,onClick:this.onPMode2},"Annotator2")
+			, E("span",{}," ")
+			, E("button",{disabled:cantoggle,style:styles.comment,onClick:this.onToggle},"Toggle Annotation")
+//			, E("button",{style:styles.pmode,onClick:this.onWrite},"Save")
+//			, E("button",{style:styles.pmode,onClick:this.onReset},"Reset")
 			);
 
 	}
 });
 var styles={
 	rawmode:{fontSize:24,width:120},
-	pmode:{fontSize:24,width:120},
+	pmode:{fontSize:24,width:130},
 	comment:{fontSize:24},
-	selected:{color:"green"}
+	selected:{color:"green"},
+	selected2:{color:"yellow"}
 };
 module.exports=Controls
 },{"react":"react"}],"C:\\ksana2015\\kmf-editor\\src\\editmain.js":[function(require,module,exports){
@@ -1721,7 +1723,7 @@ var kepan=require("./kepan");
 var EditMain=React.createClass({displayName: "EditMain",
   getInitialState:function() {
   	var {text,tags}=this.context.getter("content");
-    return {text,tags,mode:"",author:"",showComment:false};
+    return {text,tags,mode:"",author:"",showAnnotation:false};
   }
   ,contextTypes:{
   	store:PT.object.isRequired,
@@ -1753,7 +1755,7 @@ var EditMain=React.createClass({displayName: "EditMain",
         var end=this.doc.posFromIndex(tagstart+taglen);
         var readOnly=tagtype==="source";
         if (taglen==0) {//null tag
-          if (this.state.showComment) {
+          if (this.state.showAnnotation) {
             if (tagtype=="comment") {
               var marker=this.createMarker(payload.text,"comment_"+payload.author);  
             } else {
@@ -1818,13 +1820,13 @@ var EditMain=React.createClass({displayName: "EditMain",
     this.markKepan();
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
-    this.context.store.listen("toggleComment",this.onToggleComment,this);
+    this.context.store.listen("toggleAnnotation",this.onToggleAnnotation,this);
   }
   ,componentWillUnmount:function(){
   	this.context.store.unlistenAll(this);
   }
-  ,onToggleComment:function(){
-    this.setState({showComment:!this.state.showComment},function(){
+  ,onToggleAnnotation:function(){
+    this.setState({showAnnotation:!this.state.showAnnotation},function(){
       this.doc.getAllMarks().map((m)=>m.clear());
       this.markText(this.state.tags);
       this.markKepan();

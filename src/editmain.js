@@ -10,7 +10,7 @@ var kepan=require("./kepan");
 var EditMain=React.createClass({
   getInitialState:function() {
   	var {text,tags}=this.context.getter("content");
-    return {text,tags,mode:"",author:"",showComment:false};
+    return {text,tags,mode:"",author:"",showAnnotation:false};
   }
   ,contextTypes:{
   	store:PT.object.isRequired,
@@ -42,7 +42,7 @@ var EditMain=React.createClass({
         var end=this.doc.posFromIndex(tagstart+taglen);
         var readOnly=tagtype==="source";
         if (taglen==0) {//null tag
-          if (this.state.showComment) {
+          if (this.state.showAnnotation) {
             if (tagtype=="comment") {
               var marker=this.createMarker(payload.text,"comment_"+payload.author);  
             } else {
@@ -107,13 +107,13 @@ var EditMain=React.createClass({
     this.markKepan();
     this.context.store.listen("content",this.onContent,this);
     this.context.store.listen("commitTouched",this.onCommitTouched,this);
-    this.context.store.listen("toggleComment",this.onToggleComment,this);
+    this.context.store.listen("toggleAnnotation",this.onToggleAnnotation,this);
   }
   ,componentWillUnmount:function(){
   	this.context.store.unlistenAll(this);
   }
-  ,onToggleComment:function(){
-    this.setState({showComment:!this.state.showComment},function(){
+  ,onToggleAnnotation:function(){
+    this.setState({showAnnotation:!this.state.showAnnotation},function(){
       this.doc.getAllMarks().map((m)=>m.clear());
       this.markText(this.state.tags);
       this.markKepan();
